@@ -1,0 +1,900 @@
+21-09-29 21:56:58.453 - INFO: train Epoch: 0 [00000000/00185122 (00%)]	Loss: 108.363083 cls Loss: 0.933729 offset Loss:3.919153 landmark Loss: 1.452315	Accuracy: 0.409639
+21-09-29 21:57:01.650 - INFO: train Epoch: 0 [00040960/00185122 (22%)]	Loss: 5.320100 cls Loss: 0.316020 offset Loss:0.121329 landmark Loss: 0.128875	Accuracy: 0.957160
+21-09-29 21:57:04.922 - INFO: train Epoch: 0 [00081920/00185122 (44%)]	Loss: 1.975521 cls Loss: 0.305148 offset Loss:0.033289 landmark Loss: 0.050229	Accuracy: 0.954106
+21-09-29 21:57:08.123 - INFO: train Epoch: 0 [00122880/00185122 (66%)]	Loss: 1.387982 cls Loss: 0.244872 offset Loss:0.022457 landmark Loss: 0.034699	Accuracy: 0.966706
+21-09-29 21:57:11.471 - INFO: train Epoch: 0 [00163840/00185122 (88%)]	Loss: 1.340740 cls Loss: 0.310569 offset Loss:0.019841 landmark Loss: 0.031668	Accuracy: 0.960736
+21-09-29 21:57:13.057 - INFO: train epoch Loss: 498.813324 cls Loss: 0.344340 bbox Loss: 23.067526 Accuracy: 0.929218
+21-09-29 21:57:13.832 - INFO: val Epoch: 0 [00000000/00052379 (00%)]	Loss: 1.242236 cls Loss: 0.253946 offset Loss:0.017985 landmark Loss: 0.031429	Accuracy: 0.968568
+21-09-29 21:57:17.150 - INFO: val Epoch: 0 [00040960/00052379 (77%)]	Loss: 1.222067 cls Loss: 0.238850 offset Loss:0.017708 landmark Loss: 0.031452	Accuracy: 0.973162
+21-09-29 21:57:18.053 - INFO: val epoch Loss: 1.262425 cls Loss: 0.284041 bbox Loss: 0.018529 Accuracy: 0.965547
+21-09-29 21:57:18.778 - INFO: train Epoch: 1 [00000000/00185122 (00%)]	Loss: 1.211905 cls Loss: 0.212389 offset Loss:0.018425 landmark Loss: 0.031551	Accuracy: 0.973747
+21-09-29 21:57:22.323 - INFO: train Epoch: 1 [00040960/00185122 (22%)]	Loss: 1.119534 cls Loss: 0.254968 offset Loss:0.015881 landmark Loss: 0.027347	Accuracy: 0.962441
+21-09-29 21:57:25.659 - INFO: train Epoch: 1 [00081920/00185122 (44%)]	Loss: 1.088837 cls Loss: 0.304012 offset Loss:0.014818 landmark Loss: 0.024423	Accuracy: 0.947929
+21-09-29 21:57:28.863 - INFO: train Epoch: 1 [00122880/00185122 (66%)]	Loss: 1.034010 cls Loss: 0.293537 offset Loss:0.014827 landmark Loss: 0.022197	Accuracy: 0.957143
+21-09-29 21:57:32.071 - INFO: train Epoch: 1 [00163840/00185122 (88%)]	Loss: 0.879085 cls Loss: 0.204844 offset Loss:0.012868 landmark Loss: 0.020844	Accuracy: 0.972256
+21-09-29 21:57:33.688 - INFO: train epoch Loss: 1.067798 cls Loss: 0.280386 bbox Loss: 0.015428 Accuracy: 0.958289
+21-09-29 21:57:34.637 - INFO: val Epoch: 1 [00000000/00052379 (00%)]	Loss: 0.862663 cls Loss: 0.227479 offset Loss:0.012552 landmark Loss: 0.019207	Accuracy: 0.971831
+21-09-29 21:57:38.554 - INFO: val Epoch: 1 [00040960/00052379 (77%)]	Loss: 0.950169 cls Loss: 0.300521 offset Loss:0.013905 landmark Loss: 0.018577	Accuracy: 0.962529
+21-09-29 21:57:39.261 - INFO: val epoch Loss: 0.926752 cls Loss: 0.276877 bbox Loss: 0.013347 Accuracy: 0.965532
+21-09-29 21:57:40.271 - INFO: train Epoch: 2 [00000000/00185122 (00%)]	Loss: 0.934615 cls Loss: 0.301835 offset Loss:0.012745 landmark Loss: 0.018894	Accuracy: 0.949640
+21-09-29 21:57:43.880 - INFO: train Epoch: 2 [00040960/00185122 (22%)]	Loss: 0.861261 cls Loss: 0.277543 offset Loss:0.012391 landmark Loss: 0.016795	Accuracy: 0.951537
+21-09-29 21:57:47.422 - INFO: train Epoch: 2 [00081920/00185122 (44%)]	Loss: 0.880440 cls Loss: 0.312834 offset Loss:0.011542 landmark Loss: 0.016838	Accuracy: 0.951749
+21-09-29 21:57:50.653 - INFO: train Epoch: 2 [00122880/00185122 (66%)]	Loss: 0.791743 cls Loss: 0.259399 offset Loss:0.011308 landmark Loss: 0.015309	Accuracy: 0.959951
+21-09-29 21:57:53.922 - INFO: train Epoch: 2 [00163840/00185122 (88%)]	Loss: 0.772761 cls Loss: 0.250300 offset Loss:0.011714 landmark Loss: 0.014409	Accuracy: 0.959524
+21-09-29 21:57:55.448 - INFO: train epoch Loss: 0.840604 cls Loss: 0.274888 bbox Loss: 0.012034 Accuracy: 0.958280
+21-09-29 21:57:56.248 - INFO: val Epoch: 2 [00000000/00052379 (00%)]	Loss: 0.774717 cls Loss: 0.267526 offset Loss:0.011270 landmark Loss: 0.014089	Accuracy: 0.971132
+21-09-29 21:57:59.527 - INFO: val Epoch: 2 [00040960/00052379 (77%)]	Loss: 0.829496 cls Loss: 0.331434 offset Loss:0.010997 landmark Loss: 0.013906	Accuracy: 0.949015
+21-09-29 21:58:00.251 - INFO: val epoch Loss: 0.778868 cls Loss: 0.271235 bbox Loss: 0.011355 Accuracy: 0.965565
+21-09-29 21:58:01.185 - INFO: train Epoch: 3 [00000000/00185122 (00%)]	Loss: 0.804737 cls Loss: 0.299129 offset Loss:0.011049 landmark Loss: 0.014232	Accuracy: 0.948843
+21-09-29 21:58:04.777 - INFO: train Epoch: 3 [00040960/00185122 (22%)]	Loss: 0.704603 cls Loss: 0.230407 offset Loss:0.010699 landmark Loss: 0.013011	Accuracy: 0.964243
+21-09-29 21:58:08.144 - INFO: train Epoch: 3 [00081920/00185122 (44%)]	Loss: 0.749401 cls Loss: 0.289922 offset Loss:0.010562 landmark Loss: 0.012412	Accuracy: 0.950588
+21-09-29 21:58:11.544 - INFO: train Epoch: 3 [00122880/00185122 (66%)]	Loss: 0.710929 cls Loss: 0.266812 offset Loss:0.010293 landmark Loss: 0.011912	Accuracy: 0.963007
+21-09-29 21:58:14.881 - INFO: train Epoch: 3 [00163840/00185122 (88%)]	Loss: 0.726608 cls Loss: 0.290368 offset Loss:0.010685 landmark Loss: 0.011127	Accuracy: 0.954321
+21-09-29 21:58:16.477 - INFO: train epoch Loss: 0.733933 cls Loss: 0.270082 bbox Loss: 0.010696 Accuracy: 0.958273
+21-09-29 21:58:17.240 - INFO: val Epoch: 3 [00000000/00052379 (00%)]	Loss: 0.721895 cls Loss: 0.292024 offset Loss:0.010298 landmark Loss: 0.011196	Accuracy: 0.972256
+21-09-29 21:58:20.452 - INFO: val Epoch: 3 [00040960/00052379 (77%)]	Loss: 0.686741 cls Loss: 0.245238 offset Loss:0.010454 landmark Loss: 0.011621	Accuracy: 0.961717
+21-09-29 21:58:21.184 - INFO: val epoch Loss: 0.703928 cls Loss: 0.270882 bbox Loss: 0.010459 Accuracy: 0.965527
+21-09-29 21:58:22.155 - INFO: train Epoch: 4 [00000000/00185122 (00%)]	Loss: 0.704894 cls Loss: 0.279735 offset Loss:0.010224 landmark Loss: 0.011034	Accuracy: 0.957497
+21-09-29 21:58:25.849 - INFO: train Epoch: 4 [00040960/00185122 (22%)]	Loss: 0.697911 cls Loss: 0.254896 offset Loss:0.010670 landmark Loss: 0.011481	Accuracy: 0.958888
+21-09-29 21:58:29.171 - INFO: train Epoch: 4 [00081920/00185122 (44%)]	Loss: 0.667877 cls Loss: 0.255167 offset Loss:0.009911 landmark Loss: 0.010725	Accuracy: 0.961776
+21-09-29 21:58:32.372 - INFO: train Epoch: 4 [00122880/00185122 (66%)]	Loss: 0.645690 cls Loss: 0.252801 offset Loss:0.010098 landmark Loss: 0.009546	Accuracy: 0.963051
+21-09-29 21:58:35.682 - INFO: train Epoch: 4 [00163840/00185122 (88%)]	Loss: 0.629686 cls Loss: 0.260371 offset Loss:0.009195 landmark Loss: 0.009271	Accuracy: 0.958034
+21-09-29 21:58:37.205 - INFO: train epoch Loss: 0.671791 cls Loss: 0.265709 bbox Loss: 0.010002 Accuracy: 0.958321
+21-09-29 21:58:37.952 - INFO: val Epoch: 4 [00000000/00052379 (00%)]	Loss: 0.629929 cls Loss: 0.240997 offset Loss:0.009725 landmark Loss: 0.009722	Accuracy: 0.971655
+21-09-29 21:58:41.242 - INFO: val Epoch: 4 [00040960/00052379 (77%)]	Loss: 0.584895 cls Loss: 0.203242 offset Loss:0.009892 landmark Loss: 0.009191	Accuracy: 0.975694
+21-09-29 21:58:42.362 - INFO: val epoch Loss: 0.651312 cls Loss: 0.262181 bbox Loss: 0.009854 Accuracy: 0.965562
+21-09-29 21:58:43.164 - INFO: train Epoch: 5 [00000000/00185122 (00%)]	Loss: 0.709270 cls Loss: 0.320480 offset Loss:0.009667 landmark Loss: 0.009772	Accuracy: 0.946237
+21-09-29 21:58:46.938 - INFO: train Epoch: 5 [00040960/00185122 (22%)]	Loss: 0.616831 cls Loss: 0.243316 offset Loss:0.009865 landmark Loss: 0.008811	Accuracy: 0.966627
+21-09-29 21:58:50.450 - INFO: train Epoch: 5 [00081920/00185122 (44%)]	Loss: 0.632451 cls Loss: 0.276974 offset Loss:0.009671 landmark Loss: 0.008103	Accuracy: 0.950920
+21-09-29 21:58:53.785 - INFO: train Epoch: 5 [00122880/00185122 (66%)]	Loss: 0.619162 cls Loss: 0.266338 offset Loss:0.009046 landmark Loss: 0.008595	Accuracy: 0.955241
+21-09-29 21:58:57.250 - INFO: train Epoch: 5 [00163840/00185122 (88%)]	Loss: 0.619703 cls Loss: 0.248737 offset Loss:0.009735 landmark Loss: 0.008813	Accuracy: 0.956469
+21-09-29 21:58:58.863 - INFO: train epoch Loss: 0.631971 cls Loss: 0.261382 bbox Loss: 0.009574 Accuracy: 0.958184
+21-09-29 21:58:59.626 - INFO: val Epoch: 5 [00000000/00052379 (00%)]	Loss: 0.583345 cls Loss: 0.225149 offset Loss:0.009631 landmark Loss: 0.008279	Accuracy: 0.970896
+21-09-29 21:59:03.134 - INFO: val Epoch: 5 [00040960/00052379 (77%)]	Loss: 0.613202 cls Loss: 0.248552 offset Loss:0.009281 landmark Loss: 0.008951	Accuracy: 0.967020
+21-09-29 21:59:03.904 - INFO: val epoch Loss: 0.621544 cls Loss: 0.259703 bbox Loss: 0.009586 Accuracy: 0.965535
+21-09-29 21:59:04.860 - INFO: train Epoch: 6 [00000000/00185122 (00%)]	Loss: 0.616866 cls Loss: 0.249043 offset Loss:0.009433 landmark Loss: 0.008958	Accuracy: 0.956835
+21-09-29 21:59:08.556 - INFO: train Epoch: 6 [00040960/00185122 (22%)]	Loss: 0.613529 cls Loss: 0.250121 offset Loss:0.009893 landmark Loss: 0.008278	Accuracy: 0.958128
+21-09-29 21:59:11.779 - INFO: train Epoch: 6 [00081920/00185122 (44%)]	Loss: 0.645401 cls Loss: 0.270181 offset Loss:0.009969 landmark Loss: 0.008792	Accuracy: 0.952153
+21-09-29 21:59:14.956 - INFO: train Epoch: 6 [00122880/00185122 (66%)]	Loss: 0.593968 cls Loss: 0.257609 offset Loss:0.009094 landmark Loss: 0.007724	Accuracy: 0.956843
+21-09-29 21:59:18.247 - INFO: train Epoch: 6 [00163840/00185122 (88%)]	Loss: 0.574055 cls Loss: 0.239821 offset Loss:0.008902 landmark Loss: 0.007809	Accuracy: 0.964109
+21-09-29 21:59:19.750 - INFO: train epoch Loss: 0.604337 cls Loss: 0.256971 bbox Loss: 0.009243 Accuracy: 0.957852
+21-09-29 21:59:20.473 - INFO: val Epoch: 6 [00000000/00052379 (00%)]	Loss: 0.559032 cls Loss: 0.211671 offset Loss:0.009147 landmark Loss: 0.008221	Accuracy: 0.969803
+21-09-29 21:59:23.688 - INFO: val Epoch: 6 [00040960/00052379 (77%)]	Loss: 0.557101 cls Loss: 0.210876 offset Loss:0.009409 landmark Loss: 0.007902	Accuracy: 0.970115
+21-09-29 21:59:24.549 - INFO: val epoch Loss: 0.595623 cls Loss: 0.252185 bbox Loss: 0.009320 Accuracy: 0.965181
+21-09-29 21:59:25.276 - INFO: train Epoch: 7 [00000000/00185122 (00%)]	Loss: 0.591291 cls Loss: 0.251237 offset Loss:0.009031 landmark Loss: 0.007972	Accuracy: 0.957194
+21-09-29 21:59:28.976 - INFO: train Epoch: 7 [00040960/00185122 (22%)]	Loss: 0.643835 cls Loss: 0.310353 offset Loss:0.008873 landmark Loss: 0.007801	Accuracy: 0.943374
+21-09-29 21:59:32.281 - INFO: train Epoch: 7 [00081920/00185122 (44%)]	Loss: 0.557524 cls Loss: 0.230639 offset Loss:0.009113 landmark Loss: 0.007232	Accuracy: 0.959459
+21-09-29 21:59:35.488 - INFO: train Epoch: 7 [00122880/00185122 (66%)]	Loss: 0.591172 cls Loss: 0.261593 offset Loss:0.009045 landmark Loss: 0.007434	Accuracy: 0.954816
+21-09-29 21:59:38.790 - INFO: train Epoch: 7 [00163840/00185122 (88%)]	Loss: 0.562684 cls Loss: 0.234389 offset Loss:0.008791 landmark Loss: 0.007624	Accuracy: 0.960761
+21-09-29 21:59:40.391 - INFO: train epoch Loss: 0.583062 cls Loss: 0.251646 bbox Loss: 0.009013 Accuracy: 0.956987
+21-09-29 21:59:41.140 - INFO: val Epoch: 7 [00000000/00052379 (00%)]	Loss: 0.599149 cls Loss: 0.284431 offset Loss:0.008694 landmark Loss: 0.007042	Accuracy: 0.958140
+21-09-29 21:59:44.339 - INFO: val Epoch: 7 [00040960/00052379 (77%)]	Loss: 0.598958 cls Loss: 0.279625 offset Loss:0.008870 landmark Loss: 0.007096	Accuracy: 0.957471
+21-09-29 21:59:45.257 - INFO: val epoch Loss: 0.571839 cls Loss: 0.245589 bbox Loss: 0.009004 Accuracy: 0.963740
+21-09-29 21:59:46.147 - INFO: train Epoch: 8 [00000000/00185122 (00%)]	Loss: 0.597123 cls Loss: 0.254484 offset Loss:0.009187 landmark Loss: 0.007945	Accuracy: 0.962785
+21-09-29 21:59:50.244 - INFO: train Epoch: 8 [00040960/00185122 (22%)]	Loss: 0.616314 cls Loss: 0.299245 offset Loss:0.008635 landmark Loss: 0.007218	Accuracy: 0.945913
+21-09-29 21:59:53.568 - INFO: train Epoch: 8 [00081920/00185122 (44%)]	Loss: 0.578463 cls Loss: 0.263047 offset Loss:0.008953 landmark Loss: 0.006817	Accuracy: 0.957747
+21-09-29 21:59:56.922 - INFO: train Epoch: 8 [00122880/00185122 (66%)]	Loss: 0.577924 cls Loss: 0.270673 offset Loss:0.008096 landmark Loss: 0.007266	Accuracy: 0.948870
+21-09-29 22:00:00.481 - INFO: train Epoch: 8 [00163840/00185122 (88%)]	Loss: 0.537524 cls Loss: 0.243954 offset Loss:0.008374 landmark Loss: 0.006305	Accuracy: 0.956522
+21-09-29 22:00:02.357 - INFO: train epoch Loss: 0.566962 cls Loss: 0.246312 bbox Loss: 0.008851 Accuracy: 0.955188
+21-09-29 22:00:03.269 - INFO: val Epoch: 8 [00000000/00052379 (00%)]	Loss: 0.506234 cls Loss: 0.205024 offset Loss:0.008391 landmark Loss: 0.006670	Accuracy: 0.966819
+21-09-29 22:00:06.450 - INFO: val Epoch: 8 [00040960/00052379 (77%)]	Loss: 0.560815 cls Loss: 0.242678 offset Loss:0.008841 landmark Loss: 0.007066	Accuracy: 0.950575
+21-09-29 22:00:07.200 - INFO: val epoch Loss: 0.557427 cls Loss: 0.241576 bbox Loss: 0.008825 Accuracy: 0.958217
+21-09-29 22:00:07.953 - INFO: train Epoch: 9 [00000000/00185122 (00%)]	Loss: 0.544781 cls Loss: 0.227080 offset Loss:0.008699 landmark Loss: 0.007186	Accuracy: 0.953293
+21-09-29 22:00:11.445 - INFO: train Epoch: 9 [00040960/00185122 (22%)]	Loss: 0.492436 cls Loss: 0.174170 offset Loss:0.008848 landmark Loss: 0.007065	Accuracy: 0.971258
+21-09-29 22:00:14.683 - INFO: train Epoch: 9 [00081920/00185122 (44%)]	Loss: 0.578529 cls Loss: 0.254702 offset Loss:0.008968 landmark Loss: 0.007223	Accuracy: 0.948466
+21-09-29 22:00:17.971 - INFO: train Epoch: 9 [00122880/00185122 (66%)]	Loss: 0.595716 cls Loss: 0.286105 offset Loss:0.008637 landmark Loss: 0.006844	Accuracy: 0.934783
+21-09-29 22:00:21.147 - INFO: train Epoch: 9 [00163840/00185122 (88%)]	Loss: 0.522024 cls Loss: 0.211512 offset Loss:0.008926 landmark Loss: 0.006600	Accuracy: 0.959620
+21-09-29 22:00:22.636 - INFO: train epoch Loss: 0.552610 cls Loss: 0.240451 bbox Loss: 0.008728 Accuracy: 0.952249
+21-09-29 22:00:23.373 - INFO: val Epoch: 9 [00000000/00052379 (00%)]	Loss: 0.522909 cls Loss: 0.231906 offset Loss:0.008239 landmark Loss: 0.006311	Accuracy: 0.943613
+21-09-29 22:00:26.625 - INFO: val Epoch: 9 [00040960/00052379 (77%)]	Loss: 0.545011 cls Loss: 0.230521 offset Loss:0.008801 landmark Loss: 0.006924	Accuracy: 0.952103
+21-09-29 22:00:27.301 - INFO: val epoch Loss: 0.543389 cls Loss: 0.236979 bbox Loss: 0.008646 Accuracy: 0.950675
+21-09-29 22:00:28.148 - INFO: train Epoch: 10 [00000000/00185122 (00%)]	Loss: 0.525789 cls Loss: 0.224531 offset Loss:0.008478 landmark Loss: 0.006585	Accuracy: 0.948020
+21-09-29 22:00:31.681 - INFO: train Epoch: 10 [00040960/00185122 (22%)]	Loss: 0.496491 cls Loss: 0.192904 offset Loss:0.008475 landmark Loss: 0.006704	Accuracy: 0.963314
+21-09-29 22:00:35.157 - INFO: train Epoch: 10 [00081920/00185122 (44%)]	Loss: 0.563175 cls Loss: 0.244150 offset Loss:0.008923 landmark Loss: 0.007028	Accuracy: 0.953461
+21-09-29 22:00:38.722 - INFO: train Epoch: 10 [00122880/00185122 (66%)]	Loss: 0.526231 cls Loss: 0.231473 offset Loss:0.008269 landmark Loss: 0.006469	Accuracy: 0.947497
+21-09-29 22:00:42.045 - INFO: train Epoch: 10 [00163840/00185122 (88%)]	Loss: 0.568887 cls Loss: 0.264696 offset Loss:0.008511 landmark Loss: 0.006699	Accuracy: 0.944242
+21-09-29 22:00:43.571 - INFO: train epoch Loss: 0.541292 cls Loss: 0.236585 bbox Loss: 0.008596 Accuracy: 0.949600
+21-09-29 22:00:44.468 - INFO: val Epoch: 10 [00000000/00052379 (00%)]	Loss: 0.599004 cls Loss: 0.277314 offset Loss:0.009240 landmark Loss: 0.006845	Accuracy: 0.945946
+21-09-29 22:00:47.759 - INFO: val Epoch: 10 [00040960/00052379 (77%)]	Loss: 0.580236 cls Loss: 0.256876 offset Loss:0.009223 landmark Loss: 0.006945	Accuracy: 0.947059
+21-09-29 22:00:48.467 - INFO: val epoch Loss: 0.538506 cls Loss: 0.233295 bbox Loss: 0.008620 Accuracy: 0.955582
+21-09-29 22:00:49.280 - INFO: train Epoch: 11 [00000000/00185122 (00%)]	Loss: 0.578486 cls Loss: 0.279684 offset Loss:0.008659 landmark Loss: 0.006281	Accuracy: 0.942789
+21-09-29 22:00:53.669 - INFO: train Epoch: 11 [00040960/00185122 (22%)]	Loss: 0.553177 cls Loss: 0.234369 offset Loss:0.008832 landmark Loss: 0.007109	Accuracy: 0.955097
+21-09-29 22:00:56.954 - INFO: train Epoch: 11 [00081920/00185122 (44%)]	Loss: 0.547797 cls Loss: 0.238542 offset Loss:0.008509 landmark Loss: 0.006954	Accuracy: 0.951422
+21-09-29 22:01:00.270 - INFO: train Epoch: 11 [00122880/00185122 (66%)]	Loss: 0.539290 cls Loss: 0.237441 offset Loss:0.008271 landmark Loss: 0.006822	Accuracy: 0.940263
+21-09-29 22:01:03.659 - INFO: train Epoch: 11 [00163840/00185122 (88%)]	Loss: 0.517252 cls Loss: 0.204137 offset Loss:0.008573 landmark Loss: 0.007083	Accuracy: 0.963415
+21-09-29 22:01:05.171 - INFO: train epoch Loss: 0.539784 cls Loss: 0.235952 bbox Loss: 0.008579 Accuracy: 0.949088
+21-09-29 22:01:06.130 - INFO: val Epoch: 11 [00000000/00052379 (00%)]	Loss: 0.593585 cls Loss: 0.288989 offset Loss:0.008536 landmark Loss: 0.006694	Accuracy: 0.940334
+21-09-29 22:01:09.455 - INFO: val Epoch: 11 [00040960/00052379 (77%)]	Loss: 0.564173 cls Loss: 0.259154 offset Loss:0.009005 landmark Loss: 0.006246	Accuracy: 0.952550
+21-09-29 22:01:10.167 - INFO: val epoch Loss: 0.536873 cls Loss: 0.232802 bbox Loss: 0.008600 Accuracy: 0.954029
+21-09-29 22:01:10.945 - INFO: train Epoch: 12 [00000000/00185122 (00%)]	Loss: 0.525323 cls Loss: 0.238263 offset Loss:0.008142 landmark Loss: 0.006211	Accuracy: 0.940071
+21-09-29 22:01:14.664 - INFO: train Epoch: 12 [00040960/00185122 (22%)]	Loss: 0.548844 cls Loss: 0.226468 offset Loss:0.009403 landmark Loss: 0.006716	Accuracy: 0.953659
+21-09-29 22:01:18.076 - INFO: train Epoch: 12 [00081920/00185122 (44%)]	Loss: 0.552951 cls Loss: 0.256269 offset Loss:0.008518 landmark Loss: 0.006317	Accuracy: 0.941176
+21-09-29 22:01:21.477 - INFO: train Epoch: 12 [00122880/00185122 (66%)]	Loss: 0.553528 cls Loss: 0.259115 offset Loss:0.008245 landmark Loss: 0.006475	Accuracy: 0.947305
+21-09-29 22:01:24.762 - INFO: train Epoch: 12 [00163840/00185122 (88%)]	Loss: 0.505254 cls Loss: 0.207613 offset Loss:0.008973 landmark Loss: 0.005909	Accuracy: 0.964286
+21-09-29 22:01:26.334 - INFO: train epoch Loss: 0.538509 cls Loss: 0.235570 bbox Loss: 0.008565 Accuracy: 0.948597
+21-09-29 22:01:27.063 - INFO: val Epoch: 12 [00000000/00052379 (00%)]	Loss: 0.516207 cls Loss: 0.213968 offset Loss:0.008765 landmark Loss: 0.006347	Accuracy: 0.950059
+21-09-29 22:01:30.425 - INFO: val Epoch: 12 [00040960/00052379 (77%)]	Loss: 0.599990 cls Loss: 0.286975 offset Loss:0.008864 landmark Loss: 0.006787	Accuracy: 0.930126
+21-09-29 22:01:31.173 - INFO: val epoch Loss: 0.535596 cls Loss: 0.231659 bbox Loss: 0.008616 Accuracy: 0.955191
+21-09-29 22:01:31.940 - INFO: train Epoch: 13 [00000000/00185122 (00%)]	Loss: 0.551136 cls Loss: 0.237025 offset Loss:0.009027 landmark Loss: 0.006679	Accuracy: 0.949939
+21-09-29 22:01:35.443 - INFO: train Epoch: 13 [00040960/00185122 (22%)]	Loss: 0.539263 cls Loss: 0.228108 offset Loss:0.008780 landmark Loss: 0.006778	Accuracy: 0.951749
+21-09-29 22:01:38.946 - INFO: train Epoch: 13 [00081920/00185122 (44%)]	Loss: 0.504199 cls Loss: 0.213271 offset Loss:0.008350 landmark Loss: 0.006197	Accuracy: 0.953461
+21-09-29 22:01:42.266 - INFO: train Epoch: 13 [00122880/00185122 (66%)]	Loss: 0.506559 cls Loss: 0.204387 offset Loss:0.008441 landmark Loss: 0.006667	Accuracy: 0.960193
+21-09-29 22:01:45.473 - INFO: train Epoch: 13 [00163840/00185122 (88%)]	Loss: 0.508422 cls Loss: 0.229326 offset Loss:0.008003 landmark Loss: 0.005952	Accuracy: 0.941107
+21-09-29 22:01:46.970 - INFO: train epoch Loss: 0.536904 cls Loss: 0.234821 bbox Loss: 0.008552 Accuracy: 0.948219
+21-09-29 22:01:47.732 - INFO: val Epoch: 13 [00000000/00052379 (00%)]	Loss: 0.502515 cls Loss: 0.202404 offset Loss:0.008423 landmark Loss: 0.006583	Accuracy: 0.960000
+21-09-29 22:01:50.973 - INFO: val Epoch: 13 [00040960/00052379 (77%)]	Loss: 0.583664 cls Loss: 0.278022 offset Loss:0.008457 landmark Loss: 0.006825	Accuracy: 0.940476
+21-09-29 22:01:51.889 - INFO: val epoch Loss: 0.533471 cls Loss: 0.231594 bbox Loss: 0.008556 Accuracy: 0.956232
+21-09-29 22:01:52.773 - INFO: train Epoch: 14 [00000000/00185122 (00%)]	Loss: 0.570760 cls Loss: 0.259261 offset Loss:0.008519 landmark Loss: 0.007056	Accuracy: 0.940893
+21-09-29 22:01:56.855 - INFO: train Epoch: 14 [00040960/00185122 (22%)]	Loss: 0.513116 cls Loss: 0.210116 offset Loss:0.008953 landmark Loss: 0.006197	Accuracy: 0.953125
+21-09-29 22:02:00.285 - INFO: train Epoch: 14 [00081920/00185122 (44%)]	Loss: 0.494865 cls Loss: 0.200237 offset Loss:0.008554 landmark Loss: 0.006178	Accuracy: 0.949761
+21-09-29 22:02:03.677 - INFO: train Epoch: 14 [00122880/00185122 (66%)]	Loss: 0.547963 cls Loss: 0.263438 offset Loss:0.008284 landmark Loss: 0.005942	Accuracy: 0.928571
+21-09-29 22:02:06.971 - INFO: train Epoch: 14 [00163840/00185122 (88%)]	Loss: 0.529184 cls Loss: 0.228283 offset Loss:0.008775 landmark Loss: 0.006270	Accuracy: 0.947625
+21-09-29 22:02:08.589 - INFO: train epoch Loss: 0.535569 cls Loss: 0.234368 bbox Loss: 0.008538 Accuracy: 0.947321
+21-09-29 22:02:09.368 - INFO: val Epoch: 14 [00000000/00052379 (00%)]	Loss: 0.532015 cls Loss: 0.231521 offset Loss:0.008417 landmark Loss: 0.006608	Accuracy: 0.956927
+21-09-29 22:02:12.853 - INFO: val Epoch: 14 [00040960/00052379 (77%)]	Loss: 0.609391 cls Loss: 0.312434 offset Loss:0.008508 landmark Loss: 0.006340	Accuracy: 0.954233
+21-09-29 22:02:13.508 - INFO: val epoch Loss: 0.532564 cls Loss: 0.231448 bbox Loss: 0.008549 Accuracy: 0.957220
+21-09-29 22:02:14.252 - INFO: train Epoch: 15 [00000000/00185122 (00%)]	Loss: 0.486552 cls Loss: 0.185631 offset Loss:0.008634 landmark Loss: 0.006412	Accuracy: 0.962130
+21-09-29 22:02:17.850 - INFO: train Epoch: 15 [00040960/00185122 (22%)]	Loss: 0.574541 cls Loss: 0.277221 offset Loss:0.008882 landmark Loss: 0.005984	Accuracy: 0.932285
+21-09-29 22:02:21.188 - INFO: train Epoch: 15 [00081920/00185122 (44%)]	Loss: 0.487003 cls Loss: 0.186415 offset Loss:0.008818 landmark Loss: 0.006211	Accuracy: 0.958888
+21-09-29 22:02:24.444 - INFO: train Epoch: 15 [00122880/00185122 (66%)]	Loss: 0.504610 cls Loss: 0.207498 offset Loss:0.008170 landmark Loss: 0.006685	Accuracy: 0.950898
+21-09-29 22:02:27.638 - INFO: train Epoch: 15 [00163840/00185122 (88%)]	Loss: 0.538789 cls Loss: 0.234787 offset Loss:0.008413 landmark Loss: 0.006787	Accuracy: 0.942925
+21-09-29 22:02:29.188 - INFO: train epoch Loss: 0.533930 cls Loss: 0.233647 bbox Loss: 0.008523 Accuracy: 0.947027
+21-09-29 22:02:29.953 - INFO: val Epoch: 15 [00000000/00052379 (00%)]	Loss: 0.537826 cls Loss: 0.247954 offset Loss:0.008476 landmark Loss: 0.006017	Accuracy: 0.946136
+21-09-29 22:02:33.258 - INFO: val Epoch: 15 [00040960/00052379 (77%)]	Loss: 0.500582 cls Loss: 0.197835 offset Loss:0.008850 landmark Loss: 0.006287	Accuracy: 0.963869
+21-09-29 22:02:33.950 - INFO: val epoch Loss: 0.530522 cls Loss: 0.229804 bbox Loss: 0.008542 Accuracy: 0.953508
+21-09-29 22:02:34.682 - INFO: train Epoch: 16 [00000000/00185122 (00%)]	Loss: 0.575435 cls Loss: 0.283929 offset Loss:0.008160 landmark Loss: 0.006415	Accuracy: 0.931655
+21-09-29 22:02:38.238 - INFO: train Epoch: 16 [00040960/00185122 (22%)]	Loss: 0.540876 cls Loss: 0.238906 offset Loss:0.008496 landmark Loss: 0.006602	Accuracy: 0.949337
+21-09-29 22:02:41.854 - INFO: train Epoch: 16 [00081920/00185122 (44%)]	Loss: 0.560227 cls Loss: 0.276841 offset Loss:0.008162 landmark Loss: 0.006007	Accuracy: 0.942584
+21-09-29 22:02:45.154 - INFO: train Epoch: 16 [00122880/00185122 (66%)]	Loss: 0.523986 cls Loss: 0.225962 offset Loss:0.008569 landmark Loss: 0.006332	Accuracy: 0.938776
+21-09-29 22:02:48.559 - INFO: train Epoch: 16 [00163840/00185122 (88%)]	Loss: 0.580630 cls Loss: 0.282860 offset Loss:0.008701 landmark Loss: 0.006187	Accuracy: 0.932681
+21-09-29 22:02:50.273 - INFO: train epoch Loss: 0.531785 cls Loss: 0.232815 bbox Loss: 0.008500 Accuracy: 0.946262
+21-09-29 22:02:51.037 - INFO: val Epoch: 16 [00000000/00052379 (00%)]	Loss: 0.544118 cls Loss: 0.247871 offset Loss:0.008533 landmark Loss: 0.006280	Accuracy: 0.949657
+21-09-29 22:02:54.372 - INFO: val Epoch: 16 [00040960/00052379 (77%)]	Loss: 0.523321 cls Loss: 0.218637 offset Loss:0.008552 landmark Loss: 0.006682	Accuracy: 0.959255
+21-09-29 22:02:55.353 - INFO: val epoch Loss: 0.528705 cls Loss: 0.229199 bbox Loss: 0.008537 Accuracy: 0.954767
+21-09-29 22:02:56.072 - INFO: train Epoch: 17 [00000000/00185122 (00%)]	Loss: 0.528186 cls Loss: 0.218708 offset Loss:0.008954 landmark Loss: 0.006520	Accuracy: 0.944988
+21-09-29 22:03:00.265 - INFO: train Epoch: 17 [00040960/00185122 (22%)]	Loss: 0.508443 cls Loss: 0.214380 offset Loss:0.008299 landmark Loss: 0.006404	Accuracy: 0.945238
+21-09-29 22:03:03.872 - INFO: train Epoch: 17 [00081920/00185122 (44%)]	Loss: 0.496598 cls Loss: 0.199691 offset Loss:0.008580 landmark Loss: 0.006265	Accuracy: 0.947052
+21-09-29 22:03:07.255 - INFO: train Epoch: 17 [00122880/00185122 (66%)]	Loss: 0.533838 cls Loss: 0.232778 offset Loss:0.008613 landmark Loss: 0.006440	Accuracy: 0.940814
+21-09-29 22:03:10.455 - INFO: train Epoch: 17 [00163840/00185122 (88%)]	Loss: 0.502137 cls Loss: 0.223161 offset Loss:0.007991 landmark Loss: 0.005957	Accuracy: 0.948565
+21-09-29 22:03:11.964 - INFO: train epoch Loss: 0.530740 cls Loss: 0.232416 bbox Loss: 0.008487 Accuracy: 0.945433
+21-09-29 22:03:12.840 - INFO: val Epoch: 17 [00000000/00052379 (00%)]	Loss: 0.609193 cls Loss: 0.294097 offset Loss:0.008923 landmark Loss: 0.006832	Accuracy: 0.939929
+21-09-29 22:03:16.031 - INFO: val Epoch: 17 [00040960/00052379 (77%)]	Loss: 0.571560 cls Loss: 0.270634 offset Loss:0.008707 landmark Loss: 0.006340	Accuracy: 0.954598
+21-09-29 22:03:16.730 - INFO: val epoch Loss: 0.527446 cls Loss: 0.229712 bbox Loss: 0.008486 Accuracy: 0.956501
+21-09-29 22:03:17.522 - INFO: train Epoch: 18 [00000000/00185122 (00%)]	Loss: 0.541299 cls Loss: 0.247101 offset Loss:0.008125 landmark Loss: 0.006585	Accuracy: 0.950662
+21-09-29 22:03:21.051 - INFO: train Epoch: 18 [00040960/00185122 (22%)]	Loss: 0.469284 cls Loss: 0.186271 offset Loss:0.007957 landmark Loss: 0.006194	Accuracy: 0.962056
+21-09-29 22:03:24.374 - INFO: train Epoch: 18 [00081920/00185122 (44%)]	Loss: 0.547515 cls Loss: 0.244308 offset Loss:0.008555 landmark Loss: 0.006605	Accuracy: 0.940547
+21-09-29 22:03:27.624 - INFO: train Epoch: 18 [00122880/00185122 (66%)]	Loss: 0.523242 cls Loss: 0.238893 offset Loss:0.008367 landmark Loss: 0.005850	Accuracy: 0.947743
+21-09-29 22:03:30.845 - INFO: train Epoch: 18 [00163840/00185122 (88%)]	Loss: 0.551788 cls Loss: 0.261853 offset Loss:0.008428 landmark Loss: 0.006069	Accuracy: 0.948503
+21-09-29 22:03:32.362 - INFO: train epoch Loss: 0.528590 cls Loss: 0.231450 bbox Loss: 0.008469 Accuracy: 0.944821
+21-09-29 22:03:33.146 - INFO: val Epoch: 18 [00000000/00052379 (00%)]	Loss: 0.544184 cls Loss: 0.254788 offset Loss:0.008404 landmark Loss: 0.006066	Accuracy: 0.949825
+21-09-29 22:03:36.564 - INFO: val Epoch: 18 [00040960/00052379 (77%)]	Loss: 0.520008 cls Loss: 0.217631 offset Loss:0.008314 landmark Loss: 0.006805	Accuracy: 0.957275
+21-09-29 22:03:37.250 - INFO: val epoch Loss: 0.525445 cls Loss: 0.227771 bbox Loss: 0.008484 Accuracy: 0.952873
+21-09-29 22:03:37.973 - INFO: train Epoch: 19 [00000000/00185122 (00%)]	Loss: 0.531015 cls Loss: 0.232030 offset Loss:0.008536 landmark Loss: 0.006413	Accuracy: 0.947239
+21-09-29 22:03:41.555 - INFO: train Epoch: 19 [00040960/00185122 (22%)]	Loss: 0.526262 cls Loss: 0.231650 offset Loss:0.008737 landmark Loss: 0.005994	Accuracy: 0.949068
+21-09-29 22:03:45.245 - INFO: train Epoch: 19 [00081920/00185122 (44%)]	Loss: 0.510512 cls Loss: 0.221842 offset Loss:0.007872 landmark Loss: 0.006561	Accuracy: 0.944511
+21-09-29 22:03:48.450 - INFO: train Epoch: 19 [00122880/00185122 (66%)]	Loss: 0.529161 cls Loss: 0.231581 offset Loss:0.008295 landmark Loss: 0.006584	Accuracy: 0.936343
+21-09-29 22:03:51.645 - INFO: train Epoch: 19 [00163840/00185122 (88%)]	Loss: 0.544695 cls Loss: 0.253579 offset Loss:0.008187 landmark Loss: 0.006369	Accuracy: 0.930705
+21-09-29 22:03:53.171 - INFO: train epoch Loss: 0.526257 cls Loss: 0.230469 bbox Loss: 0.008445 Accuracy: 0.943762
+21-09-29 22:03:53.929 - INFO: val Epoch: 19 [00000000/00052379 (00%)]	Loss: 0.546222 cls Loss: 0.233961 offset Loss:0.008638 landmark Loss: 0.006975	Accuracy: 0.955916
+21-09-29 22:03:57.072 - INFO: val Epoch: 19 [00040960/00052379 (77%)]	Loss: 0.514051 cls Loss: 0.212343 offset Loss:0.008807 landmark Loss: 0.006278	Accuracy: 0.946449
+21-09-29 22:03:57.825 - INFO: val epoch Loss: 0.524717 cls Loss: 0.228017 bbox Loss: 0.008488 Accuracy: 0.954131
+21-09-29 22:03:58.863 - INFO: train Epoch: 20 [00000000/00185122 (00%)]	Loss: 0.549184 cls Loss: 0.262226 offset Loss:0.008189 landmark Loss: 0.006159	Accuracy: 0.940534
+21-09-29 22:04:02.938 - INFO: train Epoch: 20 [00040960/00185122 (22%)]	Loss: 0.512401 cls Loss: 0.209273 offset Loss:0.008408 landmark Loss: 0.006748	Accuracy: 0.947929
+21-09-29 22:04:06.455 - INFO: train Epoch: 20 [00081920/00185122 (44%)]	Loss: 0.565903 cls Loss: 0.262076 offset Loss:0.008955 landmark Loss: 0.006236	Accuracy: 0.924598
+21-09-29 22:04:09.643 - INFO: train Epoch: 20 [00122880/00185122 (66%)]	Loss: 0.542927 cls Loss: 0.229737 offset Loss:0.008925 landmark Loss: 0.006735	Accuracy: 0.942683
+21-09-29 22:04:12.756 - INFO: train Epoch: 20 [00163840/00185122 (88%)]	Loss: 0.499207 cls Loss: 0.219743 offset Loss:0.007476 landmark Loss: 0.006497	Accuracy: 0.948417
+21-09-29 22:04:14.308 - INFO: train epoch Loss: 0.524323 cls Loss: 0.229758 bbox Loss: 0.008425 Accuracy: 0.942999
+21-09-29 22:04:15.063 - INFO: val Epoch: 20 [00000000/00052379 (00%)]	Loss: 0.532197 cls Loss: 0.237081 offset Loss:0.008622 landmark Loss: 0.006133	Accuracy: 0.941928
+21-09-29 22:04:18.233 - INFO: val Epoch: 20 [00040960/00052379 (77%)]	Loss: 0.521872 cls Loss: 0.235098 offset Loss:0.007929 landmark Loss: 0.006409	Accuracy: 0.946652
+21-09-29 22:04:19.196 - INFO: val epoch Loss: 0.519700 cls Loss: 0.225395 bbox Loss: 0.008421 Accuracy: 0.946978
+21-09-29 22:04:19.947 - INFO: train Epoch: 21 [00000000/00185122 (00%)]	Loss: 0.549121 cls Loss: 0.262414 offset Loss:0.008337 landmark Loss: 0.005998	Accuracy: 0.929009
+21-09-29 22:04:23.822 - INFO: train Epoch: 21 [00040960/00185122 (22%)]	Loss: 0.478160 cls Loss: 0.181198 offset Loss:0.008410 landmark Loss: 0.006438	Accuracy: 0.955742
+21-09-29 22:04:27.472 - INFO: train Epoch: 21 [00081920/00185122 (44%)]	Loss: 0.561816 cls Loss: 0.259086 offset Loss:0.008908 landmark Loss: 0.006228	Accuracy: 0.933171
+21-09-29 22:04:30.877 - INFO: train Epoch: 21 [00122880/00185122 (66%)]	Loss: 0.507012 cls Loss: 0.201968 offset Loss:0.008592 landmark Loss: 0.006661	Accuracy: 0.946796
+21-09-29 22:04:34.239 - INFO: train Epoch: 21 [00163840/00185122 (88%)]	Loss: 0.515774 cls Loss: 0.232476 offset Loss:0.008193 landmark Loss: 0.005971	Accuracy: 0.937500
+21-09-29 22:04:35.801 - INFO: train epoch Loss: 0.522063 cls Loss: 0.228827 bbox Loss: 0.008403 Accuracy: 0.942280
+21-09-29 22:04:36.544 - INFO: val Epoch: 21 [00000000/00052379 (00%)]	Loss: 0.514127 cls Loss: 0.221612 offset Loss:0.008421 landmark Loss: 0.006205	Accuracy: 0.952436
+21-09-29 22:04:39.834 - INFO: val Epoch: 21 [00040960/00052379 (77%)]	Loss: 0.529963 cls Loss: 0.255249 offset Loss:0.007785 landmark Loss: 0.005950	Accuracy: 0.939884
+21-09-29 22:04:40.666 - INFO: val epoch Loss: 0.517609 cls Loss: 0.225350 bbox Loss: 0.008390 Accuracy: 0.949614
+21-09-29 22:04:41.422 - INFO: train Epoch: 22 [00000000/00185122 (00%)]	Loss: 0.490463 cls Loss: 0.189558 offset Loss:0.008603 landmark Loss: 0.006442	Accuracy: 0.958688
+21-09-29 22:04:45.022 - INFO: train Epoch: 22 [00040960/00185122 (22%)]	Loss: 0.525721 cls Loss: 0.228630 offset Loss:0.008622 landmark Loss: 0.006233	Accuracy: 0.939430
+21-09-29 22:04:48.322 - INFO: train Epoch: 22 [00081920/00185122 (44%)]	Loss: 0.533185 cls Loss: 0.240774 offset Loss:0.008463 landmark Loss: 0.006157	Accuracy: 0.933252
+21-09-29 22:04:51.580 - INFO: train Epoch: 22 [00122880/00185122 (66%)]	Loss: 0.514458 cls Loss: 0.248058 offset Loss:0.007805 landmark Loss: 0.005515	Accuracy: 0.931523
+21-09-29 22:04:54.777 - INFO: train Epoch: 22 [00163840/00185122 (88%)]	Loss: 0.523725 cls Loss: 0.228191 offset Loss:0.008708 landmark Loss: 0.006068	Accuracy: 0.933655
+21-09-29 22:04:56.381 - INFO: train epoch Loss: 0.519584 cls Loss: 0.228050 bbox Loss: 0.008376 Accuracy: 0.941110
+21-09-29 22:04:57.141 - INFO: val Epoch: 22 [00000000/00052379 (00%)]	Loss: 0.466790 cls Loss: 0.171355 offset Loss:0.008339 landmark Loss: 0.006432	Accuracy: 0.950058
+21-09-29 22:05:00.662 - INFO: val Epoch: 22 [00040960/00052379 (77%)]	Loss: 0.496399 cls Loss: 0.218491 offset Loss:0.008222 landmark Loss: 0.005674	Accuracy: 0.945665
+21-09-29 22:05:01.567 - INFO: val epoch Loss: 0.514668 cls Loss: 0.223931 bbox Loss: 0.008370 Accuracy: 0.944718
+21-09-29 22:05:02.340 - INFO: train Epoch: 23 [00000000/00185122 (00%)]	Loss: 0.547956 cls Loss: 0.248289 offset Loss:0.008600 landmark Loss: 0.006383	Accuracy: 0.943463
+21-09-29 22:05:06.343 - INFO: train Epoch: 23 [00040960/00185122 (22%)]	Loss: 0.509611 cls Loss: 0.221145 offset Loss:0.008491 landmark Loss: 0.005932	Accuracy: 0.948687
+21-09-29 22:05:10.022 - INFO: train Epoch: 23 [00081920/00185122 (44%)]	Loss: 0.481703 cls Loss: 0.177309 offset Loss:0.008691 landmark Loss: 0.006528	Accuracy: 0.958333
+21-09-29 22:05:13.239 - INFO: train Epoch: 23 [00122880/00185122 (66%)]	Loss: 0.552781 cls Loss: 0.255083 offset Loss:0.008274 landmark Loss: 0.006611	Accuracy: 0.924482
+21-09-29 22:05:16.422 - INFO: train Epoch: 23 [00163840/00185122 (88%)]	Loss: 0.490876 cls Loss: 0.208820 offset Loss:0.008312 landmark Loss: 0.005791	Accuracy: 0.945388
+21-09-29 22:05:17.890 - INFO: train epoch Loss: 0.517147 cls Loss: 0.227045 bbox Loss: 0.008351 Accuracy: 0.940568
+21-09-29 22:05:18.651 - INFO: val Epoch: 23 [00000000/00052379 (00%)]	Loss: 0.530178 cls Loss: 0.235295 offset Loss:0.008546 landmark Loss: 0.006198	Accuracy: 0.930832
+21-09-29 22:05:21.960 - INFO: val Epoch: 23 [00040960/00052379 (77%)]	Loss: 0.573866 cls Loss: 0.265396 offset Loss:0.008842 landmark Loss: 0.006581	Accuracy: 0.923719
+21-09-29 22:05:22.655 - INFO: val epoch Loss: 0.515762 cls Loss: 0.224869 bbox Loss: 0.008362 Accuracy: 0.933856
+21-09-29 22:05:23.376 - INFO: train Epoch: 24 [00000000/00185122 (00%)]	Loss: 0.480029 cls Loss: 0.197885 offset Loss:0.007990 landmark Loss: 0.006117	Accuracy: 0.946172
+21-09-29 22:05:26.378 - INFO: train Epoch: 24 [00040960/00185122 (22%)]	Loss: 0.558095 cls Loss: 0.250728 offset Loss:0.009041 landmark Loss: 0.006327	Accuracy: 0.935484
+21-09-29 22:05:29.043 - INFO: train Epoch: 24 [00081920/00185122 (44%)]	Loss: 0.519831 cls Loss: 0.225688 offset Loss:0.008636 landmark Loss: 0.006071	Accuracy: 0.929577
+21-09-29 22:05:31.671 - INFO: train Epoch: 24 [00122880/00185122 (66%)]	Loss: 0.498694 cls Loss: 0.212501 offset Loss:0.008515 landmark Loss: 0.005795	Accuracy: 0.945978
+21-09-29 22:05:34.299 - INFO: train Epoch: 24 [00163840/00185122 (88%)]	Loss: 0.570437 cls Loss: 0.276452 offset Loss:0.008852 landmark Loss: 0.005847	Accuracy: 0.935018
+21-09-29 22:05:35.824 - INFO: train epoch Loss: 0.516102 cls Loss: 0.226793 bbox Loss: 0.008334 Accuracy: 0.939409
+21-09-29 22:05:36.667 - INFO: val Epoch: 24 [00000000/00052379 (00%)]	Loss: 0.468854 cls Loss: 0.180210 offset Loss:0.008340 landmark Loss: 0.006092	Accuracy: 0.951557
+21-09-29 22:05:39.453 - INFO: val Epoch: 24 [00040960/00052379 (77%)]	Loss: 0.497634 cls Loss: 0.207718 offset Loss:0.008040 landmark Loss: 0.006456	Accuracy: 0.943195
+21-09-29 22:05:40.313 - INFO: val epoch Loss: 0.510026 cls Loss: 0.222161 bbox Loss: 0.008319 Accuracy: 0.939559
+21-09-29 22:05:40.963 - INFO: train Epoch: 25 [00000000/00185122 (00%)]	Loss: 0.495039 cls Loss: 0.209001 offset Loss:0.008387 landmark Loss: 0.005915	Accuracy: 0.930607
+21-09-29 22:05:43.948 - INFO: train Epoch: 25 [00040960/00185122 (22%)]	Loss: 0.582861 cls Loss: 0.288350 offset Loss:0.008551 landmark Loss: 0.006175	Accuracy: 0.918269
+21-09-29 22:05:46.609 - INFO: train Epoch: 25 [00081920/00185122 (44%)]	Loss: 0.475573 cls Loss: 0.199828 offset Loss:0.007886 landmark Loss: 0.005901	Accuracy: 0.947368
+21-09-29 22:05:49.202 - INFO: train Epoch: 25 [00122880/00185122 (66%)]	Loss: 0.525086 cls Loss: 0.240049 offset Loss:0.007856 landmark Loss: 0.006396	Accuracy: 0.943794
+21-09-29 22:05:51.822 - INFO: train Epoch: 25 [00163840/00185122 (88%)]	Loss: 0.495562 cls Loss: 0.219775 offset Loss:0.007912 landmark Loss: 0.005877	Accuracy: 0.946237
+21-09-29 22:05:53.142 - INFO: train epoch Loss: 0.513160 cls Loss: 0.225479 bbox Loss: 0.008304 Accuracy: 0.938519
+21-09-29 22:05:53.956 - INFO: val Epoch: 25 [00000000/00052379 (00%)]	Loss: 0.457931 cls Loss: 0.162630 offset Loss:0.008548 landmark Loss: 0.006217	Accuracy: 0.949519
+21-09-29 22:05:56.624 - INFO: val Epoch: 25 [00040960/00052379 (77%)]	Loss: 0.463466 cls Loss: 0.176997 offset Loss:0.008147 landmark Loss: 0.006176	Accuracy: 0.955968
+21-09-29 22:05:57.235 - INFO: val epoch Loss: 0.508113 cls Loss: 0.220211 bbox Loss: 0.008339 Accuracy: 0.941597
+21-09-29 22:05:57.900 - INFO: train Epoch: 26 [00000000/00185122 (00%)]	Loss: 0.502822 cls Loss: 0.207731 offset Loss:0.008420 landmark Loss: 0.006335	Accuracy: 0.935252
+21-09-29 22:06:00.875 - INFO: train Epoch: 26 [00040960/00185122 (22%)]	Loss: 0.490695 cls Loss: 0.204062 offset Loss:0.008582 landmark Loss: 0.005750	Accuracy: 0.956731
+21-09-29 22:06:03.564 - INFO: train Epoch: 26 [00081920/00185122 (44%)]	Loss: 0.551541 cls Loss: 0.266160 offset Loss:0.008281 landmark Loss: 0.005988	Accuracy: 0.929257
+21-09-29 22:06:06.186 - INFO: train Epoch: 26 [00122880/00185122 (66%)]	Loss: 0.544383 cls Loss: 0.234416 offset Loss:0.008971 landmark Loss: 0.006527	Accuracy: 0.929268
+21-09-29 22:06:08.794 - INFO: train Epoch: 26 [00163840/00185122 (88%)]	Loss: 0.502787 cls Loss: 0.198217 offset Loss:0.008935 landmark Loss: 0.006293	Accuracy: 0.925089
+21-09-29 22:06:10.241 - INFO: train epoch Loss: 0.510077 cls Loss: 0.224464 bbox Loss: 0.008271 Accuracy: 0.937554
+21-09-29 22:06:10.950 - INFO: val Epoch: 26 [00000000/00052379 (00%)]	Loss: 0.497245 cls Loss: 0.216218 offset Loss:0.008145 landmark Loss: 0.005906	Accuracy: 0.944509
+21-09-29 22:06:13.792 - INFO: val Epoch: 26 [00040960/00052379 (77%)]	Loss: 0.482482 cls Loss: 0.200837 offset Loss:0.008075 landmark Loss: 0.006008	Accuracy: 0.947059
+21-09-29 22:06:14.617 - INFO: val epoch Loss: 0.503982 cls Loss: 0.219441 bbox Loss: 0.008240 Accuracy: 0.942212
+21-09-29 22:06:15.272 - INFO: train Epoch: 27 [00000000/00185122 (00%)]	Loss: 0.483556 cls Loss: 0.203082 offset Loss:0.008160 landmark Loss: 0.005863	Accuracy: 0.950363
+21-09-29 22:06:18.349 - INFO: train Epoch: 27 [00040960/00185122 (22%)]	Loss: 0.488860 cls Loss: 0.205505 offset Loss:0.008186 landmark Loss: 0.005982	Accuracy: 0.942377
+21-09-29 22:06:21.058 - INFO: train Epoch: 27 [00081920/00185122 (44%)]	Loss: 0.473696 cls Loss: 0.177037 offset Loss:0.008541 landmark Loss: 0.006292	Accuracy: 0.943442
+21-09-29 22:06:23.795 - INFO: train Epoch: 27 [00122880/00185122 (66%)]	Loss: 0.508581 cls Loss: 0.228229 offset Loss:0.007933 landmark Loss: 0.006085	Accuracy: 0.933174
+21-09-29 22:06:26.487 - INFO: train Epoch: 27 [00163840/00185122 (88%)]	Loss: 0.520942 cls Loss: 0.223055 offset Loss:0.008621 landmark Loss: 0.006273	Accuracy: 0.926683
+21-09-29 22:06:27.912 - INFO: train epoch Loss: 0.507676 cls Loss: 0.223774 bbox Loss: 0.008241 Accuracy: 0.936656
+21-09-29 22:06:28.666 - INFO: val Epoch: 27 [00000000/00052379 (00%)]	Loss: 0.534110 cls Loss: 0.253545 offset Loss:0.008192 landmark Loss: 0.005837	Accuracy: 0.932934
+21-09-29 22:06:31.389 - INFO: val Epoch: 27 [00040960/00052379 (77%)]	Loss: 0.492648 cls Loss: 0.192991 offset Loss:0.008398 landmark Loss: 0.006584	Accuracy: 0.946636
+21-09-29 22:06:32.020 - INFO: val epoch Loss: 0.500774 cls Loss: 0.218301 bbox Loss: 0.008202 Accuracy: 0.942978
+21-09-29 22:06:32.768 - INFO: train Epoch: 28 [00000000/00185122 (00%)]	Loss: 0.532551 cls Loss: 0.246504 offset Loss:0.008284 landmark Loss: 0.006018	Accuracy: 0.930952
+21-09-29 22:06:35.651 - INFO: train Epoch: 28 [00040960/00185122 (22%)]	Loss: 0.443359 cls Loss: 0.173443 offset Loss:0.008007 landmark Loss: 0.005488	Accuracy: 0.946934
+21-09-29 22:06:38.468 - INFO: train Epoch: 28 [00081920/00185122 (44%)]	Loss: 0.456318 cls Loss: 0.184289 offset Loss:0.008127 landmark Loss: 0.005474	Accuracy: 0.948130
+21-09-29 22:06:41.075 - INFO: train Epoch: 28 [00122880/00185122 (66%)]	Loss: 0.556160 cls Loss: 0.271439 offset Loss:0.008145 landmark Loss: 0.006091	Accuracy: 0.924370
+21-09-29 22:06:43.749 - INFO: train Epoch: 28 [00163840/00185122 (88%)]	Loss: 0.532111 cls Loss: 0.254456 offset Loss:0.008437 landmark Loss: 0.005446	Accuracy: 0.921781
+21-09-29 22:06:45.221 - INFO: train epoch Loss: 0.505065 cls Loss: 0.222591 bbox Loss: 0.008213 Accuracy: 0.935815
+21-09-29 22:06:46.214 - INFO: val Epoch: 28 [00000000/00052379 (00%)]	Loss: 0.501107 cls Loss: 0.219235 offset Loss:0.008068 landmark Loss: 0.006026	Accuracy: 0.942421
+21-09-29 22:06:48.778 - INFO: val Epoch: 28 [00040960/00052379 (77%)]	Loss: 0.483560 cls Loss: 0.211912 offset Loss:0.008197 landmark Loss: 0.005386	Accuracy: 0.946809
+21-09-29 22:06:49.402 - INFO: val epoch Loss: 0.500053 cls Loss: 0.218592 bbox Loss: 0.008184 Accuracy: 0.944340
+21-09-29 22:06:50.088 - INFO: train Epoch: 29 [00000000/00185122 (00%)]	Loss: 0.481574 cls Loss: 0.199866 offset Loss:0.008635 landmark Loss: 0.005451	Accuracy: 0.955294
+21-09-29 22:06:52.975 - INFO: train Epoch: 29 [00040960/00185122 (22%)]	Loss: 0.523592 cls Loss: 0.254231 offset Loss:0.008084 landmark Loss: 0.005384	Accuracy: 0.903704
+21-09-29 22:06:55.756 - INFO: train Epoch: 29 [00081920/00185122 (44%)]	Loss: 0.419752 cls Loss: 0.157588 offset Loss:0.007702 landmark Loss: 0.005406	Accuracy: 0.941038
+21-09-29 22:06:58.547 - INFO: train Epoch: 29 [00122880/00185122 (66%)]	Loss: 0.527326 cls Loss: 0.224822 offset Loss:0.008731 landmark Loss: 0.006394	Accuracy: 0.945238
+21-09-29 22:07:01.363 - INFO: train Epoch: 29 [00163840/00185122 (88%)]	Loss: 0.510580 cls Loss: 0.235273 offset Loss:0.008326 landmark Loss: 0.005440	Accuracy: 0.926366
+21-09-29 22:07:02.685 - INFO: train epoch Loss: 0.503523 cls Loss: 0.221947 bbox Loss: 0.008200 Accuracy: 0.933946
+21-09-29 22:07:03.361 - INFO: val Epoch: 29 [00000000/00052379 (00%)]	Loss: 0.501197 cls Loss: 0.220207 offset Loss:0.008225 landmark Loss: 0.005824	Accuracy: 0.935370
+21-09-29 22:07:06.072 - INFO: val Epoch: 29 [00040960/00052379 (77%)]	Loss: 0.548206 cls Loss: 0.247794 offset Loss:0.008495 landmark Loss: 0.006526	Accuracy: 0.929907
+21-09-29 22:07:06.702 - INFO: val epoch Loss: 0.496264 cls Loss: 0.216241 bbox Loss: 0.008185 Accuracy: 0.933025
+21-09-29 22:07:07.522 - INFO: train Epoch: 30 [00000000/00185122 (00%)]	Loss: 0.490741 cls Loss: 0.212083 offset Loss:0.007920 landmark Loss: 0.006013	Accuracy: 0.930506
+21-09-29 22:07:10.424 - INFO: train Epoch: 30 [00040960/00185122 (22%)]	Loss: 0.504242 cls Loss: 0.227753 offset Loss:0.007891 landmark Loss: 0.005934	Accuracy: 0.952546
+21-09-29 22:07:13.271 - INFO: train Epoch: 30 [00081920/00185122 (44%)]	Loss: 0.498103 cls Loss: 0.208107 offset Loss:0.008416 landmark Loss: 0.006084	Accuracy: 0.930260
+21-09-29 22:07:16.423 - INFO: train Epoch: 30 [00122880/00185122 (66%)]	Loss: 0.467164 cls Loss: 0.214525 offset Loss:0.007726 landmark Loss: 0.004905	Accuracy: 0.955168
+21-09-29 22:07:19.055 - INFO: train Epoch: 30 [00163840/00185122 (88%)]	Loss: 0.507311 cls Loss: 0.239496 offset Loss:0.007917 landmark Loss: 0.005474	Accuracy: 0.934988
+21-09-29 22:07:20.394 - INFO: train epoch Loss: 0.500197 cls Loss: 0.221013 bbox Loss: 0.008164 Accuracy: 0.933117
+21-09-29 22:07:21.111 - INFO: val Epoch: 30 [00000000/00052379 (00%)]	Loss: 0.520437 cls Loss: 0.228072 offset Loss:0.008806 landmark Loss: 0.005813	Accuracy: 0.935218
+21-09-29 22:07:23.728 - INFO: val Epoch: 30 [00040960/00052379 (77%)]	Loss: 0.488721 cls Loss: 0.219025 offset Loss:0.007971 landmark Loss: 0.005514	Accuracy: 0.944444
+21-09-29 22:07:24.386 - INFO: val epoch Loss: 0.493238 cls Loss: 0.216407 bbox Loss: 0.008113 Accuracy: 0.941540
+21-09-29 22:07:25.294 - INFO: train Epoch: 31 [00000000/00185122 (00%)]	Loss: 0.541694 cls Loss: 0.252611 offset Loss:0.008375 landmark Loss: 0.006080	Accuracy: 0.926150
+21-09-29 22:07:28.284 - INFO: train Epoch: 31 [00040960/00185122 (22%)]	Loss: 0.515978 cls Loss: 0.232063 offset Loss:0.008364 landmark Loss: 0.005832	Accuracy: 0.933416
+21-09-29 22:07:30.972 - INFO: train Epoch: 31 [00081920/00185122 (44%)]	Loss: 0.520595 cls Loss: 0.231871 offset Loss:0.008205 landmark Loss: 0.006231	Accuracy: 0.925301
+21-09-29 22:07:33.575 - INFO: train Epoch: 31 [00122880/00185122 (66%)]	Loss: 0.500745 cls Loss: 0.228635 offset Loss:0.007692 landmark Loss: 0.005913	Accuracy: 0.915459
+21-09-29 22:07:36.244 - INFO: train Epoch: 31 [00163840/00185122 (88%)]	Loss: 0.535448 cls Loss: 0.260857 offset Loss:0.008461 landmark Loss: 0.005269	Accuracy: 0.924821
+21-09-29 22:07:37.667 - INFO: train epoch Loss: 0.496106 cls Loss: 0.219031 bbox Loss: 0.008118 Accuracy: 0.932426
+21-09-29 22:07:38.342 - INFO: val Epoch: 31 [00000000/00052379 (00%)]	Loss: 0.490810 cls Loss: 0.202992 offset Loss:0.008212 landmark Loss: 0.006179	Accuracy: 0.905882
+21-09-29 22:07:40.978 - INFO: val Epoch: 31 [00040960/00052379 (77%)]	Loss: 0.431485 cls Loss: 0.150616 offset Loss:0.008280 landmark Loss: 0.005764	Accuracy: 0.927639
+21-09-29 22:07:41.673 - INFO: val epoch Loss: 0.490277 cls Loss: 0.215551 bbox Loss: 0.008062 Accuracy: 0.920196
+21-09-29 22:07:42.361 - INFO: train Epoch: 32 [00000000/00185122 (00%)]	Loss: 0.488476 cls Loss: 0.224705 offset Loss:0.007719 landmark Loss: 0.005469	Accuracy: 0.913295
+21-09-29 22:07:45.463 - INFO: train Epoch: 32 [00040960/00185122 (22%)]	Loss: 0.550368 cls Loss: 0.262025 offset Loss:0.008417 landmark Loss: 0.006000	Accuracy: 0.930061
+21-09-29 22:07:48.156 - INFO: train Epoch: 32 [00081920/00185122 (44%)]	Loss: 0.498402 cls Loss: 0.228479 offset Loss:0.007516 landmark Loss: 0.005980	Accuracy: 0.920578
+21-09-29 22:07:50.795 - INFO: train Epoch: 32 [00122880/00185122 (66%)]	Loss: 0.456270 cls Loss: 0.183102 offset Loss:0.008007 landmark Loss: 0.005651	Accuracy: 0.943305
+21-09-29 22:07:53.427 - INFO: train Epoch: 32 [00163840/00185122 (88%)]	Loss: 0.522825 cls Loss: 0.241105 offset Loss:0.008834 landmark Loss: 0.005252	Accuracy: 0.931288
+21-09-29 22:07:54.739 - INFO: train epoch Loss: 0.495042 cls Loss: 0.218650 bbox Loss: 0.008113 Accuracy: 0.929853
+21-09-29 22:07:55.439 - INFO: val Epoch: 32 [00000000/00052379 (00%)]	Loss: 0.473990 cls Loss: 0.201936 offset Loss:0.007893 landmark Loss: 0.005710	Accuracy: 0.946512
+21-09-29 22:07:58.233 - INFO: val Epoch: 32 [00040960/00052379 (77%)]	Loss: 0.457873 cls Loss: 0.186870 offset Loss:0.007732 landmark Loss: 0.005818	Accuracy: 0.953650
+21-09-29 22:07:58.950 - INFO: val epoch Loss: 0.493673 cls Loss: 0.217876 bbox Loss: 0.008127 Accuracy: 0.943540
+21-09-29 22:07:59.722 - INFO: train Epoch: 33 [00000000/00185122 (00%)]	Loss: 0.466374 cls Loss: 0.210103 offset Loss:0.007582 landmark Loss: 0.005232	Accuracy: 0.945303
+21-09-29 22:08:02.641 - INFO: train Epoch: 33 [00040960/00185122 (22%)]	Loss: 0.522906 cls Loss: 0.228912 offset Loss:0.008719 landmark Loss: 0.005981	Accuracy: 0.934757
+21-09-29 22:08:05.347 - INFO: train Epoch: 33 [00081920/00185122 (44%)]	Loss: 0.520027 cls Loss: 0.233029 offset Loss:0.008270 landmark Loss: 0.006080	Accuracy: 0.922527
+21-09-29 22:08:07.945 - INFO: train Epoch: 33 [00122880/00185122 (66%)]	Loss: 0.552278 cls Loss: 0.276903 offset Loss:0.008093 landmark Loss: 0.005676	Accuracy: 0.919144
+21-09-29 22:08:10.622 - INFO: train Epoch: 33 [00163840/00185122 (88%)]	Loss: 0.439855 cls Loss: 0.183823 offset Loss:0.007739 landmark Loss: 0.005062	Accuracy: 0.948357
+21-09-29 22:08:11.970 - INFO: train epoch Loss: 0.490681 cls Loss: 0.217061 bbox Loss: 0.008068 Accuracy: 0.929309
+21-09-29 22:08:12.645 - INFO: val Epoch: 33 [00000000/00052379 (00%)]	Loss: 0.495122 cls Loss: 0.224356 offset Loss:0.007814 landmark Loss: 0.005724	Accuracy: 0.921749
+21-09-29 22:08:15.291 - INFO: val Epoch: 33 [00040960/00052379 (77%)]	Loss: 0.463763 cls Loss: 0.195277 offset Loss:0.007976 landmark Loss: 0.005449	Accuracy: 0.917153
+21-09-29 22:08:15.940 - INFO: val epoch Loss: 0.488831 cls Loss: 0.215590 bbox Loss: 0.008054 Accuracy: 0.918818
+21-09-29 22:08:16.664 - INFO: train Epoch: 34 [00000000/00185122 (00%)]	Loss: 0.498160 cls Loss: 0.233065 offset Loss:0.007934 landmark Loss: 0.005321	Accuracy: 0.916764
+21-09-29 22:08:20.056 - INFO: train Epoch: 34 [00040960/00185122 (22%)]	Loss: 0.453395 cls Loss: 0.180016 offset Loss:0.007899 landmark Loss: 0.005769	Accuracy: 0.929078
+21-09-29 22:08:22.844 - INFO: train Epoch: 34 [00081920/00185122 (44%)]	Loss: 0.504957 cls Loss: 0.227798 offset Loss:0.008471 landmark Loss: 0.005387	Accuracy: 0.928656
+21-09-29 22:08:25.552 - INFO: train Epoch: 34 [00122880/00185122 (66%)]	Loss: 0.527133 cls Loss: 0.269842 offset Loss:0.007850 landmark Loss: 0.005015	Accuracy: 0.923536
+21-09-29 22:08:28.245 - INFO: train Epoch: 34 [00163840/00185122 (88%)]	Loss: 0.444144 cls Loss: 0.189611 offset Loss:0.007787 landmark Loss: 0.004940	Accuracy: 0.939686
+21-09-29 22:08:29.590 - INFO: train epoch Loss: 0.486391 cls Loss: 0.215686 bbox Loss: 0.008012 Accuracy: 0.927521
+21-09-29 22:08:30.282 - INFO: val Epoch: 34 [00000000/00052379 (00%)]	Loss: 0.466109 cls Loss: 0.195536 offset Loss:0.008022 landmark Loss: 0.005506	Accuracy: 0.943089
+21-09-29 22:08:32.899 - INFO: val Epoch: 34 [00040960/00052379 (77%)]	Loss: 0.522186 cls Loss: 0.251371 offset Loss:0.008029 landmark Loss: 0.005512	Accuracy: 0.934524
+21-09-29 22:08:33.532 - INFO: val epoch Loss: 0.480624 cls Loss: 0.210172 bbox Loss: 0.007935 Accuracy: 0.933017
+21-09-29 22:08:34.200 - INFO: train Epoch: 35 [00000000/00185122 (00%)]	Loss: 0.501323 cls Loss: 0.215382 offset Loss:0.008242 landmark Loss: 0.006055	Accuracy: 0.932039
+21-09-29 22:08:37.108 - INFO: train Epoch: 35 [00040960/00185122 (22%)]	Loss: 0.476023 cls Loss: 0.196386 offset Loss:0.008208 landmark Loss: 0.005774	Accuracy: 0.941687
+21-09-29 22:08:39.846 - INFO: train Epoch: 35 [00081920/00185122 (44%)]	Loss: 0.465973 cls Loss: 0.204022 offset Loss:0.007642 landmark Loss: 0.005456	Accuracy: 0.912833
+21-09-29 22:08:42.743 - INFO: train Epoch: 35 [00122880/00185122 (66%)]	Loss: 0.485198 cls Loss: 0.215248 offset Loss:0.008081 landmark Loss: 0.005416	Accuracy: 0.922705
+21-09-29 22:08:45.371 - INFO: train Epoch: 35 [00163840/00185122 (88%)]	Loss: 0.507687 cls Loss: 0.229166 offset Loss:0.008697 landmark Loss: 0.005229	Accuracy: 0.906137
+21-09-29 22:08:46.671 - INFO: train epoch Loss: 0.484419 cls Loss: 0.214567 bbox Loss: 0.007994 Accuracy: 0.926001
+21-09-29 22:08:47.352 - INFO: val Epoch: 35 [00000000/00052379 (00%)]	Loss: 0.491374 cls Loss: 0.219591 offset Loss:0.008162 landmark Loss: 0.005427	Accuracy: 0.928409
+21-09-29 22:08:49.945 - INFO: val Epoch: 35 [00040960/00052379 (77%)]	Loss: 0.488828 cls Loss: 0.215201 offset Loss:0.008196 landmark Loss: 0.005486	Accuracy: 0.920804
+21-09-29 22:08:50.592 - INFO: val epoch Loss: 0.476712 cls Loss: 0.208864 bbox Loss: 0.007917 Accuracy: 0.925080
+21-09-29 22:08:51.275 - INFO: train Epoch: 36 [00000000/00185122 (00%)]	Loss: 0.421561 cls Loss: 0.152973 offset Loss:0.007784 landmark Loss: 0.005645	Accuracy: 0.933575
+21-09-29 22:08:54.188 - INFO: train Epoch: 36 [00040960/00185122 (22%)]	Loss: 0.487508 cls Loss: 0.211713 offset Loss:0.007826 landmark Loss: 0.005964	Accuracy: 0.918367
+21-09-29 22:08:56.924 - INFO: train Epoch: 36 [00081920/00185122 (44%)]	Loss: 0.511551 cls Loss: 0.251983 offset Loss:0.007575 landmark Loss: 0.005404	Accuracy: 0.934466
+21-09-29 22:08:59.581 - INFO: train Epoch: 36 [00122880/00185122 (66%)]	Loss: 0.473035 cls Loss: 0.207866 offset Loss:0.007863 landmark Loss: 0.005395	Accuracy: 0.933492
+21-09-29 22:09:02.276 - INFO: train Epoch: 36 [00163840/00185122 (88%)]	Loss: 0.438889 cls Loss: 0.183763 offset Loss:0.007584 landmark Loss: 0.005173	Accuracy: 0.913302
+21-09-29 22:09:03.630 - INFO: train epoch Loss: 0.479368 cls Loss: 0.212552 bbox Loss: 0.007939 Accuracy: 0.924848
+21-09-29 22:09:04.462 - INFO: val Epoch: 36 [00000000/00052379 (00%)]	Loss: 0.499337 cls Loss: 0.232346 offset Loss:0.007983 landmark Loss: 0.005367	Accuracy: 0.925581
+21-09-29 22:09:07.098 - INFO: val Epoch: 36 [00040960/00052379 (77%)]	Loss: 0.465417 cls Loss: 0.208684 offset Loss:0.007655 landmark Loss: 0.005182	Accuracy: 0.925754
+21-09-29 22:09:07.716 - INFO: val epoch Loss: 0.473824 cls Loss: 0.207873 bbox Loss: 0.007899 Accuracy: 0.921177
+21-09-29 22:09:08.358 - INFO: train Epoch: 37 [00000000/00185122 (00%)]	Loss: 0.471518 cls Loss: 0.195566 offset Loss:0.007975 landmark Loss: 0.005822	Accuracy: 0.920673
+21-09-29 22:09:11.177 - INFO: train Epoch: 37 [00040960/00185122 (22%)]	Loss: 0.477573 cls Loss: 0.210203 offset Loss:0.007963 landmark Loss: 0.005406	Accuracy: 0.901542
+21-09-29 22:09:13.985 - INFO: train Epoch: 37 [00081920/00185122 (44%)]	Loss: 0.521357 cls Loss: 0.238238 offset Loss:0.008466 landmark Loss: 0.005690	Accuracy: 0.893668
+21-09-29 22:09:16.675 - INFO: train Epoch: 37 [00122880/00185122 (66%)]	Loss: 0.451176 cls Loss: 0.193908 offset Loss:0.007667 landmark Loss: 0.005196	Accuracy: 0.936740
+21-09-29 22:09:19.345 - INFO: train Epoch: 37 [00163840/00185122 (88%)]	Loss: 0.457534 cls Loss: 0.197760 offset Loss:0.008077 landmark Loss: 0.004912	Accuracy: 0.919512
+21-09-29 22:09:20.931 - INFO: train epoch Loss: 0.476193 cls Loss: 0.211100 bbox Loss: 0.007919 Accuracy: 0.924097
+21-09-29 22:09:21.677 - INFO: val Epoch: 37 [00000000/00052379 (00%)]	Loss: 0.452057 cls Loss: 0.185018 offset Loss:0.008245 landmark Loss: 0.005107	Accuracy: 0.923798
+21-09-29 22:09:24.512 - INFO: val Epoch: 37 [00040960/00052379 (77%)]	Loss: 0.452282 cls Loss: 0.181200 offset Loss:0.008083 landmark Loss: 0.005471	Accuracy: 0.919144
+21-09-29 22:09:25.228 - INFO: val epoch Loss: 0.474403 cls Loss: 0.209739 bbox Loss: 0.007886 Accuracy: 0.906693
+21-09-29 22:09:25.900 - INFO: train Epoch: 38 [00000000/00185122 (00%)]	Loss: 0.485082 cls Loss: 0.215460 offset Loss:0.008403 landmark Loss: 0.005079	Accuracy: 0.912048
+21-09-29 22:09:28.922 - INFO: train Epoch: 38 [00040960/00185122 (22%)]	Loss: 0.487659 cls Loss: 0.204002 offset Loss:0.008321 landmark Loss: 0.005862	Accuracy: 0.925519
+21-09-29 22:09:31.703 - INFO: train Epoch: 38 [00081920/00185122 (44%)]	Loss: 0.490291 cls Loss: 0.225348 offset Loss:0.007926 landmark Loss: 0.005321	Accuracy: 0.915976
+21-09-29 22:09:34.482 - INFO: train Epoch: 38 [00122880/00185122 (66%)]	Loss: 0.452925 cls Loss: 0.185985 offset Loss:0.007715 landmark Loss: 0.005632	Accuracy: 0.941597
+21-09-29 22:09:37.145 - INFO: train Epoch: 38 [00163840/00185122 (88%)]	Loss: 0.491798 cls Loss: 0.231996 offset Loss:0.007639 landmark Loss: 0.005351	Accuracy: 0.930949
+21-09-29 22:09:38.466 - INFO: train epoch Loss: 0.473008 cls Loss: 0.209561 bbox Loss: 0.007891 Accuracy: 0.922623
+21-09-29 22:09:39.147 - INFO: val Epoch: 38 [00000000/00052379 (00%)]	Loss: 0.460528 cls Loss: 0.194851 offset Loss:0.008209 landmark Loss: 0.005075	Accuracy: 0.937278
+21-09-29 22:09:41.842 - INFO: val Epoch: 38 [00040960/00052379 (77%)]	Loss: 0.472243 cls Loss: 0.213816 offset Loss:0.008217 landmark Loss: 0.004704	Accuracy: 0.916763
+21-09-29 22:09:42.617 - INFO: val epoch Loss: 0.466612 cls Loss: 0.207442 bbox Loss: 0.007764 Accuracy: 0.905966
+21-09-29 22:09:43.424 - INFO: train Epoch: 39 [00000000/00185122 (00%)]	Loss: 0.470912 cls Loss: 0.213086 offset Loss:0.007708 landmark Loss: 0.005184	Accuracy: 0.916175
+21-09-29 22:09:46.322 - INFO: train Epoch: 39 [00040960/00185122 (22%)]	Loss: 0.503633 cls Loss: 0.232923 offset Loss:0.008318 landmark Loss: 0.005218	Accuracy: 0.911408
+21-09-29 22:09:49.022 - INFO: train Epoch: 39 [00081920/00185122 (44%)]	Loss: 0.476332 cls Loss: 0.201599 offset Loss:0.008413 landmark Loss: 0.005324	Accuracy: 0.915212
+21-09-29 22:09:51.643 - INFO: train Epoch: 39 [00122880/00185122 (66%)]	Loss: 0.457668 cls Loss: 0.188974 offset Loss:0.008128 landmark Loss: 0.005306	Accuracy: 0.934368
+21-09-29 22:09:54.260 - INFO: train Epoch: 39 [00163840/00185122 (88%)]	Loss: 0.456273 cls Loss: 0.207019 offset Loss:0.007735 landmark Loss: 0.004727	Accuracy: 0.921592
+21-09-29 22:09:55.654 - INFO: train epoch Loss: 0.469020 cls Loss: 0.207789 bbox Loss: 0.007858 Accuracy: 0.919821
+21-09-29 22:09:56.394 - INFO: val Epoch: 39 [00000000/00052379 (00%)]	Loss: 0.465248 cls Loss: 0.205681 offset Loss:0.007988 landmark Loss: 0.004990	Accuracy: 0.922989
+21-09-29 22:09:59.054 - INFO: val Epoch: 39 [00040960/00052379 (77%)]	Loss: 0.536649 cls Loss: 0.270050 offset Loss:0.008276 landmark Loss: 0.005054	Accuracy: 0.929642
+21-09-29 22:09:59.688 - INFO: val epoch Loss: 0.459434 cls Loss: 0.203811 bbox Loss: 0.007706 Accuracy: 0.937127
+21-09-29 22:10:00.490 - INFO: train Epoch: 40 [00000000/00185122 (00%)]	Loss: 0.472308 cls Loss: 0.189725 offset Loss:0.008556 landmark Loss: 0.005573	Accuracy: 0.933833
+21-09-29 22:10:03.403 - INFO: train Epoch: 40 [00040960/00185122 (22%)]	Loss: 0.447427 cls Loss: 0.211650 offset Loss:0.007206 landmark Loss: 0.004583	Accuracy: 0.929078
+21-09-29 22:10:06.070 - INFO: train Epoch: 40 [00081920/00185122 (44%)]	Loss: 0.417878 cls Loss: 0.170619 offset Loss:0.007650 landmark Loss: 0.004713	Accuracy: 0.923913
+21-09-29 22:10:09.344 - INFO: train Epoch: 40 [00122880/00185122 (66%)]	Loss: 0.459774 cls Loss: 0.195679 offset Loss:0.007894 landmark Loss: 0.005311	Accuracy: 0.929678
+21-09-29 22:10:12.150 - INFO: train Epoch: 40 [00163840/00185122 (88%)]	Loss: 0.427139 cls Loss: 0.179843 offset Loss:0.007310 landmark Loss: 0.005055	Accuracy: 0.927273
+21-09-29 22:10:13.583 - INFO: train epoch Loss: 0.460700 cls Loss: 0.205086 bbox Loss: 0.007744 Accuracy: 0.923943
+21-09-29 22:10:14.391 - INFO: val Epoch: 40 [00000000/00052379 (00%)]	Loss: 0.436526 cls Loss: 0.164002 offset Loss:0.008304 landmark Loss: 0.005322	Accuracy: 0.940547
+21-09-29 22:10:17.044 - INFO: val Epoch: 40 [00040960/00052379 (77%)]	Loss: 0.469029 cls Loss: 0.213116 offset Loss:0.007880 landmark Loss: 0.004916	Accuracy: 0.926973
+21-09-29 22:10:17.764 - INFO: val epoch Loss: 0.456840 cls Loss: 0.202400 bbox Loss: 0.007689 Accuracy: 0.925278
+21-09-29 22:10:18.548 - INFO: train Epoch: 41 [00000000/00185122 (00%)]	Loss: 0.469450 cls Loss: 0.221303 offset Loss:0.007768 landmark Loss: 0.004640	Accuracy: 0.914561
+21-09-29 22:10:21.561 - INFO: train Epoch: 41 [00040960/00185122 (22%)]	Loss: 0.424856 cls Loss: 0.169881 offset Loss:0.007690 landmark Loss: 0.005058	Accuracy: 0.921147
+21-09-29 22:10:24.477 - INFO: train Epoch: 41 [00081920/00185122 (44%)]	Loss: 0.471108 cls Loss: 0.214111 offset Loss:0.007868 landmark Loss: 0.004982	Accuracy: 0.920828
+21-09-29 22:10:27.422 - INFO: train Epoch: 41 [00122880/00185122 (66%)]	Loss: 0.436193 cls Loss: 0.179429 offset Loss:0.007975 landmark Loss: 0.004863	Accuracy: 0.931707
+21-09-29 22:10:30.022 - INFO: train Epoch: 41 [00163840/00185122 (88%)]	Loss: 0.465735 cls Loss: 0.208060 offset Loss:0.007750 landmark Loss: 0.005134	Accuracy: 0.912621
+21-09-29 22:10:31.407 - INFO: train epoch Loss: 0.459904 cls Loss: 0.204546 bbox Loss: 0.007739 Accuracy: 0.921594
+21-09-29 22:10:32.130 - INFO: val Epoch: 41 [00000000/00052379 (00%)]	Loss: 0.462576 cls Loss: 0.200933 offset Loss:0.007895 landmark Loss: 0.005188	Accuracy: 0.916763
+21-09-29 22:10:34.819 - INFO: val Epoch: 41 [00040960/00052379 (77%)]	Loss: 0.436709 cls Loss: 0.186495 offset Loss:0.007670 landmark Loss: 0.004840	Accuracy: 0.914118
+21-09-29 22:10:35.451 - INFO: val epoch Loss: 0.456280 cls Loss: 0.202218 bbox Loss: 0.007680 Accuracy: 0.915755
+21-09-29 22:10:36.152 - INFO: train Epoch: 42 [00000000/00185122 (00%)]	Loss: 0.405194 cls Loss: 0.153448 offset Loss:0.007727 landmark Loss: 0.004860	Accuracy: 0.906699
+21-09-29 22:10:39.071 - INFO: train Epoch: 42 [00040960/00185122 (22%)]	Loss: 0.452698 cls Loss: 0.215346 offset Loss:0.007473 landmark Loss: 0.004394	Accuracy: 0.927033
+21-09-29 22:10:41.782 - INFO: train Epoch: 42 [00081920/00185122 (44%)]	Loss: 0.470829 cls Loss: 0.210697 offset Loss:0.007742 landmark Loss: 0.005265	Accuracy: 0.912426
+21-09-29 22:10:44.459 - INFO: train Epoch: 42 [00122880/00185122 (66%)]	Loss: 0.497332 cls Loss: 0.248958 offset Loss:0.007367 landmark Loss: 0.005051	Accuracy: 0.910483
+21-09-29 22:10:47.058 - INFO: train Epoch: 42 [00163840/00185122 (88%)]	Loss: 0.498940 cls Loss: 0.228523 offset Loss:0.008100 landmark Loss: 0.005421	Accuracy: 0.921781
+21-09-29 22:10:48.366 - INFO: train epoch Loss: 0.459604 cls Loss: 0.204493 bbox Loss: 0.007736 Accuracy: 0.920875
+21-09-29 22:10:49.036 - INFO: val Epoch: 42 [00000000/00052379 (00%)]	Loss: 0.454911 cls Loss: 0.198482 offset Loss:0.007907 landmark Loss: 0.004915	Accuracy: 0.911798
+21-09-29 22:10:51.746 - INFO: val Epoch: 42 [00040960/00052379 (77%)]	Loss: 0.474131 cls Loss: 0.219944 offset Loss:0.007713 landmark Loss: 0.004996	Accuracy: 0.910272
+21-09-29 22:10:52.436 - INFO: val epoch Loss: 0.455880 cls Loss: 0.201974 bbox Loss: 0.007685 Accuracy: 0.919540
+21-09-29 22:10:53.096 - INFO: train Epoch: 43 [00000000/00185122 (00%)]	Loss: 0.456489 cls Loss: 0.213377 offset Loss:0.006959 landmark Loss: 0.005197	Accuracy: 0.916862
+21-09-29 22:10:55.991 - INFO: train Epoch: 43 [00040960/00185122 (22%)]	Loss: 0.454571 cls Loss: 0.203144 offset Loss:0.007598 landmark Loss: 0.004973	Accuracy: 0.912633
+21-09-29 22:10:58.722 - INFO: train Epoch: 43 [00081920/00185122 (44%)]	Loss: 0.427935 cls Loss: 0.170543 offset Loss:0.007685 landmark Loss: 0.005185	Accuracy: 0.923900
+21-09-29 22:11:01.360 - INFO: train Epoch: 43 [00122880/00185122 (66%)]	Loss: 0.444587 cls Loss: 0.196571 offset Loss:0.007616 landmark Loss: 0.004785	Accuracy: 0.907341
+21-09-29 22:11:03.994 - INFO: train Epoch: 43 [00163840/00185122 (88%)]	Loss: 0.457567 cls Loss: 0.208494 offset Loss:0.007260 landmark Loss: 0.005193	Accuracy: 0.910588
+21-09-29 22:11:05.386 - INFO: train epoch Loss: 0.459024 cls Loss: 0.204334 bbox Loss: 0.007726 Accuracy: 0.920333
+21-09-29 22:11:06.078 - INFO: val Epoch: 43 [00000000/00052379 (00%)]	Loss: 0.463275 cls Loss: 0.215633 offset Loss:0.007759 landmark Loss: 0.004623	Accuracy: 0.923349
+21-09-29 22:11:09.254 - INFO: val Epoch: 43 [00040960/00052379 (77%)]	Loss: 0.394256 cls Loss: 0.140740 offset Loss:0.007530 landmark Loss: 0.005145	Accuracy: 0.934558
+21-09-29 22:11:10.042 - INFO: val epoch Loss: 0.454939 cls Loss: 0.201583 bbox Loss: 0.007667 Accuracy: 0.923980
+21-09-29 22:11:10.722 - INFO: train Epoch: 44 [00000000/00185122 (00%)]	Loss: 0.480968 cls Loss: 0.232322 offset Loss:0.007639 landmark Loss: 0.004793	Accuracy: 0.919082
+21-09-29 22:11:13.576 - INFO: train Epoch: 44 [00040960/00185122 (22%)]	Loss: 0.468972 cls Loss: 0.200357 offset Loss:0.007918 landmark Loss: 0.005512	Accuracy: 0.914388
+21-09-29 22:11:16.223 - INFO: train Epoch: 44 [00081920/00185122 (44%)]	Loss: 0.439407 cls Loss: 0.184716 offset Loss:0.007604 landmark Loss: 0.005131	Accuracy: 0.928910
+21-09-29 22:11:18.844 - INFO: train Epoch: 44 [00122880/00185122 (66%)]	Loss: 0.422618 cls Loss: 0.179003 offset Loss:0.007219 landmark Loss: 0.004962	Accuracy: 0.929612
+21-09-29 22:11:21.522 - INFO: train Epoch: 44 [00163840/00185122 (88%)]	Loss: 0.449925 cls Loss: 0.188725 offset Loss:0.007918 landmark Loss: 0.005142	Accuracy: 0.917167
+21-09-29 22:11:22.976 - INFO: train epoch Loss: 0.458311 cls Loss: 0.203923 bbox Loss: 0.007722 Accuracy: 0.920296
+21-09-29 22:11:23.646 - INFO: val Epoch: 44 [00000000/00052379 (00%)]	Loss: 0.416086 cls Loss: 0.151802 offset Loss:0.008067 landmark Loss: 0.005147	Accuracy: 0.930070
+21-09-29 22:11:26.254 - INFO: val Epoch: 44 [00040960/00052379 (77%)]	Loss: 0.475069 cls Loss: 0.218746 offset Loss:0.007727 landmark Loss: 0.005089	Accuracy: 0.917355
+21-09-29 22:11:26.879 - INFO: val epoch Loss: 0.454524 cls Loss: 0.201443 bbox Loss: 0.007663 Accuracy: 0.921860
+21-09-29 22:11:27.591 - INFO: train Epoch: 45 [00000000/00185122 (00%)]	Loss: 0.446310 cls Loss: 0.207193 offset Loss:0.007416 landmark Loss: 0.004540	Accuracy: 0.930435
+21-09-29 22:11:31.122 - INFO: train Epoch: 45 [00040960/00185122 (22%)]	Loss: 0.491264 cls Loss: 0.229272 offset Loss:0.007687 landmark Loss: 0.005413	Accuracy: 0.912075
+21-09-29 22:11:33.822 - INFO: train Epoch: 45 [00081920/00185122 (44%)]	Loss: 0.429997 cls Loss: 0.171660 offset Loss:0.007927 landmark Loss: 0.004990	Accuracy: 0.932692
+21-09-29 22:11:36.488 - INFO: train Epoch: 45 [00122880/00185122 (66%)]	Loss: 0.429296 cls Loss: 0.174898 offset Loss:0.007807 landmark Loss: 0.004913	Accuracy: 0.934704
+21-09-29 22:11:39.128 - INFO: train Epoch: 45 [00163840/00185122 (88%)]	Loss: 0.480242 cls Loss: 0.231044 offset Loss:0.007710 landmark Loss: 0.004750	Accuracy: 0.926239
+21-09-29 22:11:40.437 - INFO: train epoch Loss: 0.457707 cls Loss: 0.203671 bbox Loss: 0.007716 Accuracy: 0.921354
+21-09-29 22:11:41.273 - INFO: val Epoch: 45 [00000000/00052379 (00%)]	Loss: 0.455614 cls Loss: 0.194152 offset Loss:0.007884 landmark Loss: 0.005190	Accuracy: 0.923977
+21-09-29 22:11:43.867 - INFO: val Epoch: 45 [00040960/00052379 (77%)]	Loss: 0.430219 cls Loss: 0.177612 offset Loss:0.007342 landmark Loss: 0.005288	Accuracy: 0.921022
+21-09-29 22:11:44.592 - INFO: val epoch Loss: 0.454683 cls Loss: 0.201667 bbox Loss: 0.007665 Accuracy: 0.924879
+21-09-29 22:11:45.255 - INFO: train Epoch: 46 [00000000/00185122 (00%)]	Loss: 0.429752 cls Loss: 0.174832 offset Loss:0.007606 landmark Loss: 0.005140	Accuracy: 0.934524
+21-09-29 22:11:48.244 - INFO: train Epoch: 46 [00040960/00185122 (22%)]	Loss: 0.520348 cls Loss: 0.263223 offset Loss:0.007964 landmark Loss: 0.004893	Accuracy: 0.890137
+21-09-29 22:11:50.996 - INFO: train Epoch: 46 [00081920/00185122 (44%)]	Loss: 0.429027 cls Loss: 0.181641 offset Loss:0.007566 landmark Loss: 0.004803	Accuracy: 0.928830
+21-09-29 22:11:53.686 - INFO: train Epoch: 46 [00122880/00185122 (66%)]	Loss: 0.482279 cls Loss: 0.222602 offset Loss:0.007964 landmark Loss: 0.005019	Accuracy: 0.907895
+21-09-29 22:11:56.354 - INFO: train Epoch: 46 [00163840/00185122 (88%)]	Loss: 0.464905 cls Loss: 0.212109 offset Loss:0.007842 landmark Loss: 0.004798	Accuracy: 0.935294
+21-09-29 22:11:57.678 - INFO: train epoch Loss: 0.457196 cls Loss: 0.203357 bbox Loss: 0.007712 Accuracy: 0.919864
+21-09-29 22:11:58.348 - INFO: val Epoch: 46 [00000000/00052379 (00%)]	Loss: 0.442631 cls Loss: 0.201782 offset Loss:0.007415 landmark Loss: 0.004628	Accuracy: 0.901163
+21-09-29 22:12:01.056 - INFO: val Epoch: 46 [00040960/00052379 (77%)]	Loss: 0.448758 cls Loss: 0.196326 offset Loss:0.007509 landmark Loss: 0.005112	Accuracy: 0.910835
+21-09-29 22:12:01.894 - INFO: val epoch Loss: 0.455036 cls Loss: 0.201794 bbox Loss: 0.007670 Accuracy: 0.909612
+21-09-29 22:12:02.703 - INFO: train Epoch: 47 [00000000/00185122 (00%)]	Loss: 0.428273 cls Loss: 0.154019 offset Loss:0.008325 landmark Loss: 0.005388	Accuracy: 0.946667
+21-09-29 22:12:05.669 - INFO: train Epoch: 47 [00040960/00185122 (22%)]	Loss: 0.447551 cls Loss: 0.203513 offset Loss:0.007445 landmark Loss: 0.004757	Accuracy: 0.921429
+21-09-29 22:12:08.346 - INFO: train Epoch: 47 [00081920/00185122 (44%)]	Loss: 0.489733 cls Loss: 0.236652 offset Loss:0.007683 landmark Loss: 0.004971	Accuracy: 0.910501
+21-09-29 22:12:11.042 - INFO: train Epoch: 47 [00122880/00185122 (66%)]	Loss: 0.455935 cls Loss: 0.199054 offset Loss:0.008003 landmark Loss: 0.004841	Accuracy: 0.906748
+21-09-29 22:12:13.585 - INFO: train Epoch: 47 [00163840/00185122 (88%)]	Loss: 0.449438 cls Loss: 0.203684 offset Loss:0.007379 landmark Loss: 0.004909	Accuracy: 0.920048
+21-09-29 22:12:14.999 - INFO: train epoch Loss: 0.456459 cls Loss: 0.203174 bbox Loss: 0.007703 Accuracy: 0.920219
+21-09-29 22:12:15.699 - INFO: val Epoch: 47 [00000000/00052379 (00%)]	Loss: 0.482289 cls Loss: 0.233500 offset Loss:0.007426 landmark Loss: 0.005014	Accuracy: 0.910550
+21-09-29 22:12:18.369 - INFO: val Epoch: 47 [00040960/00052379 (77%)]	Loss: 0.441564 cls Loss: 0.189830 offset Loss:0.007746 landmark Loss: 0.004841	Accuracy: 0.922364
+21-09-29 22:12:18.996 - INFO: val epoch Loss: 0.452803 cls Loss: 0.200892 bbox Loss: 0.007641 Accuracy: 0.913406
+21-09-29 22:12:19.684 - INFO: train Epoch: 48 [00000000/00185122 (00%)]	Loss: 0.456047 cls Loss: 0.193872 offset Loss:0.007820 landmark Loss: 0.005289	Accuracy: 0.917973
+21-09-29 22:12:22.589 - INFO: train Epoch: 48 [00040960/00185122 (22%)]	Loss: 0.464572 cls Loss: 0.223279 offset Loss:0.007319 landmark Loss: 0.004746	Accuracy: 0.912037
+21-09-29 22:12:25.267 - INFO: train Epoch: 48 [00081920/00185122 (44%)]	Loss: 0.449332 cls Loss: 0.193559 offset Loss:0.007662 landmark Loss: 0.005126	Accuracy: 0.919204
+21-09-29 22:12:28.077 - INFO: train Epoch: 48 [00122880/00185122 (66%)]	Loss: 0.481101 cls Loss: 0.227219 offset Loss:0.007496 landmark Loss: 0.005198	Accuracy: 0.907990
+21-09-29 22:12:31.176 - INFO: train Epoch: 48 [00163840/00185122 (88%)]	Loss: 0.446362 cls Loss: 0.197956 offset Loss:0.007370 landmark Loss: 0.005050	Accuracy: 0.916471
+21-09-29 22:12:33.009 - INFO: train epoch Loss: 0.455981 cls Loss: 0.202888 bbox Loss: 0.007698 Accuracy: 0.919835
+21-09-29 22:12:33.759 - INFO: val Epoch: 48 [00000000/00052379 (00%)]	Loss: 0.434517 cls Loss: 0.178344 offset Loss:0.007779 landmark Loss: 0.005029	Accuracy: 0.929316
+21-09-29 22:12:36.767 - INFO: val Epoch: 48 [00040960/00052379 (77%)]	Loss: 0.452565 cls Loss: 0.199881 offset Loss:0.007939 landmark Loss: 0.004695	Accuracy: 0.918415
+21-09-29 22:12:37.609 - INFO: val epoch Loss: 0.451924 cls Loss: 0.200146 bbox Loss: 0.007643 Accuracy: 0.919433
+21-09-29 22:12:38.422 - INFO: train Epoch: 49 [00000000/00185122 (00%)]	Loss: 0.439110 cls Loss: 0.193488 offset Loss:0.007396 landmark Loss: 0.004885	Accuracy: 0.911800
+21-09-29 22:12:41.322 - INFO: train Epoch: 49 [00040960/00185122 (22%)]	Loss: 0.491699 cls Loss: 0.230925 offset Loss:0.007671 landmark Loss: 0.005368	Accuracy: 0.910272
+21-09-29 22:12:44.193 - INFO: train Epoch: 49 [00081920/00185122 (44%)]	Loss: 0.443779 cls Loss: 0.181619 offset Loss:0.007917 landmark Loss: 0.005191	Accuracy: 0.918689
+21-09-29 22:12:46.869 - INFO: train Epoch: 49 [00122880/00185122 (66%)]	Loss: 0.449383 cls Loss: 0.218453 offset Loss:0.007045 landmark Loss: 0.004502	Accuracy: 0.914591
+21-09-29 22:12:49.460 - INFO: train Epoch: 49 [00163840/00185122 (88%)]	Loss: 0.474958 cls Loss: 0.235228 offset Loss:0.007502 landmark Loss: 0.004484	Accuracy: 0.900718
+21-09-29 22:12:50.910 - INFO: train epoch Loss: 0.454783 cls Loss: 0.202337 bbox Loss: 0.007688 Accuracy: 0.919142
+21-09-29 22:12:51.736 - INFO: val Epoch: 49 [00000000/00052379 (00%)]	Loss: 0.467227 cls Loss: 0.214765 offset Loss:0.007656 landmark Loss: 0.004967	Accuracy: 0.911798
+21-09-29 22:12:54.333 - INFO: val Epoch: 49 [00040960/00052379 (77%)]	Loss: 0.446758 cls Loss: 0.182473 offset Loss:0.008168 landmark Loss: 0.005047	Accuracy: 0.924419
+21-09-29 22:12:54.944 - INFO: val epoch Loss: 0.451446 cls Loss: 0.200170 bbox Loss: 0.007633 Accuracy: 0.916487
+21-09-29 22:12:55.681 - INFO: train Epoch: 50 [00000000/00185122 (00%)]	Loss: 0.427564 cls Loss: 0.198530 offset Loss:0.006791 landmark Loss: 0.004660	Accuracy: 0.913242
+21-09-29 22:12:58.569 - INFO: train Epoch: 50 [00040960/00185122 (22%)]	Loss: 0.488212 cls Loss: 0.219892 offset Loss:0.008062 landmark Loss: 0.005354	Accuracy: 0.905868
+21-09-29 22:13:01.324 - INFO: train Epoch: 50 [00081920/00185122 (44%)]	Loss: 0.433927 cls Loss: 0.181659 offset Loss:0.007835 landmark Loss: 0.004778	Accuracy: 0.913357
+21-09-29 22:13:04.022 - INFO: train Epoch: 50 [00122880/00185122 (66%)]	Loss: 0.434330 cls Loss: 0.199949 offset Loss:0.007356 landmark Loss: 0.004363	Accuracy: 0.900726
+21-09-29 22:13:06.656 - INFO: train Epoch: 50 [00163840/00185122 (88%)]	Loss: 0.480311 cls Loss: 0.245104 offset Loss:0.007335 landmark Loss: 0.004425	Accuracy: 0.926103
+21-09-29 22:13:08.039 - INFO: train epoch Loss: 0.454946 cls Loss: 0.202546 bbox Loss: 0.007688 Accuracy: 0.919197
+21-09-29 22:13:08.732 - INFO: val Epoch: 50 [00000000/00052379 (00%)]	Loss: 0.467418 cls Loss: 0.216274 offset Loss:0.007686 landmark Loss: 0.004871	Accuracy: 0.907583
+21-09-29 22:13:11.353 - INFO: val Epoch: 50 [00040960/00052379 (77%)]	Loss: 0.423294 cls Loss: 0.182704 offset Loss:0.007386 landmark Loss: 0.004644	Accuracy: 0.944444
+21-09-29 22:13:11.993 - INFO: val epoch Loss: 0.451659 cls Loss: 0.200752 bbox Loss: 0.007630 Accuracy: 0.924799
+21-09-29 22:13:12.641 - INFO: train Epoch: 51 [00000000/00185122 (00%)]	Loss: 0.445346 cls Loss: 0.187960 offset Loss:0.008013 landmark Loss: 0.004857	Accuracy: 0.928741
+21-09-29 22:13:15.545 - INFO: train Epoch: 51 [00040960/00185122 (22%)]	Loss: 0.434444 cls Loss: 0.182299 offset Loss:0.007464 landmark Loss: 0.005143	Accuracy: 0.915561
+21-09-29 22:13:18.302 - INFO: train Epoch: 51 [00081920/00185122 (44%)]	Loss: 0.442158 cls Loss: 0.187822 offset Loss:0.007509 landmark Loss: 0.005208	Accuracy: 0.924821
+21-09-29 22:13:21.076 - INFO: train Epoch: 51 [00122880/00185122 (66%)]	Loss: 0.457468 cls Loss: 0.220651 offset Loss:0.007006 landmark Loss: 0.004835	Accuracy: 0.911525
+21-09-29 22:13:23.779 - INFO: train Epoch: 51 [00163840/00185122 (88%)]	Loss: 0.486098 cls Loss: 0.239889 offset Loss:0.007741 landmark Loss: 0.004570	Accuracy: 0.928916
+21-09-29 22:13:25.140 - INFO: train epoch Loss: 0.453739 cls Loss: 0.202017 bbox Loss: 0.007678 Accuracy: 0.918830
+21-09-29 22:13:25.854 - INFO: val Epoch: 51 [00000000/00052379 (00%)]	Loss: 0.419296 cls Loss: 0.161773 offset Loss:0.007631 landmark Loss: 0.005245	Accuracy: 0.936047
+21-09-29 22:13:28.542 - INFO: val Epoch: 51 [00040960/00052379 (77%)]	Loss: 0.405747 cls Loss: 0.161136 offset Loss:0.007645 landmark Loss: 0.004585	Accuracy: 0.943483
+21-09-29 22:13:29.420 - INFO: val epoch Loss: 0.451388 cls Loss: 0.200856 bbox Loss: 0.007616 Accuracy: 0.929997
+21-09-29 22:13:30.149 - INFO: train Epoch: 52 [00000000/00185122 (00%)]	Loss: 0.446721 cls Loss: 0.194005 offset Loss:0.007749 landmark Loss: 0.004887	Accuracy: 0.935673
+21-09-29 22:13:33.244 - INFO: train Epoch: 52 [00040960/00185122 (22%)]	Loss: 0.452610 cls Loss: 0.207712 offset Loss:0.007594 landmark Loss: 0.004651	Accuracy: 0.928830
+21-09-29 22:13:36.144 - INFO: train Epoch: 52 [00081920/00185122 (44%)]	Loss: 0.457322 cls Loss: 0.203441 offset Loss:0.007577 landmark Loss: 0.005117	Accuracy: 0.930870
+21-09-29 22:13:39.871 - INFO: train Epoch: 52 [00122880/00185122 (66%)]	Loss: 0.450203 cls Loss: 0.205466 offset Loss:0.007612 landmark Loss: 0.004624	Accuracy: 0.920343
+21-09-29 22:13:42.574 - INFO: train Epoch: 52 [00163840/00185122 (88%)]	Loss: 0.460670 cls Loss: 0.210802 offset Loss:0.007664 landmark Loss: 0.004829	Accuracy: 0.914147
+21-09-29 22:13:44.045 - INFO: train epoch Loss: 0.452675 cls Loss: 0.201548 bbox Loss: 0.007667 Accuracy: 0.918202
+21-09-29 22:13:44.728 - INFO: val Epoch: 52 [00000000/00052379 (00%)]	Loss: 0.459342 cls Loss: 0.176714 offset Loss:0.008654 landmark Loss: 0.005478	Accuracy: 0.923719
+21-09-29 22:13:47.316 - INFO: val Epoch: 52 [00040960/00052379 (77%)]	Loss: 0.461248 cls Loss: 0.208174 offset Loss:0.007617 landmark Loss: 0.005036	Accuracy: 0.923611
+21-09-29 22:13:47.983 - INFO: val epoch Loss: 0.449677 cls Loss: 0.199524 bbox Loss: 0.007602 Accuracy: 0.922478
+21-09-29 22:13:48.793 - INFO: train Epoch: 53 [00000000/00185122 (00%)]	Loss: 0.426612 cls Loss: 0.174100 offset Loss:0.007724 landmark Loss: 0.004902	Accuracy: 0.925178
+21-09-29 22:13:51.785 - INFO: train Epoch: 53 [00040960/00185122 (22%)]	Loss: 0.433132 cls Loss: 0.185419 offset Loss:0.007188 landmark Loss: 0.005197	Accuracy: 0.917174
+21-09-29 22:13:54.476 - INFO: train Epoch: 53 [00081920/00185122 (44%)]	Loss: 0.509689 cls Loss: 0.260500 offset Loss:0.007577 landmark Loss: 0.004882	Accuracy: 0.892327
+21-09-29 22:13:57.100 - INFO: train Epoch: 53 [00122880/00185122 (66%)]	Loss: 0.454003 cls Loss: 0.206792 offset Loss:0.007592 landmark Loss: 0.004769	Accuracy: 0.919144
+21-09-29 22:13:59.722 - INFO: train Epoch: 53 [00163840/00185122 (88%)]	Loss: 0.439350 cls Loss: 0.185924 offset Loss:0.007919 landmark Loss: 0.004752	Accuracy: 0.903659
+21-09-29 22:14:00.994 - INFO: train epoch Loss: 0.451547 cls Loss: 0.201123 bbox Loss: 0.007654 Accuracy: 0.918732
+21-09-29 22:14:01.727 - INFO: val Epoch: 53 [00000000/00052379 (00%)]	Loss: 0.465750 cls Loss: 0.221838 offset Loss:0.007406 landmark Loss: 0.004790	Accuracy: 0.910272
+21-09-29 22:14:04.344 - INFO: val Epoch: 53 [00040960/00052379 (77%)]	Loss: 0.462651 cls Loss: 0.208015 offset Loss:0.007613 landmark Loss: 0.005118	Accuracy: 0.912178
+21-09-29 22:14:04.986 - INFO: val epoch Loss: 0.447244 cls Loss: 0.198839 bbox Loss: 0.007570 Accuracy: 0.916873
+21-09-29 22:14:05.660 - INFO: train Epoch: 54 [00000000/00185122 (00%)]	Loss: 0.443374 cls Loss: 0.186746 offset Loss:0.007344 landmark Loss: 0.005487	Accuracy: 0.920863
+21-09-29 22:14:08.484 - INFO: train Epoch: 54 [00040960/00185122 (22%)]	Loss: 0.461508 cls Loss: 0.227655 offset Loss:0.007262 landmark Loss: 0.004431	Accuracy: 0.920094
+21-09-29 22:14:11.172 - INFO: train Epoch: 54 [00081920/00185122 (44%)]	Loss: 0.455341 cls Loss: 0.220938 offset Loss:0.007227 landmark Loss: 0.004493	Accuracy: 0.911377
+21-09-29 22:14:13.946 - INFO: train Epoch: 54 [00122880/00185122 (66%)]	Loss: 0.437971 cls Loss: 0.186683 offset Loss:0.007585 landmark Loss: 0.004979	Accuracy: 0.940071
+21-09-29 22:14:16.676 - INFO: train Epoch: 54 [00163840/00185122 (88%)]	Loss: 0.447445 cls Loss: 0.190053 offset Loss:0.007843 landmark Loss: 0.005026	Accuracy: 0.912888
+21-09-29 22:14:18.105 - INFO: train epoch Loss: 0.450977 cls Loss: 0.200990 bbox Loss: 0.007646 Accuracy: 0.918987
+21-09-29 22:14:18.933 - INFO: val Epoch: 54 [00000000/00052379 (00%)]	Loss: 0.434494 cls Loss: 0.176921 offset Loss:0.007915 landmark Loss: 0.004964	Accuracy: 0.920094
+21-09-29 22:14:21.539 - INFO: val Epoch: 54 [00040960/00052379 (77%)]	Loss: 0.478633 cls Loss: 0.229184 offset Loss:0.007366 landmark Loss: 0.005106	Accuracy: 0.920139
+21-09-29 22:14:22.152 - INFO: val epoch Loss: 0.446492 cls Loss: 0.198030 bbox Loss: 0.007578 Accuracy: 0.917819
+21-09-29 22:14:22.822 - INFO: train Epoch: 55 [00000000/00185122 (00%)]	Loss: 0.432607 cls Loss: 0.191300 offset Loss:0.007472 landmark Loss: 0.004593	Accuracy: 0.914663
+21-09-29 22:14:25.845 - INFO: train Epoch: 55 [00040960/00185122 (22%)]	Loss: 0.411138 cls Loss: 0.179201 offset Loss:0.007136 landmark Loss: 0.004460	Accuracy: 0.909412
+21-09-29 22:14:28.569 - INFO: train Epoch: 55 [00081920/00185122 (44%)]	Loss: 0.512589 cls Loss: 0.267486 offset Loss:0.007945 landmark Loss: 0.004310	Accuracy: 0.912633
+21-09-29 22:14:31.222 - INFO: train Epoch: 55 [00122880/00185122 (66%)]	Loss: 0.456595 cls Loss: 0.205454 offset Loss:0.007762 landmark Loss: 0.004795	Accuracy: 0.922261
+21-09-29 22:14:33.885 - INFO: train Epoch: 55 [00163840/00185122 (88%)]	Loss: 0.504126 cls Loss: 0.241642 offset Loss:0.007977 landmark Loss: 0.005147	Accuracy: 0.900867
+21-09-29 22:14:35.687 - INFO: train epoch Loss: 0.449066 cls Loss: 0.199963 bbox Loss: 0.007630 Accuracy: 0.917584
+21-09-29 22:14:36.401 - INFO: val Epoch: 55 [00000000/00052379 (00%)]	Loss: 0.439897 cls Loss: 0.197337 offset Loss:0.007288 landmark Loss: 0.004840	Accuracy: 0.917336
+21-09-29 22:14:39.097 - INFO: val Epoch: 55 [00040960/00052379 (77%)]	Loss: 0.388565 cls Loss: 0.144279 offset Loss:0.007353 landmark Loss: 0.004862	Accuracy: 0.929480
+21-09-29 22:14:39.750 - INFO: val epoch Loss: 0.444755 cls Loss: 0.197385 bbox Loss: 0.007552 Accuracy: 0.918708
+21-09-29 22:14:40.557 - INFO: train Epoch: 56 [00000000/00185122 (00%)]	Loss: 0.432484 cls Loss: 0.184837 offset Loss:0.007415 landmark Loss: 0.004968	Accuracy: 0.915357
+21-09-29 22:14:43.781 - INFO: train Epoch: 56 [00040960/00185122 (22%)]	Loss: 0.443932 cls Loss: 0.189622 offset Loss:0.007713 landmark Loss: 0.005003	Accuracy: 0.930539
+21-09-29 22:14:46.675 - INFO: train Epoch: 56 [00081920/00185122 (44%)]	Loss: 0.496910 cls Loss: 0.234856 offset Loss:0.008038 landmark Loss: 0.005065	Accuracy: 0.908434
+21-09-29 22:14:49.322 - INFO: train Epoch: 56 [00122880/00185122 (66%)]	Loss: 0.443892 cls Loss: 0.185297 offset Loss:0.007646 landmark Loss: 0.005284	Accuracy: 0.924279
+21-09-29 22:14:52.039 - INFO: train Epoch: 56 [00163840/00185122 (88%)]	Loss: 0.443104 cls Loss: 0.184800 offset Loss:0.007978 landmark Loss: 0.004937	Accuracy: 0.918788
+21-09-29 22:14:53.340 - INFO: train epoch Loss: 0.447704 cls Loss: 0.199395 bbox Loss: 0.007614 Accuracy: 0.916883
+21-09-29 22:14:54.012 - INFO: val Epoch: 56 [00000000/00052379 (00%)]	Loss: 0.420040 cls Loss: 0.174901 offset Loss:0.007360 landmark Loss: 0.004897	Accuracy: 0.922811
+21-09-29 22:14:56.637 - INFO: val Epoch: 56 [00040960/00052379 (77%)]	Loss: 0.408367 cls Loss: 0.177296 offset Loss:0.006952 landmark Loss: 0.004601	Accuracy: 0.930126
+21-09-29 22:14:57.270 - INFO: val epoch Loss: 0.444477 cls Loss: 0.197056 bbox Loss: 0.007548 Accuracy: 0.923351
+21-09-29 22:14:57.946 - INFO: train Epoch: 57 [00000000/00185122 (00%)]	Loss: 0.447708 cls Loss: 0.209450 offset Loss:0.007748 landmark Loss: 0.004165	Accuracy: 0.917476
+21-09-29 22:15:00.889 - INFO: train Epoch: 57 [00040960/00185122 (22%)]	Loss: 0.497843 cls Loss: 0.255024 offset Loss:0.007254 landmark Loss: 0.004887	Accuracy: 0.906780
+21-09-29 22:15:03.657 - INFO: train Epoch: 57 [00081920/00185122 (44%)]	Loss: 0.410853 cls Loss: 0.187982 offset Loss:0.006668 landmark Loss: 0.004475	Accuracy: 0.929257
+21-09-29 22:15:06.944 - INFO: train Epoch: 57 [00122880/00185122 (66%)]	Loss: 0.488280 cls Loss: 0.237729 offset Loss:0.007756 landmark Loss: 0.004772	Accuracy: 0.910926
+21-09-29 22:15:10.145 - INFO: train Epoch: 57 [00163840/00185122 (88%)]	Loss: 0.367338 cls Loss: 0.136297 offset Loss:0.007024 landmark Loss: 0.004528	Accuracy: 0.942488
+21-09-29 22:15:11.656 - INFO: train epoch Loss: 0.447012 cls Loss: 0.199041 bbox Loss: 0.007612 Accuracy: 0.917480
+21-09-29 22:15:12.394 - INFO: val Epoch: 57 [00000000/00052379 (00%)]	Loss: 0.438272 cls Loss: 0.196463 offset Loss:0.007497 landmark Loss: 0.004593	Accuracy: 0.921084
+21-09-29 22:15:15.573 - INFO: val Epoch: 57 [00040960/00052379 (77%)]	Loss: 0.454126 cls Loss: 0.210498 offset Loss:0.007280 landmark Loss: 0.004901	Accuracy: 0.925795
+21-09-29 22:15:16.456 - INFO: val epoch Loss: 0.443845 cls Loss: 0.197406 bbox Loss: 0.007538 Accuracy: 0.925434
+21-09-29 22:15:17.222 - INFO: train Epoch: 58 [00000000/00185122 (00%)]	Loss: 0.461441 cls Loss: 0.210734 offset Loss:0.007825 landmark Loss: 0.004711	Accuracy: 0.920925
+21-09-29 22:15:20.747 - INFO: train Epoch: 58 [00040960/00185122 (22%)]	Loss: 0.423332 cls Loss: 0.183959 offset Loss:0.007508 landmark Loss: 0.004461	Accuracy: 0.919527
+21-09-29 22:15:24.025 - INFO: train Epoch: 58 [00081920/00185122 (44%)]	Loss: 0.381857 cls Loss: 0.145111 offset Loss:0.007254 landmark Loss: 0.004584	Accuracy: 0.928658
+21-09-29 22:15:27.194 - INFO: train Epoch: 58 [00122880/00185122 (66%)]	Loss: 0.469012 cls Loss: 0.220537 offset Loss:0.007649 landmark Loss: 0.004775	Accuracy: 0.918193
+21-09-29 22:15:30.622 - INFO: train Epoch: 58 [00163840/00185122 (88%)]	Loss: 0.440215 cls Loss: 0.195488 offset Loss:0.007348 landmark Loss: 0.004889	Accuracy: 0.913148
+21-09-29 22:15:32.087 - INFO: train epoch Loss: 0.445807 cls Loss: 0.198728 bbox Loss: 0.007596 Accuracy: 0.917472
+21-09-29 22:15:32.862 - INFO: val Epoch: 58 [00000000/00052379 (00%)]	Loss: 0.448650 cls Loss: 0.188156 offset Loss:0.007917 landmark Loss: 0.005108	Accuracy: 0.928324
+21-09-29 22:15:36.075 - INFO: val Epoch: 58 [00040960/00052379 (77%)]	Loss: 0.462592 cls Loss: 0.210727 offset Loss:0.007918 landmark Loss: 0.004675	Accuracy: 0.909198
+21-09-29 22:15:36.832 - INFO: val epoch Loss: 0.444137 cls Loss: 0.196715 bbox Loss: 0.007619 Accuracy: 0.920995
+21-09-29 22:15:37.748 - INFO: train Epoch: 59 [00000000/00185122 (00%)]	Loss: 0.422904 cls Loss: 0.185309 offset Loss:0.007388 landmark Loss: 0.004492	Accuracy: 0.930788
+21-09-29 22:15:41.274 - INFO: train Epoch: 59 [00040960/00185122 (22%)]	Loss: 0.417828 cls Loss: 0.168370 offset Loss:0.007596 landmark Loss: 0.004876	Accuracy: 0.924439
+21-09-29 22:15:44.957 - INFO: train Epoch: 59 [00081920/00185122 (44%)]	Loss: 0.462070 cls Loss: 0.223586 offset Loss:0.007444 landmark Loss: 0.004480	Accuracy: 0.931408
+21-09-29 22:15:48.481 - INFO: train Epoch: 59 [00122880/00185122 (66%)]	Loss: 0.430925 cls Loss: 0.193432 offset Loss:0.007464 landmark Loss: 0.004411	Accuracy: 0.917576
+21-09-29 22:15:51.297 - INFO: train Epoch: 59 [00163840/00185122 (88%)]	Loss: 0.439416 cls Loss: 0.204328 offset Loss:0.007347 landmark Loss: 0.004408	Accuracy: 0.909747
+21-09-29 22:15:52.657 - INFO: train epoch Loss: 0.444057 cls Loss: 0.197605 bbox Loss: 0.007583 Accuracy: 0.916114
+21-09-29 22:15:53.334 - INFO: val Epoch: 59 [00000000/00052379 (00%)]	Loss: 0.522253 cls Loss: 0.269767 offset Loss:0.007619 landmark Loss: 0.005005	Accuracy: 0.926012
+21-09-29 22:15:55.954 - INFO: val Epoch: 59 [00040960/00052379 (77%)]	Loss: 0.453198 cls Loss: 0.213058 offset Loss:0.007540 landmark Loss: 0.004467	Accuracy: 0.926267
+21-09-29 22:15:56.584 - INFO: val epoch Loss: 0.440965 cls Loss: 0.196972 bbox Loss: 0.007488 Accuracy: 0.925443
+21-09-29 22:15:57.356 - INFO: train Epoch: 60 [00000000/00185122 (00%)]	Loss: 0.467297 cls Loss: 0.222428 offset Loss:0.007243 landmark Loss: 0.005001	Accuracy: 0.911483
+21-09-29 22:16:00.240 - INFO: train Epoch: 60 [00040960/00185122 (22%)]	Loss: 0.456934 cls Loss: 0.212876 offset Loss:0.007423 landmark Loss: 0.004779	Accuracy: 0.900857
+21-09-29 22:16:02.907 - INFO: train Epoch: 60 [00081920/00185122 (44%)]	Loss: 0.420197 cls Loss: 0.169379 offset Loss:0.007690 landmark Loss: 0.004851	Accuracy: 0.934940
+21-09-29 22:16:05.560 - INFO: train Epoch: 60 [00122880/00185122 (66%)]	Loss: 0.431327 cls Loss: 0.179265 offset Loss:0.007655 landmark Loss: 0.004948	Accuracy: 0.926061
+21-09-29 22:16:08.188 - INFO: train Epoch: 60 [00163840/00185122 (88%)]	Loss: 0.458575 cls Loss: 0.211867 offset Loss:0.007682 landmark Loss: 0.004654	Accuracy: 0.905455
+21-09-29 22:16:09.506 - INFO: train epoch Loss: 0.442880 cls Loss: 0.197534 bbox Loss: 0.007560 Accuracy: 0.916945
+21-09-29 22:16:10.180 - INFO: val Epoch: 60 [00000000/00052379 (00%)]	Loss: 0.379546 cls Loss: 0.137999 offset Loss:0.007321 landmark Loss: 0.004756	Accuracy: 0.931155
+21-09-29 22:16:12.758 - INFO: val Epoch: 60 [00040960/00052379 (77%)]	Loss: 0.442077 cls Loss: 0.206656 offset Loss:0.007218 landmark Loss: 0.004553	Accuracy: 0.916862
+21-09-29 22:16:13.394 - INFO: val epoch Loss: 0.437804 cls Loss: 0.195079 bbox Loss: 0.007458 Accuracy: 0.919284
+21-09-29 22:16:14.183 - INFO: train Epoch: 61 [00000000/00185122 (00%)]	Loss: 0.415992 cls Loss: 0.172963 offset Loss:0.007558 landmark Loss: 0.004593	Accuracy: 0.929510
+21-09-29 22:16:17.073 - INFO: train Epoch: 61 [00040960/00185122 (22%)]	Loss: 0.433328 cls Loss: 0.187978 offset Loss:0.007797 landmark Loss: 0.004471	Accuracy: 0.921212
+21-09-29 22:16:19.698 - INFO: train Epoch: 61 [00081920/00185122 (44%)]	Loss: 0.403144 cls Loss: 0.153846 offset Loss:0.007648 landmark Loss: 0.004817	Accuracy: 0.933575
+21-09-29 22:16:22.455 - INFO: train Epoch: 61 [00122880/00185122 (66%)]	Loss: 0.435926 cls Loss: 0.202474 offset Loss:0.007174 landmark Loss: 0.004498	Accuracy: 0.909091
+21-09-29 22:16:25.168 - INFO: train Epoch: 61 [00163840/00185122 (88%)]	Loss: 0.431298 cls Loss: 0.191910 offset Loss:0.007777 landmark Loss: 0.004192	Accuracy: 0.916256
+21-09-29 22:16:26.542 - INFO: train epoch Loss: 0.441145 cls Loss: 0.196662 bbox Loss: 0.007547 Accuracy: 0.916922
+21-09-29 22:16:27.211 - INFO: val Epoch: 61 [00000000/00052379 (00%)]	Loss: 0.468792 cls Loss: 0.217431 offset Loss:0.007747 landmark Loss: 0.004821	Accuracy: 0.907621
+21-09-29 22:16:29.859 - INFO: val Epoch: 61 [00040960/00052379 (77%)]	Loss: 0.463267 cls Loss: 0.213391 offset Loss:0.008034 landmark Loss: 0.004460	Accuracy: 0.919811
+21-09-29 22:16:30.542 - INFO: val epoch Loss: 0.437878 cls Loss: 0.195564 bbox Loss: 0.007451 Accuracy: 0.909251
+21-09-29 22:16:31.196 - INFO: train Epoch: 62 [00000000/00185122 (00%)]	Loss: 0.432243 cls Loss: 0.187700 offset Loss:0.007300 landmark Loss: 0.004928	Accuracy: 0.928910
+21-09-29 22:16:34.222 - INFO: train Epoch: 62 [00040960/00185122 (22%)]	Loss: 0.454301 cls Loss: 0.187652 offset Loss:0.008213 landmark Loss: 0.005119	Accuracy: 0.933414
+21-09-29 22:16:36.981 - INFO: train Epoch: 62 [00081920/00185122 (44%)]	Loss: 0.450741 cls Loss: 0.203488 offset Loss:0.007714 landmark Loss: 0.004649	Accuracy: 0.920732
+21-09-29 22:16:39.795 - INFO: train Epoch: 62 [00122880/00185122 (66%)]	Loss: 0.394604 cls Loss: 0.149963 offset Loss:0.007341 landmark Loss: 0.004891	Accuracy: 0.936989
+21-09-29 22:16:43.047 - INFO: train Epoch: 62 [00163840/00185122 (88%)]	Loss: 0.453214 cls Loss: 0.214960 offset Loss:0.007446 landmark Loss: 0.004467	Accuracy: 0.909305
+21-09-29 22:16:44.404 - INFO: train epoch Loss: 0.439691 cls Loss: 0.196168 bbox Loss: 0.007532 Accuracy: 0.916069
+21-09-29 22:16:45.106 - INFO: val Epoch: 62 [00000000/00052379 (00%)]	Loss: 0.409906 cls Loss: 0.159618 offset Loss:0.007946 landmark Loss: 0.004568	Accuracy: 0.914819
+21-09-29 22:16:47.841 - INFO: val Epoch: 62 [00040960/00052379 (77%)]	Loss: 0.429915 cls Loss: 0.186766 offset Loss:0.007526 landmark Loss: 0.004632	Accuracy: 0.907925
+21-09-29 22:16:48.658 - INFO: val epoch Loss: 0.435067 cls Loss: 0.194049 bbox Loss: 0.007424 Accuracy: 0.912810
+21-09-29 22:16:49.438 - INFO: train Epoch: 63 [00000000/00185122 (00%)]	Loss: 0.434093 cls Loss: 0.188145 offset Loss:0.008065 landmark Loss: 0.004233	Accuracy: 0.920538
+21-09-29 22:16:52.742 - INFO: train Epoch: 63 [00040960/00185122 (22%)]	Loss: 0.398007 cls Loss: 0.166786 offset Loss:0.007094 landmark Loss: 0.004467	Accuracy: 0.926190
+21-09-29 22:16:55.472 - INFO: train Epoch: 63 [00081920/00185122 (44%)]	Loss: 0.455503 cls Loss: 0.203850 offset Loss:0.007852 landmark Loss: 0.004730	Accuracy: 0.914251
+21-09-29 22:16:58.077 - INFO: train Epoch: 63 [00122880/00185122 (66%)]	Loss: 0.416053 cls Loss: 0.171035 offset Loss:0.007275 landmark Loss: 0.004976	Accuracy: 0.915375
+21-09-29 22:17:00.807 - INFO: train Epoch: 63 [00163840/00185122 (88%)]	Loss: 0.420664 cls Loss: 0.172573 offset Loss:0.007931 landmark Loss: 0.004474	Accuracy: 0.927318
+21-09-29 22:17:02.250 - INFO: train epoch Loss: 0.438675 cls Loss: 0.195819 bbox Loss: 0.007526 Accuracy: 0.914746
+21-09-29 22:17:03.082 - INFO: val Epoch: 63 [00000000/00052379 (00%)]	Loss: 0.422235 cls Loss: 0.159841 offset Loss:0.008287 landmark Loss: 0.004833	Accuracy: 0.932934
+21-09-29 22:17:05.928 - INFO: val Epoch: 63 [00040960/00052379 (77%)]	Loss: 0.475434 cls Loss: 0.231563 offset Loss:0.007848 landmark Loss: 0.004346	Accuracy: 0.908551
+21-09-29 22:17:06.538 - INFO: val epoch Loss: 0.435864 cls Loss: 0.194440 bbox Loss: 0.007456 Accuracy: 0.912116
+21-09-29 22:17:07.222 - INFO: train Epoch: 64 [00000000/00185122 (00%)]	Loss: 0.432905 cls Loss: 0.192623 offset Loss:0.007547 landmark Loss: 0.004467	Accuracy: 0.934889
+21-09-29 22:17:10.125 - INFO: train Epoch: 64 [00040960/00185122 (22%)]	Loss: 0.434825 cls Loss: 0.193366 offset Loss:0.007264 landmark Loss: 0.004809	Accuracy: 0.904594
+21-09-29 22:17:12.844 - INFO: train Epoch: 64 [00081920/00185122 (44%)]	Loss: 0.470045 cls Loss: 0.235104 offset Loss:0.007250 landmark Loss: 0.004497	Accuracy: 0.911589
+21-09-29 22:17:15.491 - INFO: train Epoch: 64 [00122880/00185122 (66%)]	Loss: 0.450083 cls Loss: 0.208574 offset Loss:0.007874 landmark Loss: 0.004202	Accuracy: 0.901460
+21-09-29 22:17:18.244 - INFO: train Epoch: 64 [00163840/00185122 (88%)]	Loss: 0.450535 cls Loss: 0.209218 offset Loss:0.007548 landmark Loss: 0.004518	Accuracy: 0.912679
+21-09-29 22:17:19.598 - INFO: train epoch Loss: 0.436145 cls Loss: 0.194481 bbox Loss: 0.007501 Accuracy: 0.916142
+21-09-29 22:17:20.272 - INFO: val Epoch: 64 [00000000/00052379 (00%)]	Loss: 0.418970 cls Loss: 0.172527 offset Loss:0.007549 landmark Loss: 0.004774	Accuracy: 0.913652
+21-09-29 22:17:22.878 - INFO: val Epoch: 64 [00040960/00052379 (77%)]	Loss: 0.460729 cls Loss: 0.220875 offset Loss:0.007052 landmark Loss: 0.004940	Accuracy: 0.910023
+21-09-29 22:17:23.691 - INFO: val epoch Loss: 0.432589 cls Loss: 0.193640 bbox Loss: 0.007383 Accuracy: 0.911243
+21-09-29 22:17:24.484 - INFO: train Epoch: 65 [00000000/00185122 (00%)]	Loss: 0.428422 cls Loss: 0.181112 offset Loss:0.007448 landmark Loss: 0.004917	Accuracy: 0.923171
+21-09-29 22:17:27.586 - INFO: train Epoch: 65 [00040960/00185122 (22%)]	Loss: 0.415317 cls Loss: 0.177472 offset Loss:0.007605 landmark Loss: 0.004287	Accuracy: 0.914692
+21-09-29 22:17:30.270 - INFO: train Epoch: 65 [00081920/00185122 (44%)]	Loss: 0.420932 cls Loss: 0.174848 offset Loss:0.007734 landmark Loss: 0.004570	Accuracy: 0.928571
+21-09-29 22:17:32.938 - INFO: train Epoch: 65 [00122880/00185122 (66%)]	Loss: 0.427933 cls Loss: 0.192033 offset Loss:0.007058 landmark Loss: 0.004737	Accuracy: 0.903226
+21-09-29 22:17:35.756 - INFO: train Epoch: 65 [00163840/00185122 (88%)]	Loss: 0.431052 cls Loss: 0.189407 offset Loss:0.007674 landmark Loss: 0.004408	Accuracy: 0.919900
+21-09-29 22:17:37.149 - INFO: train epoch Loss: 0.434536 cls Loss: 0.194078 bbox Loss: 0.007477 Accuracy: 0.915492
+21-09-29 22:17:37.835 - INFO: val Epoch: 65 [00000000/00052379 (00%)]	Loss: 0.417423 cls Loss: 0.178499 offset Loss:0.007372 landmark Loss: 0.004575	Accuracy: 0.925287
+21-09-29 22:17:41.082 - INFO: val Epoch: 65 [00040960/00052379 (77%)]	Loss: 0.468056 cls Loss: 0.229879 offset Loss:0.007714 landmark Loss: 0.004195	Accuracy: 0.922894
+21-09-29 22:17:41.739 - INFO: val epoch Loss: 0.433560 cls Loss: 0.195666 bbox Loss: 0.007382 Accuracy: 0.925989
+21-09-29 22:17:42.460 - INFO: train Epoch: 66 [00000000/00185122 (00%)]	Loss: 0.424499 cls Loss: 0.194286 offset Loss:0.007326 landmark Loss: 0.004184	Accuracy: 0.933498
+21-09-29 22:17:45.670 - INFO: train Epoch: 66 [00040960/00185122 (22%)]	Loss: 0.486371 cls Loss: 0.245630 offset Loss:0.007455 landmark Loss: 0.004582	Accuracy: 0.882709
+21-09-29 22:17:48.455 - INFO: train Epoch: 66 [00081920/00185122 (44%)]	Loss: 0.422708 cls Loss: 0.182777 offset Loss:0.007424 landmark Loss: 0.004572	Accuracy: 0.906730
+21-09-29 22:17:51.222 - INFO: train Epoch: 66 [00122880/00185122 (66%)]	Loss: 0.415588 cls Loss: 0.169520 offset Loss:0.007721 landmark Loss: 0.004582	Accuracy: 0.920991
+21-09-29 22:17:54.222 - INFO: train Epoch: 66 [00163840/00185122 (88%)]	Loss: 0.467234 cls Loss: 0.221606 offset Loss:0.007336 landmark Loss: 0.004946	Accuracy: 0.909416
+21-09-29 22:17:55.696 - INFO: train epoch Loss: 0.433237 cls Loss: 0.193408 bbox Loss: 0.007472 Accuracy: 0.914496
+21-09-29 22:17:56.373 - INFO: val Epoch: 66 [00000000/00052379 (00%)]	Loss: 0.424607 cls Loss: 0.186957 offset Loss:0.007492 landmark Loss: 0.004390	Accuracy: 0.904651
+21-09-29 22:17:58.984 - INFO: val Epoch: 66 [00040960/00052379 (77%)]	Loss: 0.463260 cls Loss: 0.211201 offset Loss:0.007617 landmark Loss: 0.004985	Accuracy: 0.916667
+21-09-29 22:17:59.817 - INFO: val epoch Loss: 0.429595 cls Loss: 0.191249 bbox Loss: 0.007379 Accuracy: 0.919377
+21-09-29 22:18:00.634 - INFO: train Epoch: 67 [00000000/00185122 (00%)]	Loss: 0.407772 cls Loss: 0.171489 offset Loss:0.007447 landmark Loss: 0.004368	Accuracy: 0.920147
+21-09-29 22:18:03.632 - INFO: train Epoch: 67 [00040960/00185122 (22%)]	Loss: 0.404754 cls Loss: 0.166096 offset Loss:0.007243 landmark Loss: 0.004689	Accuracy: 0.902613
+21-09-29 22:18:06.475 - INFO: train Epoch: 67 [00081920/00185122 (44%)]	Loss: 0.429448 cls Loss: 0.190856 offset Loss:0.007429 landmark Loss: 0.004501	Accuracy: 0.894358
+21-09-29 22:18:09.165 - INFO: train Epoch: 67 [00122880/00185122 (66%)]	Loss: 0.433527 cls Loss: 0.204023 offset Loss:0.007354 landmark Loss: 0.004121	Accuracy: 0.921053
+21-09-29 22:18:11.757 - INFO: train Epoch: 67 [00163840/00185122 (88%)]	Loss: 0.396733 cls Loss: 0.161134 offset Loss:0.007332 landmark Loss: 0.004448	Accuracy: 0.922984
+21-09-29 22:18:13.106 - INFO: train epoch Loss: 0.431117 cls Loss: 0.192648 bbox Loss: 0.007443 Accuracy: 0.914767
+21-09-29 22:18:13.780 - INFO: val Epoch: 67 [00000000/00052379 (00%)]	Loss: 0.476045 cls Loss: 0.236395 offset Loss:0.007545 landmark Loss: 0.004438	Accuracy: 0.906433
+21-09-29 22:18:16.406 - INFO: val Epoch: 67 [00040960/00052379 (77%)]	Loss: 0.410324 cls Loss: 0.181688 offset Loss:0.006868 landmark Loss: 0.004564	Accuracy: 0.918857
+21-09-29 22:18:17.046 - INFO: val epoch Loss: 0.427645 cls Loss: 0.190623 bbox Loss: 0.007355 Accuracy: 0.917388
+21-09-29 22:18:17.724 - INFO: train Epoch: 68 [00000000/00185122 (00%)]	Loss: 0.431102 cls Loss: 0.188717 offset Loss:0.007478 landmark Loss: 0.004641	Accuracy: 0.907674
+21-09-29 22:18:20.623 - INFO: train Epoch: 68 [00040960/00185122 (22%)]	Loss: 0.382148 cls Loss: 0.152147 offset Loss:0.007260 landmark Loss: 0.004240	Accuracy: 0.927981
+21-09-29 22:18:23.345 - INFO: train Epoch: 68 [00081920/00185122 (44%)]	Loss: 0.472123 cls Loss: 0.234476 offset Loss:0.007296 landmark Loss: 0.004586	Accuracy: 0.899650
+21-09-29 22:18:25.983 - INFO: train Epoch: 68 [00122880/00185122 (66%)]	Loss: 0.416357 cls Loss: 0.185386 offset Loss:0.007195 landmark Loss: 0.004354	Accuracy: 0.917464
+21-09-29 22:18:28.637 - INFO: train Epoch: 68 [00163840/00185122 (88%)]	Loss: 0.444015 cls Loss: 0.207662 offset Loss:0.007324 landmark Loss: 0.004494	Accuracy: 0.901073
+21-09-29 22:18:29.892 - INFO: train epoch Loss: 0.428862 cls Loss: 0.191589 bbox Loss: 0.007423 Accuracy: 0.914548
+21-09-29 22:18:30.637 - INFO: val Epoch: 68 [00000000/00052379 (00%)]	Loss: 0.381854 cls Loss: 0.158678 offset Loss:0.006905 landmark Loss: 0.004254	Accuracy: 0.928082
+21-09-29 22:18:33.933 - INFO: val Epoch: 68 [00040960/00052379 (77%)]	Loss: 0.420739 cls Loss: 0.187182 offset Loss:0.007119 landmark Loss: 0.004559	Accuracy: 0.904488
+21-09-29 22:18:34.956 - INFO: val epoch Loss: 0.423709 cls Loss: 0.189383 bbox Loss: 0.007294 Accuracy: 0.917676
+21-09-29 22:18:35.722 - INFO: train Epoch: 69 [00000000/00185122 (00%)]	Loss: 0.408275 cls Loss: 0.175688 offset Loss:0.007296 landmark Loss: 0.004334	Accuracy: 0.938257
+21-09-29 22:18:39.422 - INFO: train Epoch: 69 [00040960/00185122 (22%)]	Loss: 0.409410 cls Loss: 0.174343 offset Loss:0.007245 landmark Loss: 0.004508	Accuracy: 0.911557
+21-09-29 22:18:42.957 - INFO: train Epoch: 69 [00081920/00185122 (44%)]	Loss: 0.451962 cls Loss: 0.219042 offset Loss:0.007354 landmark Loss: 0.004292	Accuracy: 0.926453
+21-09-29 22:18:46.222 - INFO: train Epoch: 69 [00122880/00185122 (66%)]	Loss: 0.428424 cls Loss: 0.205563 offset Loss:0.006936 landmark Loss: 0.004207	Accuracy: 0.896797
+21-09-29 22:18:49.750 - INFO: train Epoch: 69 [00163840/00185122 (88%)]	Loss: 0.438070 cls Loss: 0.203872 offset Loss:0.007252 landmark Loss: 0.004458	Accuracy: 0.909646
+21-09-29 22:18:51.363 - INFO: train epoch Loss: 0.426302 cls Loss: 0.190532 bbox Loss: 0.007394 Accuracy: 0.914189
+21-09-29 22:18:52.145 - INFO: val Epoch: 69 [00000000/00052379 (00%)]	Loss: 0.419957 cls Loss: 0.191252 offset Loss:0.007201 landmark Loss: 0.004234	Accuracy: 0.898148
+21-09-29 22:18:55.352 - INFO: val Epoch: 69 [00040960/00052379 (77%)]	Loss: 0.431290 cls Loss: 0.200488 offset Loss:0.007422 landmark Loss: 0.004118	Accuracy: 0.907728
+21-09-29 22:18:56.074 - INFO: val epoch Loss: 0.424591 cls Loss: 0.191506 bbox Loss: 0.007284 Accuracy: 0.899203
+21-09-29 22:18:57.047 - INFO: train Epoch: 70 [00000000/00185122 (00%)]	Loss: 0.438693 cls Loss: 0.198512 offset Loss:0.007467 landmark Loss: 0.004542	Accuracy: 0.909524
+21-09-29 22:19:01.763 - INFO: train Epoch: 70 [00040960/00185122 (22%)]	Loss: 0.420385 cls Loss: 0.192804 offset Loss:0.007181 landmark Loss: 0.004198	Accuracy: 0.929762
+21-09-29 22:19:05.422 - INFO: train Epoch: 70 [00081920/00185122 (44%)]	Loss: 0.370254 cls Loss: 0.137650 offset Loss:0.007101 landmark Loss: 0.004529	Accuracy: 0.926103
+21-09-29 22:19:09.145 - INFO: train Epoch: 70 [00122880/00185122 (66%)]	Loss: 0.423030 cls Loss: 0.194552 offset Loss:0.007251 landmark Loss: 0.004173	Accuracy: 0.915956
+21-09-29 22:19:12.239 - INFO: train Epoch: 70 [00163840/00185122 (88%)]	Loss: 0.437496 cls Loss: 0.220776 offset Loss:0.006836 landmark Loss: 0.004000	Accuracy: 0.873054
+21-09-29 22:19:13.879 - INFO: train epoch Loss: 0.425718 cls Loss: 0.190589 bbox Loss: 0.007389 Accuracy: 0.913595
+21-09-29 22:19:14.632 - INFO: val Epoch: 70 [00000000/00052379 (00%)]	Loss: 0.402600 cls Loss: 0.161586 offset Loss:0.007354 landmark Loss: 0.004697	Accuracy: 0.891180
+21-09-29 22:19:17.844 - INFO: val Epoch: 70 [00040960/00052379 (77%)]	Loss: 0.418570 cls Loss: 0.192385 offset Loss:0.007113 landmark Loss: 0.004197	Accuracy: 0.914253
+21-09-29 22:19:18.667 - INFO: val epoch Loss: 0.420669 cls Loss: 0.188847 bbox Loss: 0.007271 Accuracy: 0.904064
+21-09-29 22:19:19.389 - INFO: train Epoch: 71 [00000000/00185122 (00%)]	Loss: 0.404076 cls Loss: 0.174088 offset Loss:0.007084 landmark Loss: 0.004415	Accuracy: 0.912010
+21-09-29 22:19:23.146 - INFO: train Epoch: 71 [00040960/00185122 (22%)]	Loss: 0.445283 cls Loss: 0.209754 offset Loss:0.006650 landmark Loss: 0.005126	Accuracy: 0.912530
+21-09-29 22:19:26.472 - INFO: train Epoch: 71 [00081920/00185122 (44%)]	Loss: 0.388306 cls Loss: 0.158721 offset Loss:0.007434 landmark Loss: 0.004045	Accuracy: 0.924205
+21-09-29 22:19:29.677 - INFO: train Epoch: 71 [00122880/00185122 (66%)]	Loss: 0.390844 cls Loss: 0.150675 offset Loss:0.007494 landmark Loss: 0.004515	Accuracy: 0.910588
+21-09-29 22:19:33.024 - INFO: train Epoch: 71 [00163840/00185122 (88%)]	Loss: 0.435146 cls Loss: 0.193765 offset Loss:0.007634 landmark Loss: 0.004435	Accuracy: 0.901190
+21-09-29 22:19:34.689 - INFO: train epoch Loss: 0.422939 cls Loss: 0.189138 bbox Loss: 0.007365 Accuracy: 0.912450
+21-09-29 22:19:35.457 - INFO: val Epoch: 71 [00000000/00052379 (00%)]	Loss: 0.403176 cls Loss: 0.172510 offset Loss:0.007491 landmark Loss: 0.004042	Accuracy: 0.920690
+21-09-29 22:19:38.650 - INFO: val Epoch: 71 [00040960/00052379 (77%)]	Loss: 0.354833 cls Loss: 0.118774 offset Loss:0.007585 landmark Loss: 0.004218	Accuracy: 0.932624
+21-09-29 22:19:39.407 - INFO: val epoch Loss: 0.418821 cls Loss: 0.187694 bbox Loss: 0.007264 Accuracy: 0.920627
+21-09-29 22:19:40.358 - INFO: train Epoch: 72 [00000000/00185122 (00%)]	Loss: 0.435647 cls Loss: 0.193415 offset Loss:0.007567 landmark Loss: 0.004544	Accuracy: 0.918660
+21-09-29 22:19:43.871 - INFO: train Epoch: 72 [00040960/00185122 (22%)]	Loss: 0.420231 cls Loss: 0.189199 offset Loss:0.007199 landmark Loss: 0.004353	Accuracy: 0.912587
+21-09-29 22:19:47.222 - INFO: train Epoch: 72 [00081920/00185122 (44%)]	Loss: 0.426429 cls Loss: 0.192992 offset Loss:0.007160 landmark Loss: 0.004512	Accuracy: 0.932384
+21-09-29 22:19:50.342 - INFO: train Epoch: 72 [00122880/00185122 (66%)]	Loss: 0.429761 cls Loss: 0.197462 offset Loss:0.007337 landmark Loss: 0.004278	Accuracy: 0.916168
+21-09-29 22:19:52.922 - INFO: train Epoch: 72 [00163840/00185122 (88%)]	Loss: 0.381142 cls Loss: 0.142797 offset Loss:0.007711 landmark Loss: 0.004207	Accuracy: 0.931119
+21-09-29 22:19:54.298 - INFO: train epoch Loss: 0.420768 cls Loss: 0.188277 bbox Loss: 0.007341 Accuracy: 0.912957
+21-09-29 22:19:54.978 - INFO: val Epoch: 72 [00000000/00052379 (00%)]	Loss: 0.391714 cls Loss: 0.159077 offset Loss:0.007546 landmark Loss: 0.004086	Accuracy: 0.934118
+21-09-29 22:19:57.581 - INFO: val Epoch: 72 [00040960/00052379 (77%)]	Loss: 0.426328 cls Loss: 0.198077 offset Loss:0.006970 landmark Loss: 0.004442	Accuracy: 0.914773
+21-09-29 22:19:58.200 - INFO: val epoch Loss: 0.418741 cls Loss: 0.188541 bbox Loss: 0.007265 Accuracy: 0.915957
+21-09-29 22:19:58.937 - INFO: train Epoch: 73 [00000000/00185122 (00%)]	Loss: 0.413334 cls Loss: 0.182389 offset Loss:0.007276 landmark Loss: 0.004272	Accuracy: 0.926471
+21-09-29 22:20:02.069 - INFO: train Epoch: 73 [00040960/00185122 (22%)]	Loss: 0.442516 cls Loss: 0.226625 offset Loss:0.006948 landmark Loss: 0.003847	Accuracy: 0.908982
+21-09-29 22:20:04.945 - INFO: train Epoch: 73 [00081920/00185122 (44%)]	Loss: 0.451263 cls Loss: 0.218881 offset Loss:0.007174 landmark Loss: 0.004445	Accuracy: 0.924439
+21-09-29 22:20:07.581 - INFO: train Epoch: 73 [00122880/00185122 (66%)]	Loss: 0.429856 cls Loss: 0.185491 offset Loss:0.007630 landmark Loss: 0.004588	Accuracy: 0.903148
+21-09-29 22:20:10.222 - INFO: train Epoch: 73 [00163840/00185122 (88%)]	Loss: 0.440116 cls Loss: 0.206238 offset Loss:0.007570 landmark Loss: 0.004124	Accuracy: 0.914184
+21-09-29 22:20:11.579 - INFO: train epoch Loss: 0.417874 cls Loss: 0.186930 bbox Loss: 0.007315 Accuracy: 0.912740
+21-09-29 22:20:12.395 - INFO: val Epoch: 73 [00000000/00052379 (00%)]	Loss: 0.376043 cls Loss: 0.149832 offset Loss:0.007081 landmark Loss: 0.004229	Accuracy: 0.932106
+21-09-29 22:20:15.165 - INFO: val Epoch: 73 [00040960/00052379 (77%)]	Loss: 0.446820 cls Loss: 0.210835 offset Loss:0.007878 landmark Loss: 0.003922	Accuracy: 0.927033
+21-09-29 22:20:15.821 - INFO: val epoch Loss: 0.418445 cls Loss: 0.188463 bbox Loss: 0.007270 Accuracy: 0.924301
+21-09-29 22:20:16.522 - INFO: train Epoch: 74 [00000000/00185122 (00%)]	Loss: 0.385516 cls Loss: 0.159836 offset Loss:0.007084 landmark Loss: 0.004200	Accuracy: 0.933815
+21-09-29 22:20:19.371 - INFO: train Epoch: 74 [00040960/00185122 (22%)]	Loss: 0.398392 cls Loss: 0.171768 offset Loss:0.007189 landmark Loss: 0.004142	Accuracy: 0.911377
+21-09-29 22:20:22.054 - INFO: train Epoch: 74 [00081920/00185122 (44%)]	Loss: 0.430376 cls Loss: 0.197399 offset Loss:0.007376 landmark Loss: 0.004273	Accuracy: 0.911300
+21-09-29 22:20:24.624 - INFO: train Epoch: 74 [00122880/00185122 (66%)]	Loss: 0.409451 cls Loss: 0.181630 offset Loss:0.007072 landmark Loss: 0.004319	Accuracy: 0.914319
+21-09-29 22:20:27.293 - INFO: train Epoch: 74 [00163840/00185122 (88%)]	Loss: 0.371041 cls Loss: 0.143496 offset Loss:0.007240 landmark Loss: 0.004138	Accuracy: 0.923264
+21-09-29 22:20:28.666 - INFO: train epoch Loss: 0.416337 cls Loss: 0.186501 bbox Loss: 0.007299 Accuracy: 0.911470
+21-09-29 22:20:29.592 - INFO: val Epoch: 74 [00000000/00052379 (00%)]	Loss: 0.408660 cls Loss: 0.178210 offset Loss:0.007491 landmark Loss: 0.004031	Accuracy: 0.925000
+21-09-29 22:20:32.290 - INFO: val Epoch: 74 [00040960/00052379 (77%)]	Loss: 0.387122 cls Loss: 0.156273 offset Loss:0.007401 landmark Loss: 0.004142	Accuracy: 0.931280
+21-09-29 22:20:32.975 - INFO: val epoch Loss: 0.413274 cls Loss: 0.186875 bbox Loss: 0.007148 Accuracy: 0.927239
+21-09-29 22:20:33.646 - INFO: train Epoch: 75 [00000000/00185122 (00%)]	Loss: 0.422906 cls Loss: 0.183993 offset Loss:0.007648 landmark Loss: 0.004297	Accuracy: 0.928315
+21-09-29 22:20:36.722 - INFO: train Epoch: 75 [00040960/00185122 (22%)]	Loss: 0.356585 cls Loss: 0.144973 offset Loss:0.006672 landmark Loss: 0.003908	Accuracy: 0.924551
+21-09-29 22:20:39.478 - INFO: train Epoch: 75 [00081920/00185122 (44%)]	Loss: 0.418487 cls Loss: 0.204125 offset Loss:0.006952 landmark Loss: 0.003766	Accuracy: 0.899401
+21-09-29 22:20:42.561 - INFO: train Epoch: 75 [00122880/00185122 (66%)]	Loss: 0.423690 cls Loss: 0.190455 offset Loss:0.007667 landmark Loss: 0.003995	Accuracy: 0.897497
+21-09-29 22:20:45.294 - INFO: train Epoch: 75 [00163840/00185122 (88%)]	Loss: 0.424096 cls Loss: 0.195591 offset Loss:0.007323 landmark Loss: 0.004102	Accuracy: 0.908102
+21-09-29 22:20:46.663 - INFO: train epoch Loss: 0.414916 cls Loss: 0.186225 bbox Loss: 0.007273 Accuracy: 0.911900
+21-09-29 22:20:47.365 - INFO: val Epoch: 75 [00000000/00052379 (00%)]	Loss: 0.399478 cls Loss: 0.172515 offset Loss:0.007156 landmark Loss: 0.004192	Accuracy: 0.924571
+21-09-29 22:20:50.025 - INFO: val Epoch: 75 [00040960/00052379 (77%)]	Loss: 0.410406 cls Loss: 0.187100 offset Loss:0.007072 landmark Loss: 0.004093	Accuracy: 0.906033
+21-09-29 22:20:50.647 - INFO: val epoch Loss: 0.413512 cls Loss: 0.185277 bbox Loss: 0.007233 Accuracy: 0.912826
+21-09-29 22:20:51.440 - INFO: train Epoch: 76 [00000000/00185122 (00%)]	Loss: 0.432122 cls Loss: 0.205148 offset Loss:0.007184 landmark Loss: 0.004165	Accuracy: 0.899408
+21-09-29 22:20:54.289 - INFO: train Epoch: 76 [00040960/00185122 (22%)]	Loss: 0.464864 cls Loss: 0.241414 offset Loss:0.006895 landmark Loss: 0.004278	Accuracy: 0.902353
+21-09-29 22:20:56.977 - INFO: train Epoch: 76 [00081920/00185122 (44%)]	Loss: 0.432385 cls Loss: 0.213723 offset Loss:0.006788 landmark Loss: 0.004146	Accuracy: 0.907059
+21-09-29 22:20:59.586 - INFO: train Epoch: 76 [00122880/00185122 (66%)]	Loss: 0.450065 cls Loss: 0.222748 offset Loss:0.007171 landmark Loss: 0.004194	Accuracy: 0.909530
+21-09-29 22:21:02.187 - INFO: train Epoch: 76 [00163840/00185122 (88%)]	Loss: 0.387816 cls Loss: 0.175276 offset Loss:0.006689 landmark Loss: 0.003938	Accuracy: 0.907143
+21-09-29 22:21:03.507 - INFO: train epoch Loss: 0.411205 cls Loss: 0.184060 bbox Loss: 0.007247 Accuracy: 0.912198
+21-09-29 22:21:04.257 - INFO: val Epoch: 76 [00000000/00052379 (00%)]	Loss: 0.393110 cls Loss: 0.172369 offset Loss:0.007015 landmark Loss: 0.004022	Accuracy: 0.918728
+21-09-29 22:21:07.334 - INFO: val Epoch: 76 [00040960/00052379 (77%)]	Loss: 0.401458 cls Loss: 0.182683 offset Loss:0.006699 landmark Loss: 0.004240	Accuracy: 0.919811
+21-09-29 22:21:08.073 - INFO: val epoch Loss: 0.408369 cls Loss: 0.184184 bbox Loss: 0.007124 Accuracy: 0.911865
+21-09-29 22:21:08.756 - INFO: train Epoch: 77 [00000000/00185122 (00%)]	Loss: 0.410625 cls Loss: 0.194137 offset Loss:0.006866 landmark Loss: 0.003959	Accuracy: 0.904481
+21-09-29 22:21:11.638 - INFO: train Epoch: 77 [00040960/00185122 (22%)]	Loss: 0.399881 cls Loss: 0.171218 offset Loss:0.007137 landmark Loss: 0.004296	Accuracy: 0.919277
+21-09-29 22:21:14.338 - INFO: train Epoch: 77 [00081920/00185122 (44%)]	Loss: 0.417715 cls Loss: 0.171548 offset Loss:0.008348 landmark Loss: 0.003961	Accuracy: 0.901561
+21-09-29 22:21:16.956 - INFO: train Epoch: 77 [00122880/00185122 (66%)]	Loss: 0.396036 cls Loss: 0.182972 offset Loss:0.006982 landmark Loss: 0.003671	Accuracy: 0.906213
+21-09-29 22:21:19.638 - INFO: train Epoch: 77 [00163840/00185122 (88%)]	Loss: 0.436602 cls Loss: 0.196838 offset Loss:0.007760 landmark Loss: 0.004228	Accuracy: 0.878019
+21-09-29 22:21:20.989 - INFO: train epoch Loss: 0.408965 cls Loss: 0.183398 bbox Loss: 0.007215 Accuracy: 0.909845
+21-09-29 22:21:21.887 - INFO: val Epoch: 77 [00000000/00052379 (00%)]	Loss: 0.399503 cls Loss: 0.173020 offset Loss:0.007168 landmark Loss: 0.004156	Accuracy: 0.904219
+21-09-29 22:21:24.667 - INFO: val Epoch: 77 [00040960/00052379 (77%)]	Loss: 0.412657 cls Loss: 0.184565 offset Loss:0.007178 landmark Loss: 0.004227	Accuracy: 0.896226
+21-09-29 22:21:25.394 - INFO: val epoch Loss: 0.405637 cls Loss: 0.182614 bbox Loss: 0.007083 Accuracy: 0.910425
+21-09-29 22:21:26.104 - INFO: train Epoch: 78 [00000000/00185122 (00%)]	Loss: 0.380960 cls Loss: 0.161827 offset Loss:0.007032 landmark Loss: 0.003925	Accuracy: 0.907430
+21-09-29 22:21:29.049 - INFO: train Epoch: 78 [00040960/00185122 (22%)]	Loss: 0.408862 cls Loss: 0.193735 offset Loss:0.006940 landmark Loss: 0.003817	Accuracy: 0.903457
+21-09-29 22:21:31.850 - INFO: train Epoch: 78 [00081920/00185122 (44%)]	Loss: 0.455353 cls Loss: 0.228461 offset Loss:0.007557 landmark Loss: 0.003787	Accuracy: 0.898082
+21-09-29 22:21:34.477 - INFO: train Epoch: 78 [00122880/00185122 (66%)]	Loss: 0.373883 cls Loss: 0.144606 offset Loss:0.007406 landmark Loss: 0.004057	Accuracy: 0.945586
+21-09-29 22:21:37.144 - INFO: train Epoch: 78 [00163840/00185122 (88%)]	Loss: 0.392769 cls Loss: 0.179130 offset Loss:0.006787 landmark Loss: 0.003895	Accuracy: 0.897285
+21-09-29 22:21:38.484 - INFO: train epoch Loss: 0.406454 cls Loss: 0.182291 bbox Loss: 0.007196 Accuracy: 0.910925
+21-09-29 22:21:39.564 - INFO: val Epoch: 78 [00000000/00052379 (00%)]	Loss: 0.409124 cls Loss: 0.180848 offset Loss:0.007476 landmark Loss: 0.003937	Accuracy: 0.927467
+21-09-29 22:21:42.241 - INFO: val Epoch: 78 [00040960/00052379 (77%)]	Loss: 0.371178 cls Loss: 0.139013 offset Loss:0.007655 landmark Loss: 0.003953	Accuracy: 0.919622
+21-09-29 22:21:42.962 - INFO: val epoch Loss: 0.403932 cls Loss: 0.181826 bbox Loss: 0.007125 Accuracy: 0.917376
+21-09-29 22:21:43.667 - INFO: train Epoch: 79 [00000000/00185122 (00%)]	Loss: 0.385094 cls Loss: 0.169939 offset Loss:0.006829 landmark Loss: 0.003929	Accuracy: 0.913095
+21-09-29 22:21:46.639 - INFO: train Epoch: 79 [00040960/00185122 (22%)]	Loss: 0.441254 cls Loss: 0.215274 offset Loss:0.007334 landmark Loss: 0.003965	Accuracy: 0.912260
+21-09-29 22:21:49.524 - INFO: train Epoch: 79 [00081920/00185122 (44%)]	Loss: 0.409876 cls Loss: 0.177713 offset Loss:0.007761 landmark Loss: 0.003847	Accuracy: 0.902829
+21-09-29 22:21:52.257 - INFO: train Epoch: 79 [00122880/00185122 (66%)]	Loss: 0.417797 cls Loss: 0.178344 offset Loss:0.007602 landmark Loss: 0.004371	Accuracy: 0.914738
+21-09-29 22:21:54.976 - INFO: train Epoch: 79 [00163840/00185122 (88%)]	Loss: 0.436999 cls Loss: 0.215874 offset Loss:0.007141 landmark Loss: 0.003915	Accuracy: 0.891765
+21-09-29 22:21:56.386 - INFO: train epoch Loss: 0.404070 cls Loss: 0.181468 bbox Loss: 0.007168 Accuracy: 0.910483
+21-09-29 22:21:57.138 - INFO: val Epoch: 79 [00000000/00052379 (00%)]	Loss: 0.424713 cls Loss: 0.196534 offset Loss:0.007132 landmark Loss: 0.004277	Accuracy: 0.902810
+21-09-29 22:21:59.730 - INFO: val Epoch: 79 [00040960/00052379 (77%)]	Loss: 0.387432 cls Loss: 0.160561 offset Loss:0.007653 landmark Loss: 0.003691	Accuracy: 0.916067
+21-09-29 22:22:00.605 - INFO: val epoch Loss: 0.401158 cls Loss: 0.181180 bbox Loss: 0.007064 Accuracy: 0.905367
+21-09-29 22:22:01.280 - INFO: train Epoch: 80 [00000000/00185122 (00%)]	Loss: 0.392187 cls Loss: 0.187727 offset Loss:0.006550 landmark Loss: 0.003674	Accuracy: 0.917056
+21-09-29 22:22:04.202 - INFO: train Epoch: 80 [00040960/00185122 (22%)]	Loss: 0.372403 cls Loss: 0.153100 offset Loss:0.007069 landmark Loss: 0.003896	Accuracy: 0.917275
+21-09-29 22:22:06.992 - INFO: train Epoch: 80 [00081920/00185122 (44%)]	Loss: 0.391464 cls Loss: 0.177874 offset Loss:0.006977 landmark Loss: 0.003702	Accuracy: 0.905389
+21-09-29 22:22:10.287 - INFO: train Epoch: 80 [00122880/00185122 (66%)]	Loss: 0.367039 cls Loss: 0.145423 offset Loss:0.007112 landmark Loss: 0.003968	Accuracy: 0.917062
+21-09-29 22:22:13.057 - INFO: train Epoch: 80 [00163840/00185122 (88%)]	Loss: 0.411603 cls Loss: 0.177164 offset Loss:0.007684 landmark Loss: 0.004038	Accuracy: 0.914945
+21-09-29 22:22:14.366 - INFO: train epoch Loss: 0.399337 cls Loss: 0.178951 bbox Loss: 0.007117 Accuracy: 0.911384
+21-09-29 22:22:15.085 - INFO: val Epoch: 80 [00000000/00052379 (00%)]	Loss: 0.427474 cls Loss: 0.209491 offset Loss:0.006885 landmark Loss: 0.004014	Accuracy: 0.894495
+21-09-29 22:22:17.742 - INFO: val Epoch: 80 [00040960/00052379 (77%)]	Loss: 0.440797 cls Loss: 0.217075 offset Loss:0.007308 landmark Loss: 0.003878	Accuracy: 0.880048
+21-09-29 22:22:18.422 - INFO: val epoch Loss: 0.398425 cls Loss: 0.180348 bbox Loss: 0.007003 Accuracy: 0.906570
+21-09-29 22:22:19.122 - INFO: train Epoch: 81 [00000000/00185122 (00%)]	Loss: 0.362163 cls Loss: 0.148837 offset Loss:0.006992 landmark Loss: 0.003675	Accuracy: 0.915691
+21-09-29 22:22:22.122 - INFO: train Epoch: 81 [00040960/00185122 (22%)]	Loss: 0.388566 cls Loss: 0.173426 offset Loss:0.006805 landmark Loss: 0.003952	Accuracy: 0.923536
+21-09-29 22:22:24.784 - INFO: train Epoch: 81 [00081920/00185122 (44%)]	Loss: 0.392205 cls Loss: 0.182065 offset Loss:0.006567 landmark Loss: 0.003940	Accuracy: 0.902728
+21-09-29 22:22:27.422 - INFO: train Epoch: 81 [00122880/00185122 (66%)]	Loss: 0.394413 cls Loss: 0.174141 offset Loss:0.007073 landmark Loss: 0.003941	Accuracy: 0.907253
+21-09-29 22:22:30.045 - INFO: train Epoch: 81 [00163840/00185122 (88%)]	Loss: 0.367149 cls Loss: 0.158645 offset Loss:0.006517 landmark Loss: 0.003908	Accuracy: 0.923077
+21-09-29 22:22:31.339 - INFO: train epoch Loss: 0.398990 cls Loss: 0.178847 bbox Loss: 0.007112 Accuracy: 0.909930
+21-09-29 22:22:32.017 - INFO: val Epoch: 81 [00000000/00052379 (00%)]	Loss: 0.345178 cls Loss: 0.138040 offset Loss:0.006685 landmark Loss: 0.003672	Accuracy: 0.917620
+21-09-29 22:22:34.753 - INFO: val Epoch: 81 [00040960/00052379 (77%)]	Loss: 0.383019 cls Loss: 0.167867 offset Loss:0.006841 landmark Loss: 0.003917	Accuracy: 0.922463
+21-09-29 22:22:35.376 - INFO: val epoch Loss: 0.398510 cls Loss: 0.180460 bbox Loss: 0.007004 Accuracy: 0.912273
+21-09-29 22:22:36.084 - INFO: train Epoch: 82 [00000000/00185122 (00%)]	Loss: 0.390094 cls Loss: 0.156821 offset Loss:0.007338 landmark Loss: 0.004326	Accuracy: 0.923451
+21-09-29 22:22:38.988 - INFO: train Epoch: 82 [00040960/00185122 (22%)]	Loss: 0.369206 cls Loss: 0.164871 offset Loss:0.006681 landmark Loss: 0.003535	Accuracy: 0.903226
+21-09-29 22:22:42.380 - INFO: train Epoch: 82 [00081920/00185122 (44%)]	Loss: 0.415051 cls Loss: 0.184980 offset Loss:0.007169 landmark Loss: 0.004334	Accuracy: 0.892774
+21-09-29 22:22:45.078 - INFO: train Epoch: 82 [00122880/00185122 (66%)]	Loss: 0.375400 cls Loss: 0.149447 offset Loss:0.007274 landmark Loss: 0.004024	Accuracy: 0.921875
+21-09-29 22:22:47.741 - INFO: train Epoch: 82 [00163840/00185122 (88%)]	Loss: 0.349855 cls Loss: 0.131132 offset Loss:0.006746 landmark Loss: 0.004190	Accuracy: 0.929594
+21-09-29 22:22:49.204 - INFO: train epoch Loss: 0.398656 cls Loss: 0.178667 bbox Loss: 0.007109 Accuracy: 0.909671
+21-09-29 22:22:49.909 - INFO: val Epoch: 82 [00000000/00052379 (00%)]	Loss: 0.391424 cls Loss: 0.182328 offset Loss:0.006870 landmark Loss: 0.003585	Accuracy: 0.913551
+21-09-29 22:22:52.635 - INFO: val Epoch: 82 [00040960/00052379 (77%)]	Loss: 0.377940 cls Loss: 0.158802 offset Loss:0.007085 landmark Loss: 0.003872	Accuracy: 0.922984
+21-09-29 22:22:53.266 - INFO: val epoch Loss: 0.398225 cls Loss: 0.180223 bbox Loss: 0.007005 Accuracy: 0.912372
+21-09-29 22:22:53.962 - INFO: train Epoch: 83 [00000000/00185122 (00%)]	Loss: 0.401841 cls Loss: 0.185619 offset Loss:0.007148 landmark Loss: 0.003663	Accuracy: 0.897590
+21-09-29 22:22:56.863 - INFO: train Epoch: 83 [00040960/00185122 (22%)]	Loss: 0.395816 cls Loss: 0.171596 offset Loss:0.007318 landmark Loss: 0.003893	Accuracy: 0.913939
+21-09-29 22:22:59.740 - INFO: train Epoch: 83 [00081920/00185122 (44%)]	Loss: 0.413537 cls Loss: 0.182094 offset Loss:0.007483 landmark Loss: 0.004089	Accuracy: 0.903457
+21-09-29 22:23:02.455 - INFO: train Epoch: 83 [00122880/00185122 (66%)]	Loss: 0.395584 cls Loss: 0.184265 offset Loss:0.006741 landmark Loss: 0.003825	Accuracy: 0.910361
+21-09-29 22:23:05.292 - INFO: train Epoch: 83 [00163840/00185122 (88%)]	Loss: 0.384494 cls Loss: 0.163717 offset Loss:0.006938 landmark Loss: 0.004101	Accuracy: 0.917266
+21-09-29 22:23:06.602 - INFO: train epoch Loss: 0.398348 cls Loss: 0.178540 bbox Loss: 0.007106 Accuracy: 0.910639
+21-09-29 22:23:07.297 - INFO: val Epoch: 83 [00000000/00052379 (00%)]	Loss: 0.428552 cls Loss: 0.210680 offset Loss:0.006787 landmark Loss: 0.004107	Accuracy: 0.915332
+21-09-29 22:23:10.090 - INFO: val Epoch: 83 [00040960/00052379 (77%)]	Loss: 0.398849 cls Loss: 0.189550 offset Loss:0.006587 landmark Loss: 0.003878	Accuracy: 0.916959
+21-09-29 22:23:10.724 - INFO: val epoch Loss: 0.397968 cls Loss: 0.180283 bbox Loss: 0.006995 Accuracy: 0.909074
+21-09-29 22:23:11.497 - INFO: train Epoch: 84 [00000000/00185122 (00%)]	Loss: 0.426993 cls Loss: 0.208236 offset Loss:0.006944 landmark Loss: 0.003994	Accuracy: 0.894089
+21-09-29 22:23:15.146 - INFO: train Epoch: 84 [00040960/00185122 (22%)]	Loss: 0.373676 cls Loss: 0.131730 offset Loss:0.007986 landmark Loss: 0.004112	Accuracy: 0.906326
+21-09-29 22:23:17.842 - INFO: train Epoch: 84 [00081920/00185122 (44%)]	Loss: 0.449588 cls Loss: 0.224126 offset Loss:0.007362 landmark Loss: 0.003911	Accuracy: 0.893333
+21-09-29 22:23:20.758 - INFO: train Epoch: 84 [00122880/00185122 (66%)]	Loss: 0.394422 cls Loss: 0.178075 offset Loss:0.006993 landmark Loss: 0.003825	Accuracy: 0.908102
+21-09-29 22:23:23.583 - INFO: train Epoch: 84 [00163840/00185122 (88%)]	Loss: 0.372080 cls Loss: 0.151084 offset Loss:0.007032 landmark Loss: 0.004017	Accuracy: 0.904648
+21-09-29 22:23:24.998 - INFO: train epoch Loss: 0.398091 cls Loss: 0.178438 bbox Loss: 0.007103 Accuracy: 0.909772
+21-09-29 22:23:25.675 - INFO: val Epoch: 84 [00000000/00052379 (00%)]	Loss: 0.412265 cls Loss: 0.179560 offset Loss:0.007698 landmark Loss: 0.003937	Accuracy: 0.921546
+21-09-29 22:23:28.273 - INFO: val Epoch: 84 [00040960/00052379 (77%)]	Loss: 0.379904 cls Loss: 0.159532 offset Loss:0.007021 landmark Loss: 0.003997	Accuracy: 0.899050
+21-09-29 22:23:28.916 - INFO: val epoch Loss: 0.398066 cls Loss: 0.180511 bbox Loss: 0.007000 Accuracy: 0.913036
+21-09-29 22:23:29.581 - INFO: train Epoch: 85 [00000000/00185122 (00%)]	Loss: 0.439281 cls Loss: 0.200275 offset Loss:0.007621 landmark Loss: 0.004330	Accuracy: 0.904704
+21-09-29 22:23:32.487 - INFO: train Epoch: 85 [00040960/00185122 (22%)]	Loss: 0.364869 cls Loss: 0.155822 offset Loss:0.006669 landmark Loss: 0.003783	Accuracy: 0.913507
+21-09-29 22:23:35.172 - INFO: train Epoch: 85 [00081920/00185122 (44%)]	Loss: 0.381893 cls Loss: 0.153092 offset Loss:0.007144 landmark Loss: 0.004296	Accuracy: 0.918951
+21-09-29 22:23:37.946 - INFO: train Epoch: 85 [00122880/00185122 (66%)]	Loss: 0.465650 cls Loss: 0.256569 offset Loss:0.006887 landmark Loss: 0.003567	Accuracy: 0.886091
+21-09-29 22:23:40.777 - INFO: train Epoch: 85 [00163840/00185122 (88%)]	Loss: 0.395041 cls Loss: 0.173940 offset Loss:0.007077 landmark Loss: 0.003978	Accuracy: 0.919903
+21-09-29 22:23:42.096 - INFO: train epoch Loss: 0.397678 cls Loss: 0.178233 bbox Loss: 0.007100 Accuracy: 0.910216
+21-09-29 22:23:42.792 - INFO: val Epoch: 85 [00000000/00052379 (00%)]	Loss: 0.409711 cls Loss: 0.199036 offset Loss:0.006810 landmark Loss: 0.003723	Accuracy: 0.890805
+21-09-29 22:23:46.125 - INFO: val Epoch: 85 [00040960/00052379 (77%)]	Loss: 0.367470 cls Loss: 0.147922 offset Loss:0.007048 landmark Loss: 0.003929	Accuracy: 0.934256
+21-09-29 22:23:47.007 - INFO: val epoch Loss: 0.397298 cls Loss: 0.179920 bbox Loss: 0.006992 Accuracy: 0.910291
+21-09-29 22:23:47.744 - INFO: train Epoch: 86 [00000000/00185122 (00%)]	Loss: 0.410556 cls Loss: 0.188583 offset Loss:0.006819 landmark Loss: 0.004280	Accuracy: 0.896719
+21-09-29 22:23:50.607 - INFO: train Epoch: 86 [00040960/00185122 (22%)]	Loss: 0.375528 cls Loss: 0.154593 offset Loss:0.006923 landmark Loss: 0.004123	Accuracy: 0.899764
+21-09-29 22:23:53.282 - INFO: train Epoch: 86 [00081920/00185122 (44%)]	Loss: 0.382845 cls Loss: 0.144311 offset Loss:0.007910 landmark Loss: 0.004016	Accuracy: 0.922046
+21-09-29 22:23:55.865 - INFO: train Epoch: 86 [00122880/00185122 (66%)]	Loss: 0.398079 cls Loss: 0.189942 offset Loss:0.006627 landmark Loss: 0.003780	Accuracy: 0.908257
+21-09-29 22:23:58.522 - INFO: train Epoch: 86 [00163840/00185122 (88%)]	Loss: 0.389581 cls Loss: 0.170080 offset Loss:0.007293 landmark Loss: 0.003682	Accuracy: 0.916268
+21-09-29 22:23:59.834 - INFO: train epoch Loss: 0.397599 cls Loss: 0.178310 bbox Loss: 0.007096 Accuracy: 0.909864
+21-09-29 22:24:00.575 - INFO: val Epoch: 86 [00000000/00052379 (00%)]	Loss: 0.404550 cls Loss: 0.185385 offset Loss:0.006949 landmark Loss: 0.004009	Accuracy: 0.908772
+21-09-29 22:24:03.183 - INFO: val Epoch: 86 [00040960/00052379 (77%)]	Loss: 0.427719 cls Loss: 0.208438 offset Loss:0.007086 landmark Loss: 0.003878	Accuracy: 0.916667
+21-09-29 22:24:03.798 - INFO: val epoch Loss: 0.397045 cls Loss: 0.180000 bbox Loss: 0.006985 Accuracy: 0.907056
+21-09-29 22:24:04.554 - INFO: train Epoch: 87 [00000000/00185122 (00%)]	Loss: 0.428179 cls Loss: 0.211344 offset Loss:0.007024 landmark Loss: 0.003818	Accuracy: 0.895558
+21-09-29 22:24:07.474 - INFO: train Epoch: 87 [00040960/00185122 (22%)]	Loss: 0.398399 cls Loss: 0.185184 offset Loss:0.007017 landmark Loss: 0.003644	Accuracy: 0.914081
+21-09-29 22:24:10.135 - INFO: train Epoch: 87 [00081920/00185122 (44%)]	Loss: 0.338029 cls Loss: 0.122886 offset Loss:0.006918 landmark Loss: 0.003839	Accuracy: 0.928910
+21-09-29 22:24:12.824 - INFO: train Epoch: 87 [00122880/00185122 (66%)]	Loss: 0.412541 cls Loss: 0.178038 offset Loss:0.007598 landmark Loss: 0.004127	Accuracy: 0.921893
+21-09-29 22:24:15.474 - INFO: train Epoch: 87 [00163840/00185122 (88%)]	Loss: 0.374302 cls Loss: 0.162204 offset Loss:0.006902 landmark Loss: 0.003702	Accuracy: 0.915877
+21-09-29 22:24:17.045 - INFO: train epoch Loss: 0.397056 cls Loss: 0.177956 bbox Loss: 0.007093 Accuracy: 0.909007
+21-09-29 22:24:17.792 - INFO: val Epoch: 87 [00000000/00052379 (00%)]	Loss: 0.385635 cls Loss: 0.170608 offset Loss:0.007014 landmark Loss: 0.003737	Accuracy: 0.913551
+21-09-29 22:24:20.725 - INFO: val Epoch: 87 [00040960/00052379 (77%)]	Loss: 0.352400 cls Loss: 0.143705 offset Loss:0.006729 landmark Loss: 0.003706	Accuracy: 0.913793
+21-09-29 22:24:21.345 - INFO: val epoch Loss: 0.396885 cls Loss: 0.180121 bbox Loss: 0.006980 Accuracy: 0.912282
+21-09-29 22:24:22.103 - INFO: train Epoch: 88 [00000000/00185122 (00%)]	Loss: 0.372802 cls Loss: 0.149031 offset Loss:0.007487 landmark Loss: 0.003702	Accuracy: 0.917576
+21-09-29 22:24:24.996 - INFO: train Epoch: 88 [00040960/00185122 (22%)]	Loss: 0.412565 cls Loss: 0.188759 offset Loss:0.007161 landmark Loss: 0.004029	Accuracy: 0.902148
+21-09-29 22:24:27.722 - INFO: train Epoch: 88 [00081920/00185122 (44%)]	Loss: 0.354260 cls Loss: 0.141676 offset Loss:0.006848 landmark Loss: 0.003781	Accuracy: 0.923900
+21-09-29 22:24:30.346 - INFO: train Epoch: 88 [00122880/00185122 (66%)]	Loss: 0.372046 cls Loss: 0.162961 offset Loss:0.006825 landmark Loss: 0.003630	Accuracy: 0.919952
+21-09-29 22:24:32.904 - INFO: train Epoch: 88 [00163840/00185122 (88%)]	Loss: 0.392781 cls Loss: 0.168945 offset Loss:0.007108 landmark Loss: 0.004084	Accuracy: 0.913462
+21-09-29 22:24:34.214 - INFO: train epoch Loss: 0.396641 cls Loss: 0.177809 bbox Loss: 0.007089 Accuracy: 0.909740
+21-09-29 22:24:35.110 - INFO: val Epoch: 88 [00000000/00052379 (00%)]	Loss: 0.380425 cls Loss: 0.171731 offset Loss:0.006767 landmark Loss: 0.003667	Accuracy: 0.907834
+21-09-29 22:24:37.760 - INFO: val Epoch: 88 [00040960/00052379 (77%)]	Loss: 0.422527 cls Loss: 0.215762 offset Loss:0.006633 landmark Loss: 0.003705	Accuracy: 0.900718
+21-09-29 22:24:38.437 - INFO: val epoch Loss: 0.396796 cls Loss: 0.180035 bbox Loss: 0.006985 Accuracy: 0.908524
+21-09-29 22:24:39.343 - INFO: train Epoch: 89 [00000000/00185122 (00%)]	Loss: 0.388054 cls Loss: 0.170075 offset Loss:0.006938 landmark Loss: 0.003961	Accuracy: 0.920732
+21-09-29 22:24:42.738 - INFO: train Epoch: 89 [00040960/00185122 (22%)]	Loss: 0.390725 cls Loss: 0.163242 offset Loss:0.007516 landmark Loss: 0.003858	Accuracy: 0.909747
+21-09-29 22:24:45.385 - INFO: train Epoch: 89 [00081920/00185122 (44%)]	Loss: 0.352421 cls Loss: 0.142901 offset Loss:0.006910 landmark Loss: 0.003566	Accuracy: 0.916564
+21-09-29 22:24:48.022 - INFO: train Epoch: 89 [00122880/00185122 (66%)]	Loss: 0.402829 cls Loss: 0.192257 offset Loss:0.006793 landmark Loss: 0.003736	Accuracy: 0.904421
+21-09-29 22:24:50.738 - INFO: train Epoch: 89 [00163840/00185122 (88%)]	Loss: 0.398784 cls Loss: 0.179959 offset Loss:0.006921 landmark Loss: 0.004020	Accuracy: 0.906024
+21-09-29 22:24:52.189 - INFO: train epoch Loss: 0.396507 cls Loss: 0.177878 bbox Loss: 0.007084 Accuracy: 0.909635
+21-09-29 22:24:52.871 - INFO: val Epoch: 89 [00000000/00052379 (00%)]	Loss: 0.386745 cls Loss: 0.171805 offset Loss:0.006999 landmark Loss: 0.003748	Accuracy: 0.919954
+21-09-29 22:24:55.669 - INFO: val Epoch: 89 [00040960/00052379 (77%)]	Loss: 0.359764 cls Loss: 0.126337 offset Loss:0.007636 landmark Loss: 0.004035	Accuracy: 0.924154
+21-09-29 22:24:56.328 - INFO: val epoch Loss: 0.396008 cls Loss: 0.179359 bbox Loss: 0.006982 Accuracy: 0.908098
+21-09-29 22:24:57.004 - INFO: train Epoch: 90 [00000000/00185122 (00%)]	Loss: 0.371359 cls Loss: 0.157903 offset Loss:0.007001 landmark Loss: 0.003672	Accuracy: 0.922894
+21-09-29 22:24:59.924 - INFO: train Epoch: 90 [00040960/00185122 (22%)]	Loss: 0.415394 cls Loss: 0.191021 offset Loss:0.007495 landmark Loss: 0.003724	Accuracy: 0.910287
+21-09-29 22:25:02.622 - INFO: train Epoch: 90 [00081920/00185122 (44%)]	Loss: 0.393679 cls Loss: 0.170552 offset Loss:0.007108 landmark Loss: 0.004049	Accuracy: 0.916160
+21-09-29 22:25:05.224 - INFO: train Epoch: 90 [00122880/00185122 (66%)]	Loss: 0.405717 cls Loss: 0.185046 offset Loss:0.007477 landmark Loss: 0.003557	Accuracy: 0.905048
+21-09-29 22:25:07.857 - INFO: train Epoch: 90 [00163840/00185122 (88%)]	Loss: 0.411109 cls Loss: 0.189654 offset Loss:0.007173 landmark Loss: 0.003900	Accuracy: 0.903686
+21-09-29 22:25:09.332 - INFO: train epoch Loss: 0.396243 cls Loss: 0.177814 bbox Loss: 0.007081 Accuracy: 0.909120
+21-09-29 22:25:10.028 - INFO: val Epoch: 90 [00000000/00052379 (00%)]	Loss: 0.414275 cls Loss: 0.195223 offset Loss:0.007072 landmark Loss: 0.003881	Accuracy: 0.898823
+21-09-29 22:25:12.604 - INFO: val Epoch: 90 [00040960/00052379 (77%)]	Loss: 0.371643 cls Loss: 0.157394 offset Loss:0.007131 landmark Loss: 0.003582	Accuracy: 0.912633
+21-09-29 22:25:13.295 - INFO: val epoch Loss: 0.395445 cls Loss: 0.178916 bbox Loss: 0.006981 Accuracy: 0.907919
+21-09-29 22:25:14.126 - INFO: train Epoch: 91 [00000000/00185122 (00%)]	Loss: 0.414580 cls Loss: 0.192157 offset Loss:0.007381 landmark Loss: 0.003740	Accuracy: 0.905728
+21-09-29 22:25:16.995 - INFO: train Epoch: 91 [00040960/00185122 (22%)]	Loss: 0.373711 cls Loss: 0.146008 offset Loss:0.007372 landmark Loss: 0.004013	Accuracy: 0.910319
+21-09-29 22:25:19.671 - INFO: train Epoch: 91 [00081920/00185122 (44%)]	Loss: 0.378459 cls Loss: 0.162571 offset Loss:0.006824 landmark Loss: 0.003970	Accuracy: 0.912154
+21-09-29 22:25:22.756 - INFO: train Epoch: 91 [00122880/00185122 (66%)]	Loss: 0.419880 cls Loss: 0.197290 offset Loss:0.006863 landmark Loss: 0.004267	Accuracy: 0.898689
+21-09-29 22:25:25.692 - INFO: train Epoch: 91 [00163840/00185122 (88%)]	Loss: 0.380807 cls Loss: 0.161595 offset Loss:0.007251 landmark Loss: 0.003709	Accuracy: 0.909877
+21-09-29 22:25:27.014 - INFO: train epoch Loss: 0.395521 cls Loss: 0.177349 bbox Loss: 0.007076 Accuracy: 0.909038
+21-09-29 22:25:27.707 - INFO: val Epoch: 91 [00000000/00052379 (00%)]	Loss: 0.440515 cls Loss: 0.226539 offset Loss:0.006715 landmark Loss: 0.003984	Accuracy: 0.889019
+21-09-29 22:25:30.369 - INFO: val Epoch: 91 [00040960/00052379 (77%)]	Loss: 0.386251 cls Loss: 0.160508 offset Loss:0.007458 landmark Loss: 0.003830	Accuracy: 0.901679
+21-09-29 22:25:31.012 - INFO: val epoch Loss: 0.395181 cls Loss: 0.178897 bbox Loss: 0.006978 Accuracy: 0.905031
+21-09-29 22:25:31.792 - INFO: train Epoch: 92 [00000000/00185122 (00%)]	Loss: 0.404763 cls Loss: 0.193919 offset Loss:0.006648 landmark Loss: 0.003894	Accuracy: 0.896635
+21-09-29 22:25:34.862 - INFO: train Epoch: 92 [00040960/00185122 (22%)]	Loss: 0.398724 cls Loss: 0.193266 offset Loss:0.006459 landmark Loss: 0.003814	Accuracy: 0.914766
+21-09-29 22:25:38.082 - INFO: train Epoch: 92 [00081920/00185122 (44%)]	Loss: 0.384602 cls Loss: 0.158710 offset Loss:0.007406 landmark Loss: 0.003888	Accuracy: 0.924113
+21-09-29 22:25:41.028 - INFO: train Epoch: 92 [00122880/00185122 (66%)]	Loss: 0.384081 cls Loss: 0.179569 offset Loss:0.006736 landmark Loss: 0.003490	Accuracy: 0.912833
+21-09-29 22:25:43.677 - INFO: train Epoch: 92 [00163840/00185122 (88%)]	Loss: 0.428259 cls Loss: 0.219258 offset Loss:0.006651 landmark Loss: 0.003799	Accuracy: 0.909198
+21-09-29 22:25:45.009 - INFO: train epoch Loss: 0.395291 cls Loss: 0.177345 bbox Loss: 0.007073 Accuracy: 0.909519
+21-09-29 22:25:45.723 - INFO: val Epoch: 92 [00000000/00052379 (00%)]	Loss: 0.426818 cls Loss: 0.200884 offset Loss:0.007358 landmark Loss: 0.003938	Accuracy: 0.897497
+21-09-29 22:25:48.356 - INFO: val Epoch: 92 [00040960/00052379 (77%)]	Loss: 0.426816 cls Loss: 0.204716 offset Loss:0.007060 landmark Loss: 0.004045	Accuracy: 0.889535
+21-09-29 22:25:49.002 - INFO: val epoch Loss: 0.395156 cls Loss: 0.179087 bbox Loss: 0.006978 Accuracy: 0.903649
+21-09-29 22:25:49.722 - INFO: train Epoch: 93 [00000000/00185122 (00%)]	Loss: 0.382291 cls Loss: 0.150767 offset Loss:0.007493 landmark Loss: 0.004083	Accuracy: 0.922318
+21-09-29 22:25:52.782 - INFO: train Epoch: 93 [00040960/00185122 (22%)]	Loss: 0.357146 cls Loss: 0.150978 offset Loss:0.006865 landmark Loss: 0.003443	Accuracy: 0.918632
+21-09-29 22:25:55.437 - INFO: train Epoch: 93 [00081920/00185122 (44%)]	Loss: 0.420790 cls Loss: 0.212076 offset Loss:0.006686 landmark Loss: 0.003749	Accuracy: 0.881010
+21-09-29 22:25:58.275 - INFO: train Epoch: 93 [00122880/00185122 (66%)]	Loss: 0.344803 cls Loss: 0.138171 offset Loss:0.006805 landmark Loss: 0.003526	Accuracy: 0.921986
+21-09-29 22:26:01.022 - INFO: train Epoch: 93 [00163840/00185122 (88%)]	Loss: 0.396806 cls Loss: 0.194068 offset Loss:0.006704 landmark Loss: 0.003433	Accuracy: 0.904934
+21-09-29 22:26:02.541 - INFO: train epoch Loss: 0.394606 cls Loss: 0.176961 bbox Loss: 0.007066 Accuracy: 0.908413
+21-09-29 22:26:03.225 - INFO: val Epoch: 93 [00000000/00052379 (00%)]	Loss: 0.441373 cls Loss: 0.218070 offset Loss:0.007144 landmark Loss: 0.004021	Accuracy: 0.909513
+21-09-29 22:26:05.884 - INFO: val Epoch: 93 [00040960/00052379 (77%)]	Loss: 0.410796 cls Loss: 0.202827 offset Loss:0.006562 landmark Loss: 0.003836	Accuracy: 0.920323
+21-09-29 22:26:06.765 - INFO: val epoch Loss: 0.394651 cls Loss: 0.179153 bbox Loss: 0.006957 Accuracy: 0.914310
+21-09-29 22:26:07.539 - INFO: train Epoch: 94 [00000000/00185122 (00%)]	Loss: 0.380788 cls Loss: 0.157173 offset Loss:0.007250 landmark Loss: 0.003930	Accuracy: 0.921403
+21-09-29 22:26:10.425 - INFO: train Epoch: 94 [00040960/00185122 (22%)]	Loss: 0.393893 cls Loss: 0.172422 offset Loss:0.007132 landmark Loss: 0.003941	Accuracy: 0.895662
+21-09-29 22:26:13.254 - INFO: train Epoch: 94 [00081920/00185122 (44%)]	Loss: 0.391580 cls Loss: 0.175184 offset Loss:0.007100 landmark Loss: 0.003720	Accuracy: 0.906780
+21-09-29 22:26:15.950 - INFO: train Epoch: 94 [00122880/00185122 (66%)]	Loss: 0.421779 cls Loss: 0.210598 offset Loss:0.006862 landmark Loss: 0.003698	Accuracy: 0.899642
+21-09-29 22:26:18.576 - INFO: train Epoch: 94 [00163840/00185122 (88%)]	Loss: 0.360193 cls Loss: 0.146989 offset Loss:0.006925 landmark Loss: 0.003735	Accuracy: 0.931442
+21-09-29 22:26:19.912 - INFO: train epoch Loss: 0.394443 cls Loss: 0.176968 bbox Loss: 0.007064 Accuracy: 0.909520
+21-09-29 22:26:20.594 - INFO: val Epoch: 94 [00000000/00052379 (00%)]	Loss: 0.371598 cls Loss: 0.143779 offset Loss:0.007514 landmark Loss: 0.003877	Accuracy: 0.910569
+21-09-29 22:26:23.238 - INFO: val Epoch: 94 [00040960/00052379 (77%)]	Loss: 0.369498 cls Loss: 0.154155 offset Loss:0.007009 landmark Loss: 0.003759	Accuracy: 0.897196
+21-09-29 22:26:23.875 - INFO: val epoch Loss: 0.393922 cls Loss: 0.178469 bbox Loss: 0.006958 Accuracy: 0.903966
+21-09-29 22:26:24.647 - INFO: train Epoch: 95 [00000000/00185122 (00%)]	Loss: 0.429500 cls Loss: 0.205270 offset Loss:0.007096 landmark Loss: 0.004116	Accuracy: 0.903846
+21-09-29 22:26:28.284 - INFO: train Epoch: 95 [00040960/00185122 (22%)]	Loss: 0.414491 cls Loss: 0.200154 offset Loss:0.006783 landmark Loss: 0.003934	Accuracy: 0.915274
+21-09-29 22:26:31.138 - INFO: train Epoch: 95 [00081920/00185122 (44%)]	Loss: 0.386144 cls Loss: 0.175479 offset Loss:0.006796 landmark Loss: 0.003737	Accuracy: 0.893491
+21-09-29 22:26:34.245 - INFO: train Epoch: 95 [00122880/00185122 (66%)]	Loss: 0.389627 cls Loss: 0.170717 offset Loss:0.007344 landmark Loss: 0.003602	Accuracy: 0.911300
+21-09-29 22:26:37.122 - INFO: train Epoch: 95 [00163840/00185122 (88%)]	Loss: 0.354895 cls Loss: 0.142139 offset Loss:0.007216 landmark Loss: 0.003422	Accuracy: 0.913357
+21-09-29 22:26:38.509 - INFO: train epoch Loss: 0.394052 cls Loss: 0.176869 bbox Loss: 0.007058 Accuracy: 0.908646
+21-09-29 22:26:39.190 - INFO: val Epoch: 95 [00000000/00052379 (00%)]	Loss: 0.426488 cls Loss: 0.207678 offset Loss:0.007049 landmark Loss: 0.003892	Accuracy: 0.891580
+21-09-29 22:26:41.843 - INFO: val Epoch: 95 [00040960/00052379 (77%)]	Loss: 0.409429 cls Loss: 0.192615 offset Loss:0.007026 landmark Loss: 0.003815	Accuracy: 0.888367
+21-09-29 22:26:42.610 - INFO: val epoch Loss: 0.393196 cls Loss: 0.178242 bbox Loss: 0.006945 Accuracy: 0.901631
+21-09-29 22:26:43.279 - INFO: train Epoch: 96 [00000000/00185122 (00%)]	Loss: 0.368065 cls Loss: 0.159303 offset Loss:0.006844 landmark Loss: 0.003595	Accuracy: 0.914286
+21-09-29 22:26:46.125 - INFO: train Epoch: 96 [00040960/00185122 (22%)]	Loss: 0.384740 cls Loss: 0.168061 offset Loss:0.007241 landmark Loss: 0.003593	Accuracy: 0.906634
+21-09-29 22:26:48.945 - INFO: train Epoch: 96 [00081920/00185122 (44%)]	Loss: 0.375061 cls Loss: 0.157121 offset Loss:0.007138 landmark Loss: 0.003759	Accuracy: 0.923259
+21-09-29 22:26:51.709 - INFO: train Epoch: 96 [00122880/00185122 (66%)]	Loss: 0.426350 cls Loss: 0.204213 offset Loss:0.007261 landmark Loss: 0.003846	Accuracy: 0.902709
+21-09-29 22:26:54.381 - INFO: train Epoch: 96 [00163840/00185122 (88%)]	Loss: 0.364729 cls Loss: 0.157145 offset Loss:0.007104 landmark Loss: 0.003275	Accuracy: 0.897129
+21-09-29 22:26:55.767 - INFO: train epoch Loss: 0.393399 cls Loss: 0.176509 bbox Loss: 0.007052 Accuracy: 0.909203
+21-09-29 22:26:56.475 - INFO: val Epoch: 96 [00000000/00052379 (00%)]	Loss: 0.411804 cls Loss: 0.204358 offset Loss:0.006848 landmark Loss: 0.003524	Accuracy: 0.902468
+21-09-29 22:26:59.269 - INFO: val Epoch: 96 [00040960/00052379 (77%)]	Loss: 0.403593 cls Loss: 0.176719 offset Loss:0.007397 landmark Loss: 0.003947	Accuracy: 0.894860
+21-09-29 22:26:59.911 - INFO: val epoch Loss: 0.394255 cls Loss: 0.179528 bbox Loss: 0.006945 Accuracy: 0.898148
+21-09-29 22:27:00.586 - INFO: train Epoch: 97 [00000000/00185122 (00%)]	Loss: 0.420696 cls Loss: 0.193618 offset Loss:0.007588 landmark Loss: 0.003766	Accuracy: 0.880332
+21-09-29 22:27:03.539 - INFO: train Epoch: 97 [00040960/00185122 (22%)]	Loss: 0.379127 cls Loss: 0.153319 offset Loss:0.007328 landmark Loss: 0.003963	Accuracy: 0.906173
+21-09-29 22:27:06.324 - INFO: train Epoch: 97 [00081920/00185122 (44%)]	Loss: 0.401597 cls Loss: 0.186931 offset Loss:0.006908 landmark Loss: 0.003825	Accuracy: 0.910180
+21-09-29 22:27:09.044 - INFO: train Epoch: 97 [00122880/00185122 (66%)]	Loss: 0.379298 cls Loss: 0.150954 offset Loss:0.007388 landmark Loss: 0.004030	Accuracy: 0.904358
+21-09-29 22:27:11.722 - INFO: train Epoch: 97 [00163840/00185122 (88%)]	Loss: 0.366806 cls Loss: 0.162962 offset Loss:0.006951 landmark Loss: 0.003241	Accuracy: 0.923358
+21-09-29 22:27:13.100 - INFO: train epoch Loss: 0.392923 cls Loss: 0.176297 bbox Loss: 0.007048 Accuracy: 0.908601
+21-09-29 22:27:13.929 - INFO: val Epoch: 97 [00000000/00052379 (00%)]	Loss: 0.376680 cls Loss: 0.168112 offset Loss:0.006637 landmark Loss: 0.003792	Accuracy: 0.901984
+21-09-29 22:27:16.558 - INFO: val Epoch: 97 [00040960/00052379 (77%)]	Loss: 0.420422 cls Loss: 0.196803 offset Loss:0.007403 landmark Loss: 0.003778	Accuracy: 0.892523
+21-09-29 22:27:17.188 - INFO: val epoch Loss: 0.392392 cls Loss: 0.177985 bbox Loss: 0.006935 Accuracy: 0.904726
+21-09-29 22:27:17.882 - INFO: train Epoch: 98 [00000000/00185122 (00%)]	Loss: 0.424131 cls Loss: 0.205637 offset Loss:0.007192 landmark Loss: 0.003733	Accuracy: 0.901937
+21-09-29 22:27:20.852 - INFO: train Epoch: 98 [00040960/00185122 (22%)]	Loss: 0.429859 cls Loss: 0.202499 offset Loss:0.007228 landmark Loss: 0.004140	Accuracy: 0.912575
+21-09-29 22:27:23.490 - INFO: train Epoch: 98 [00081920/00185122 (44%)]	Loss: 0.413575 cls Loss: 0.187737 offset Loss:0.007779 landmark Loss: 0.003513	Accuracy: 0.908544
+21-09-29 22:27:26.151 - INFO: train Epoch: 98 [00122880/00185122 (66%)]	Loss: 0.407258 cls Loss: 0.183421 offset Loss:0.007348 landmark Loss: 0.003844	Accuracy: 0.896468
+21-09-29 22:27:29.546 - INFO: train Epoch: 98 [00163840/00185122 (88%)]	Loss: 0.417304 cls Loss: 0.207582 offset Loss:0.007000 landmark Loss: 0.003487	Accuracy: 0.908759
+21-09-29 22:27:31.202 - INFO: train epoch Loss: 0.392639 cls Loss: 0.176251 bbox Loss: 0.007043 Accuracy: 0.908295
+21-09-29 22:27:31.957 - INFO: val Epoch: 98 [00000000/00052379 (00%)]	Loss: 0.378862 cls Loss: 0.168362 offset Loss:0.006883 landmark Loss: 0.003642	Accuracy: 0.924439
+21-09-29 22:27:34.628 - INFO: val Epoch: 98 [00040960/00052379 (77%)]	Loss: 0.419500 cls Loss: 0.207400 offset Loss:0.006788 landmark Loss: 0.003817	Accuracy: 0.908451
+21-09-29 22:27:35.399 - INFO: val epoch Loss: 0.391984 cls Loss: 0.177894 bbox Loss: 0.006929 Accuracy: 0.908392
+21-09-29 22:27:36.073 - INFO: train Epoch: 99 [00000000/00185122 (00%)]	Loss: 0.359125 cls Loss: 0.150655 offset Loss:0.006582 landmark Loss: 0.003842	Accuracy: 0.917744
+21-09-29 22:27:39.180 - INFO: train Epoch: 99 [00040960/00185122 (22%)]	Loss: 0.407375 cls Loss: 0.188045 offset Loss:0.006977 landmark Loss: 0.003990	Accuracy: 0.914591
+21-09-29 22:27:41.891 - INFO: train Epoch: 99 [00081920/00185122 (44%)]	Loss: 0.404042 cls Loss: 0.177382 offset Loss:0.007447 landmark Loss: 0.003886	Accuracy: 0.928571
+21-09-29 22:27:44.595 - INFO: train Epoch: 99 [00122880/00185122 (66%)]	Loss: 0.361477 cls Loss: 0.146620 offset Loss:0.007204 landmark Loss: 0.003539	Accuracy: 0.902410
+21-09-29 22:27:47.274 - INFO: train Epoch: 99 [00163840/00185122 (88%)]	Loss: 0.365049 cls Loss: 0.161615 offset Loss:0.006542 landmark Loss: 0.003630	Accuracy: 0.909091
+21-09-29 22:27:48.587 - INFO: train epoch Loss: 0.392065 cls Loss: 0.175926 bbox Loss: 0.007039 Accuracy: 0.909263
+21-09-29 22:27:49.279 - INFO: val Epoch: 99 [00000000/00052379 (00%)]	Loss: 0.396145 cls Loss: 0.191195 offset Loss:0.006417 landmark Loss: 0.003830	Accuracy: 0.882016
+21-09-29 22:27:51.911 - INFO: val Epoch: 99 [00040960/00052379 (77%)]	Loss: 0.372850 cls Loss: 0.151432 offset Loss:0.007384 landmark Loss: 0.003687	Accuracy: 0.899764
+21-09-29 22:27:52.585 - INFO: val epoch Loss: 0.392455 cls Loss: 0.178271 bbox Loss: 0.006933 Accuracy: 0.898762

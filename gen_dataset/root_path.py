@@ -1,0 +1,1 @@
+Root_path = "/home/aistudio/widerface"
