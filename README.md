@@ -104,7 +104,10 @@ python gen_dataset/gen_Onet_train_data.py
 ```
 
 修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
-
+```
+python gen_dataset/gen_Onet_landmark.py
+```
+修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
 ```
 python gen_dataset/assemble_Onet_imglist.py
 ```
@@ -113,7 +116,7 @@ python gen_dataset/assemble_Onet_imglist.py
 
 #### 7) 训练 ONet 模型
 ```
-python training/onet/train.py
+python training/onet/landmark_train.py
 ```
 
 
