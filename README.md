@@ -1,115 +1,120 @@
-# Repo for training, optimizing and deploying MTCNN for mobile devices
+# MTCNN_paddle
+## 一、简介
+本项目采用百度飞桨框架paddlepaddle复现Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks
 
-## Prepare dataset
-1. Download [WIDER FACE]() dataset and put them under `./data` directory.
-2. Transform matlab format label train and val format file into text format.
-   RUN `pyhon gen_dataset/transform_mat2txt.py`
-   Change the mode variable in `transform_mat2txt.py` to `val` to generate val data label.
-   
-## Train MTCNN
-### Train Pnet
-1. generate pnet training data:
-    RUN `python gen_dataset/gen_Pnet_data.py`
-    Change the mode variable in `gen_Pnet_data.py` to `val` to generate val data label.
-2. Training Pnet:
-    RUN `python training/pnet/train.py` to train your model.
-3. Save weights:
-    We use the validation dataset to help us with choose the best pnet model. The weights are saved in `pretrained_weights/mtcnn/best_pnet.pth`
+paper：[Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://arxiv.org/ftp/arxiv/papers/1604/1604.02878.pdf)
 
-### Train Rnet
-After we trained Pnet, we can use Pnet to generate data for training Rnet.
-1. generate Rnet training data:
-    RUN `python gen_dataset/gen_Rnet_data.py`
-    Change the mode variable in `gen_Pnet_data.py` to `val` to generate val data label.
-2. Training Rnet:
-    RUN `python training/rnet/train.py` to train your model.
-3. 3. Save weights:
-    We use the validation dataset to help us with choose the best rnet model. The weights are saved in `pretrained_weights/mtcnn/best_rnet.pth`
-    
-### Train Onet
-After we trained Pnet and Rnet, we can use Pnet and Rnet to generate data for training Onet.
-1. generate Onet training data:
-    RUN `python gen_dataset/gen_Onet_data.py`
-    Change the mode variable in `gen_Pnet_data.py` to `val` to generate val data label.
-2. Training Onet:
-    RUN `python training/Onet/train.py` to train your model.
-3. 3. Save weights:
-    We use the validation dataset to help us with choose the best onet model. The weights are saved in `pretrained_weights/mtcnn/best_onet.pth`
-    
-### Results
+## 二、复现结果
+![Results](https://github.com/icey-zhang/MTCNN_paddle/blob/main/detection_result/txtshow/DiscROC.png)
+## 四、实现
 
-|  WIDER FACE |  Pnet  |  Rnet |  Onet |
-| :---------: |:------:|:-----:|:-----:|
-|   cls loss  |  0.156 | 0.120| 0.129 |
-| offset loss |  0.01  | 0.01 | 0.0063|
-|   cls acc   |  0.944 | 0.962| 0.956 |
+### 1. 测试
+#### 1）安装opencv环境和gnuplot
+[参考](https://github.com/icey-zhang/MTCNN_paddle/blob/main/use/%E5%AE%89%E8%A3%85opencv.md)
 
-| PRIVATE DATA|  Pnet  |  Rnet |  Onet |
-| :---------: |:------:|:-----:|:-----:|
-|   cls loss  |  0.05  | 0.09 | 0.104 |
-| offset loss | 0.0047 | 0.011 | 0.0057|
-|   cls acc   |  0.983 | 0.971 | 0.970 |
+#### 2）数据集
+[下载链接aistudio](https://aistudio.baidu.com/aistudio/datasetdetail/110657)
 
-## Optimize MTCNN
-### Lighter MTCNN
-By combine shufflenet structure and mobilenet structure we can design light weight Pnet, Rnet, and Onet. In this way can can optimize the size of the model and at the same time decrease the inference speeed.
+其中train文件放到widerface目录下，命名为FacePoint
 
-### Larger Pnet
-According to my observation, small pnet brings many false positives which becomes a burden or rnet and onet. By increase the Pnet size, there will be less false positives and improve the overall efficiency.
+[RetinaFace-WIDER FACE](https://aistudio.baidu.com/aistudio/datasetdetail/104236)
 
-### Prune MTCNN
-
-Model Prunning is a better strategy than design mobile cnn for such small networks as Pnet, Rnet, and Onet. By iteratively pruning MTCNN models, we can decrease and model size and improve inference speed at the same time. 
-
-| PRIVATE DATA|  Pnet  |  Rnet |  Onet |
-| :---------: |:------:|:-----:|:-----:|
-|   cls loss  |  0.091  | 0.1223 | 0.1055 |
-| offset loss | 0.0055 | 0.0116 | 0.0062 |
-|   cls acc   |  0.970 | 0.958 | 0.959 |
-
-Inference speed benchmark using ncnn inference framework, we can seen from the chart below that the inference speed has been increased by 2-3 times.
+[FDDB人脸检测数据集](https://aistudio.baidu.com/aistudio/datasetdetail/37474)
 
 ```
-       pnet  min =   27.31  max =   28.31  avg =   27.62
-       rnet  min =    0.50  max =    0.62  avg =    0.58
-       onet  min =    3.14  max =    3.82  avg =    3.25
-pruned_pnet  min =    6.76  max =    7.13  avg =    6.89
-pruned_rnet  min =    0.21  max =    0.22  avg =    0.21
-pruned_onet  min =    1.16  max =    1.52  avg =    1.27
+├─FDDB
+   ├─2002
+   ├─2003
+   ├─FDDB-folds
+├─widerface
+   ├─FacePoint
+   ├─wider_face_split
+   ├─train
+   ├─val
+   ├─test
+├─MTCNN-master
 ```
-				  
-We could also treat prunning process as a *NAS(network architecture search)* procesure. After we obtained the model, we could train it from zero. And I achieved better accuracy using this method on pruned model above.
+#### 4）测试
+```
+python test_FDDB.py --fddb_path /home/aistudio/FDDB
+```
+#### 3）修改[runEvaluate.pl](https://github.com/icey-zhang/MTCNN_paddle/blob/main/evaluation/runEvaluate.pl)路径
+```
+my $imDir = "/home/data2/zhangjiaqing/FDDB/"; 
+# where the folds are
+my $fddbDir = "/home/data2/zhangjiaqing/FDDB/FDDB-folds/"; 
+# where the detections are
+my $detDir = "/home/zhangjiaqing/zjq/MTCNN_Tutorial-master/detection_result/txtshow/";
+```
+#### 4）评估
+```
+cd evaluation
+perl runEvaluate.pl
+```
+### 2. 训练
 
-| PRIVATE DATA|  Pnet  |  Rnet |  Onet |
-| :---------: |:------:|:-----:|:-----:|
-|   cls loss  | 0.0083  | 0.1038 | 0.0923 |
-| offset loss | 0.00588 | 0.012 | 0.00588 |
-|   cls acc   | 0.9718 | 0.965 | 0.9706 |
+以下各节以分步方式描述数据准备和网络训练
 
-### Quantization Aware Training
+#### 1) 准备 Wider_Face 注释文件
+修改目录
+原始的宽脸注释文件是matlab格式。让我们将它们转换为.txt文件。
 
-By using quantization aware training library [brevitas](https://github.com/Xilinx/brevitas), I managed to achieve 96.2% accuracy on Pnet which is 2% lower than the original version, but the model size if 4x smaller and the inference speed is to be estimated.
+```
+python gen_dataset/transform_mat2txt.py
+```
 
-However, when training Rnet and Onet, OOM errors occured. I will figure out why in the future.
-
-| PRIVATE DATA|  Pnet  |  Rnet |  Onet |
-| :---------: |:------:|:-----:|:-----:|
-|   cls loss  |  0.107  | - | - |
-| offset loss | 0.0080 | - | - |
-|   cls acc   |  0.962 | - | - |
+修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
 
 
-### Knowledge Distillation
+#### 2) 生成PNet训练数据和注释文件
 
-## Deploy MTCNN
+```
+python gen_dataset/gen_Pnet_train_data.py
+```
+修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+
+```
+python gen_dataset/assemble_Pnet_imglist.py
+```
+修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+
+#### 3) 训练 PNet 模型
+
+```
+python training/pnet/train.py
+```
+#### 4) 生成RNet训练数据和注释文件
+
+```
+python gen_dataset/gen_Rnet_train_data.py
+```
+修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+```
+python gen_dataset/assemble_Rnet_imglist.py
+```
+修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+#### 5) 训练RNet 模型
+```
+python training/rnet/train.py
+```
+#### 6) 生成ONet训练数据和注释文件
+
+```
+python gen_dataset/gen_Onet_train_data.py
+```
+
+修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+
+```
+python gen_dataset/assemble_Onet_imglist.py
+```
+
+修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+
+#### 7) 训练 ONet 模型
+```
+python training/onet/train.py
+```
 
 
-## Todo
-- [ ] Data Augmentation to avoid overfitting
-- [ ] Use L1 Smooth loss or WingLoss for bbox and landmarks localization
-
-
-## References
-1. https://github.com/xuexingyu24/MTCNN_Tutorial
-2. https://github.com/xuexingyu24/Pruning_MTCNN_MobileFaceNet_Using_Pytorch
 
