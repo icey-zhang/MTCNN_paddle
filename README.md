@@ -13,13 +13,7 @@ paper：[Joint Face Detection and Alignment using Multi-task Cascaded Convolutio
 [参考](https://github.com/icey-zhang/MTCNN_paddle/blob/main/use/%E5%AE%89%E8%A3%85opencv.md)
 
 #### 2）数据集
-[下载链接aistudio](https://aistudio.baidu.com/aistudio/datasetdetail/110657)
-
-其中train文件放到widerface目录下，命名为FacePoint
-
-[RetinaFace-WIDER FACE](https://aistudio.baidu.com/aistudio/datasetdetail/104236)
-
-[FDDB人脸检测数据集](https://aistudio.baidu.com/aistudio/datasetdetail/37474)
+[下载链接aistudio](https://aistudio.baidu.com/aistudio/datasetdetail/109883)
 
 ```
 ├─FDDB
@@ -69,14 +63,14 @@ python gen_dataset/transform_mat2txt.py
 #### 2) 生成PNet训练数据和注释文件
 
 ```
-python gen_dataset/gen_Pnet_train_data.py
+python gen_dataset/gen_Pnet_data.py
 ```
-修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+修改mode='val'或者mode='train'再重复一边生成验证/训练文件
 
 ```
 python gen_dataset/assemble_Pnet_imglist.py
 ```
-修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+修改mode='val'或者mode='train'再重复一边生成验证/训练文件
 
 #### 3) 训练 PNet 模型
 
@@ -86,13 +80,13 @@ python training/pnet/train.py
 #### 4) 生成RNet训练数据和注释文件
 
 ```
-python gen_dataset/gen_Rnet_train_data.py
+python gen_dataset/gen_Rnet_data.py
 ```
-修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+修改mode='val'或者mode='train'再重复一边生成验证/训练文件
 ```
 python gen_dataset/assemble_Rnet_imglist.py
 ```
-修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+修改mode='val'或者mode='train'再重复一边生成验证/训练文件
 #### 5) 训练RNet 模型
 ```
 python training/rnet/train.py
@@ -100,19 +94,19 @@ python training/rnet/train.py
 #### 6) 生成ONet训练数据和注释文件
 
 ```
-python gen_dataset/gen_Onet_train_data.py
+python gen_dataset/gen_Onet_data.py
 ```
 
-修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+修改mode='val'或者mode='train'再重复一边生成验证/训练文件
 ```
 python gen_dataset/gen_Onet_landmark.py
 ```
-修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+修改mode='val'或者mode='train'再重复一边生成验证/训练文件
 ```
 python gen_dataset/assemble_Onet_imglist.py
 ```
 
-修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
+修改mode='val'或者mode='train'再重复一边生成验证/训练文件
 
 #### 7) 训练 ONet 模型
 ```
