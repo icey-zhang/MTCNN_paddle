@@ -44,7 +44,7 @@ my $imDir = "/home/data2/zhangjiaqing/FDDB/";
 # where the folds are
 my $fddbDir = "/home/data2/zhangjiaqing/FDDB/FDDB-folds/"; 
 # where the detections are
-my $detDir = "/home/zhangjiaqing/zjq/MTCNN_Tutorial-master/detection_result/txtshow/";
+my $detDir = "/home/zhangjiaqing/zjq/MTCNN-master/detection_result/txtshow/";
 ```
 #### 4）评估
 ```
