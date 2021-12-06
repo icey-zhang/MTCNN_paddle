@@ -46,7 +46,7 @@ print("%d pics in total" % num)
 
 
 mtcnn_detector = MTCNNDetector(p_model_path='./weights/best_pnet.pdparams',
-                            r_model_path='./weights_rnet/best_rnet.pdparams')
+                            r_model_path='./weights/best_rnet.pdparams')
 p_idx = 0 # positive
 n_idx = 0 # negative
 d_idx = 0 # dont care
