@@ -40,6 +40,10 @@ my $fddbDir = "/home/data2/zhangjiaqing/FDDB/FDDB-folds/";
 # where the detections are
 my $detDir = "/home/zhangjiaqing/zjq/MTCNN-master/detection_result/txtshow/";
 ```
+
+- imDir 应该指向数据集的路径
+- fddbDir 应该是指向数据集标签的路径
+- detDir 是测试结果的路径
 #### 4）评估
 ```
 cd evaluation
