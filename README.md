@@ -32,6 +32,11 @@ paper：[Joint Face Detection and Alignment using Multi-task Cascaded Convolutio
 ```
 python test_FDDB.py --fddb_path /home/aistudio/FDDB
 ```
+
+- fddb_path  应该指向数据集的路径
+
+以上测试在aistudio上进行，因为没有权限，无法安装opencv，所以我在自己的服务器上evaluate的，如下。
+
 #### 3）修改[runEvaluate.pl](https://github.com/icey-zhang/MTCNN_paddle/blob/main/evaluation/runEvaluate.pl)路径
 ```
 my $imDir = "/home/data2/zhangjiaqing/FDDB/"; 
