@@ -5,7 +5,6 @@ import pathlib
 import logging
 
 import cv2
-import torch 
 
 from MTCNN import MTCNNDetector
 import config
