@@ -18,7 +18,7 @@ def get_args(add_help=True):
     parser.add_argument('--img_path', default='/home/aistudio/MTCNN-master/img_10.jpg', help='the image that need to be predicted')
     parser.add_argument('--detection_path', default='detection_result/picshow/', help='path where to save detection result')
     parser.add_argument('--base_model_path', dest='base_model_path', help="The save path of weights",
-                    default="weights_test", type=str)
+                    default="weights", type=str)
     args = parser.parse_args()
     return args
 
