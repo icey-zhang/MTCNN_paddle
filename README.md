@@ -5,7 +5,7 @@
 paper：[Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://arxiv.org/ftp/arxiv/papers/1604/1604.02878.pdf)
 
 ## 二、复现结果
-![Results](https://github.com/icey-zhang/MTCNN_paddle/tree/main/detection_result/txtshow/DiscROC.png)
+![Results](https://github.com/icey-zhang/MTCNN_paddle/blob/main/detection_result/txtshow/DiscROC.png)
 ## 四、实现
 
 ### 1. 测试
@@ -115,4 +115,4 @@ python predict.py --img_path /home/aistudio/MTCNN-master/img_464.jpg --base_mode
 ```
 预测结果保存在[路径](https://github.com/icey-zhang/MTCNN_paddle/tree/main/detection_result/picshow)下
 
-![Prediction](https://github.com/icey-zhang/MTCNN_paddle/tree/main/detection_result/picshow/img_10.jpg)
+![Prediction](https://github.com/icey-zhang/MTCNN_paddle/blob/main/detection_result/picshow/img_10.jpg)
