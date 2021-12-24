@@ -10,11 +10,14 @@ paper：[Joint Face Detection and Alignment using Multi-task Cascaded Convolutio
 
 ### 1. 测试
 #### 1）安装opencv环境和gnuplot
-[参考](https://github.com/icey-zhang/MTCNN_paddle/blob/main/use/%E5%AE%89%E8%A3%85opencv.md)
-
 #### 2）数据集
-[下载链接aistudio](https://aistudio.baidu.com/aistudio/datasetdetail/109883)
-
+数据集已挂载至aistudio项目中，如果需要本地训练可以从[这里](https://aistudio.baidu.com/aistudio/datasetdetail/109883)下载数据集，和标签文件
+解压指令
+```
+unzip -q /home/aistudio/data/data109883/widerface.zip
+unzip -q /home/aistudio/data/data109883/FDDB.zip
+cd MTCNN-master 
+```
 ```
 ├─FDDB
    ├─2002
@@ -25,19 +28,14 @@ paper：[Joint Face Detection and Alignment using Multi-task Cascaded Convolutio
    ├─wider_face_split
    ├─train
    ├─val
-   ├─test
 ├─MTCNN-master
 ```
 #### 4）测试
 ```
 python test_FDDB.py --fddb_path /home/aistudio/FDDB
 ```
-
-- fddb_path  应该指向数据集的路径
-
-以上测试在aistudio上进行，因为没有权限，无法安装opencv，所以我在自己的服务器上evaluate的，如下。
-
 #### 3）修改[runEvaluate.pl](https://github.com/icey-zhang/MTCNN_paddle/blob/main/evaluation/runEvaluate.pl)路径
+这里由于在aistudio上装opencv没有权限，所以我在自己主机上测的
 ```
 my $imDir = "/home/data2/zhangjiaqing/FDDB/"; 
 # where the folds are
@@ -45,10 +43,11 @@ my $fddbDir = "/home/data2/zhangjiaqing/FDDB/FDDB-folds/";
 # where the detections are
 my $detDir = "/home/zhangjiaqing/zjq/MTCNN-master/detection_result/txtshow/";
 ```
-
+注意：
 - imDir 应该指向数据集的路径
 - fddbDir 应该是指向数据集标签的路径
 - detDir 是测试结果的路径
+
 #### 4）评估
 ```
 cd evaluation
@@ -61,66 +60,57 @@ perl runEvaluate.pl
 #### 1) 准备 Wider_Face 注释文件
 修改目录
 原始的宽脸注释文件是matlab格式。让我们将它们转换为.txt文件。
-
 ```
 python gen_dataset/transform_mat2txt.py
 ```
-
-修改mode=‘val’或者mode=‘train’再重复一边生成验证/训练文件
-
 
 #### 2) 生成PNet训练数据和注释文件
 
 ```
 python gen_dataset/gen_Pnet_data.py
 ```
-修改mode='val'或者mode='train'再重复一边生成验证/训练文件
-
 ```
 python gen_dataset/assemble_Pnet_imglist.py
 ```
-修改mode='val'或者mode='train'再重复一边生成验证/训练文件
 
 #### 3) 训练 PNet 模型
 
 ```
 python training/pnet/train.py
 ```
+
 #### 4) 生成RNet训练数据和注释文件
 
 ```
 python gen_dataset/gen_Rnet_data.py
 ```
-修改mode='val'或者mode='train'再重复一边生成验证/训练文件
 ```
 python gen_dataset/assemble_Rnet_imglist.py
 ```
-修改mode='val'或者mode='train'再重复一边生成验证/训练文件
+
 #### 5) 训练RNet 模型
 ```
 python training/rnet/train.py
 ```
+
 #### 6) 生成ONet训练数据和注释文件
 
 ```
 python gen_dataset/gen_Onet_data.py
 ```
-
-修改mode='val'或者mode='train'再重复一边生成验证/训练文件
 ```
 python gen_dataset/gen_Onet_landmark.py
 ```
-修改mode='val'或者mode='train'再重复一边生成验证/训练文件
 ```
 python gen_dataset/assemble_Onet_imglist.py
 ```
-
-修改mode='val'或者mode='train'再重复一边生成验证/训练文件
 
 #### 7) 训练 ONet 模型
 ```
 python training/onet/landmark_train.py
 ```
-
-
-
+### 3. 预测一张图片
+```
+python predict.py --img_path /home/aistudio/MTCNN-master/img_464.jpg --base_model_path weights --detection_path detection_result/picshow/
+```
+预测结果保存在/MTCNN-master/detection_result/picshow路径下
