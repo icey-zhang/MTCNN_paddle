@@ -5,7 +5,7 @@
 paper：[Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://arxiv.org/ftp/arxiv/papers/1604/1604.02878.pdf)
 
 ## 二、复现结果
-![Results](https://github.com/icey-zhang/MTCNN_paddle/blob/main/detection_result/txtshow/DiscROC.png)
+![Results](https://github.com/icey-zhang/MTCNN_paddle/detection_result/txtshow/DiscROC.png)
 ## 四、实现
 
 ### 1. 测试
@@ -34,7 +34,7 @@ cd MTCNN-master
 ```
 python test_FDDB.py --fddb_path /home/aistudio/FDDB
 ```
-#### 3）修改[runEvaluate.pl](https://github.com/icey-zhang/MTCNN_paddle/blob/main/evaluation/runEvaluate.pl)路径
+#### 3）修改[runEvaluate.pl](https://github.com/icey-zhang/MTCNN_paddle/evaluation/runEvaluate.pl)路径
 这里由于在aistudio上装opencv没有权限，所以我在自己主机上测的
 ```
 my $imDir = "/home/data2/zhangjiaqing/FDDB/"; 
@@ -56,7 +56,7 @@ perl runEvaluate.pl
 ### 2. 训练
 
 以下各节以分步方式描述数据准备和网络训练
-
+日志文件保存在[这里](https://github.com/icey-zhang/MTCNN_paddle/out)
 #### 1) 准备 Wider_Face 注释文件
 修改目录
 原始的宽脸注释文件是matlab格式。让我们将它们转换为.txt文件。
@@ -115,4 +115,4 @@ python predict.py --img_path /home/aistudio/MTCNN-master/img_464.jpg --base_mode
 ```
 预测结果保存在[路径](https://github.com/icey-zhang/MTCNN_paddle/detection_result/picshow)下
 
-![Prediction](https://github.com/icey-zhang/MTCNN_paddle/blob/main/detection_result/picshow/img_10.jpg)
+![Prediction](https://github.com/icey-zhang/MTCNN_paddle/detection_result/picshow/img_10.jpg)
