@@ -114,4 +114,5 @@ python training/onet/landmark_train.py
 python predict.py --img_path /home/aistudio/MTCNN-master/img_464.jpg --base_model_path weights --detection_path detection_result/picshow/
 ```
 预测结果保存在/MTCNN-master/detection_result/picshow路径下
+
 ![Prediction](https://github.com/icey-zhang/MTCNN_paddle/blob/main/detection_result/picshow/img_10.jpg)
